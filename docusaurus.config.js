@@ -90,6 +90,23 @@ const config = {
               },
             ],
           },
+          {
+            type: 'dropdown',
+            position: 'left',
+            label: '诗集',
+            items: [
+              {
+                type: 'docSidebar',
+                sidebarId: 'classicPoetrySidebar',
+                label: '古典诗歌',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'modernPoetrySidebar',
+                label: '现代诗歌',
+              },
+            ],
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://chat.tschenfeng.com',
