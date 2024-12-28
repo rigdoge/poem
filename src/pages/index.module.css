@@ -1,0 +1,277 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+/* Main Layout */
+.main {
+  width: 100%;
+}
+
+/* Hero Section */
+.hero {
+  padding: 4rem 0;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(145deg, var(--ifm-color-primary-lightest) 0%, var(--ifm-color-primary-lighter) 100%);
+}
+
+.heroInner {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.heroText {
+  flex: 1;
+  max-width: 600px;
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(45deg, var(--ifm-color-primary-darker), var(--ifm-color-primary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.highlight {
+  color: var(--ifm-color-primary);
+  position: relative;
+  display: inline-block;
+}
+
+.highlight::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.3rem;
+  background: var(--ifm-color-primary);
+  opacity: 0.3;
+  border-radius: 4px;
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.heroButtons {
+  display: flex;
+  gap: 1rem;
+}
+
+.primaryButton,
+.secondaryButton {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.8rem 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+.primaryButton {
+  background: var(--ifm-color-primary);
+  color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.primaryButton:hover {
+  background: var(--ifm-color-primary-darker);
+  color: white;
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.secondaryButton {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--ifm-color-primary);
+  border: 2px solid var(--ifm-color-primary);
+}
+
+.secondaryButton:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: var(--ifm-color-primary-darker);
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.heroVisual {
+  flex: 1;
+  max-width: 600px;
+}
+
+/* Features Section */
+.features {
+  padding: 6rem 0;
+  background: var(--ifm-background-surface-color);
+}
+
+.featuresHeader {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.featuresHeader h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary);
+}
+
+.featuresHeader p {
+  font-size: 1.2rem;
+  color: var(--ifm-color-emphasis-600);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.featureCard {
+  padding: 2rem;
+  background: var(--ifm-background-color);
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.featureCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+}
+
+.featureIcon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--ifm-color-primary);
+  color: white;
+  border-radius: 15px;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.featureCard h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary);
+}
+
+.featureCard p {
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Collections Section */
+.collections {
+  padding: 6rem 0;
+  background: var(--ifm-background-color);
+}
+
+.collectionsHeader {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.collectionsHeader h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary);
+}
+
+.collectionsHeader p {
+  font-size: 1.2rem;
+  color: var(--ifm-color-emphasis-600);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.collectionsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.collectionCard {
+  position: relative;
+  height: 250px;
+  border-radius: 20px;
+  overflow: hidden;
+  color: white;
+  text-decoration: none;
+  background: linear-gradient(145deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-dark) 100%);
+  transition: all 0.3s ease;
+}
+
+.collectionCard:hover {
+  transform: translateY(-5px);
+  text-decoration: none;
+}
+
+.collectionContent {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+}
+
+.collectionContent h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.collectionContent p {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 996px) {
+  .heroInner {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .heroButtons {
+    justify-content: center;
+  }
+
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1.2rem;
+  }
+
+  .features,
+  .collections {
+    padding: 4rem 0;
+  }
+
+  .featuresHeader h2,
+  .collectionsHeader h2 {
+    font-size: 2rem;
+  }
+}

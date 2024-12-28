@@ -1,0 +1,144 @@
+.sliderSection {
+  padding: 2rem 0;
+  width: 100%;
+  background: var(--ifm-background-color);
+}
+
+.swiper {
+  width: 100%;
+  height: 500px;
+}
+
+.slide {
+  text-align: center;
+  background: var(--ifm-background-color);
+}
+
+.slideContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 0 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.textContent {
+  flex: 1;
+  text-align: left;
+  padding-right: 4rem;
+  max-width: 500px;
+}
+
+.textContent h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: var(--ifm-color-primary);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.textContent p {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.6;
+}
+
+.imageContent {
+  flex: 1;
+  height: 400px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.5s ease;
+}
+
+.imageContent:hover {
+  transform: scale(1.05);
+}
+
+.button {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background: var(--ifm-color-primary);
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+  background: var(--ifm-color-primary-darker);
+  text-decoration: none;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Swiper Navigation Styles */
+:global(.swiper-button-next),
+:global(.swiper-button-prev) {
+  color: var(--ifm-color-primary);
+  background: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+:global(.swiper-button-next:after),
+:global(.swiper-button-prev:after) {
+  font-size: 1.5rem;
+}
+
+:global(.swiper-pagination-bullet) {
+  width: 10px;
+  height: 10px;
+  background: var(--ifm-color-primary);
+  opacity: 0.5;
+}
+
+:global(.swiper-pagination-bullet-active) {
+  opacity: 1;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 996px) {
+  .slideContent {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .textContent {
+    padding-right: 0;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+
+  .textContent h2 {
+    font-size: 2.5rem;
+  }
+
+  .textContent p {
+    font-size: 1.2rem;
+  }
+
+  .imageContent {
+    width: 100%;
+    height: 300px;
+  }
+
+  .swiper {
+    height: 700px;
+  }
+
+  :global(.swiper-button-next),
+  :global(.swiper-button-prev) {
+    display: none;
+  }
+} 
