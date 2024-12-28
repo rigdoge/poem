@@ -1,0 +1,8 @@
+{
+  "label": "词人",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "按词人分类浏览宋词"
+  }
+} 

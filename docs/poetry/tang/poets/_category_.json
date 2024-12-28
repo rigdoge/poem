@@ -1,0 +1,8 @@
+{
+  "label": "诗人",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "按诗人分类浏览唐诗"
+  }
+} 

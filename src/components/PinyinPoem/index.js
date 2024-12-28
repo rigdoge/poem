@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styles from './styles.module.css';
+import SocialShare from '../SocialShare';
 
 const PinyinPoem = ({ title, author, content, pinyinData }) => {
   const [showPinyin, setShowPinyin] = useState(false);
@@ -37,6 +38,7 @@ const PinyinPoem = ({ title, author, content, pinyinData }) => {
           </div>
         ))}
       </div>
+      <SocialShare title={`${title} - ${author}`} content={content} />
     </div>
   );
 };

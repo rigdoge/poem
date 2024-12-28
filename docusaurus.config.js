@@ -71,39 +71,27 @@ const config = {
           {
             type: 'dropdown',
             position: 'left',
-            label: '文集',
+            label: '诗词',
             items: [
               {
                 type: 'docSidebar',
-                sidebarId: 'liaoSidebar',
-                label: '李敖大全集',
+                sidebarId: 'tangSidebar',
+                label: '唐诗',
               },
               {
                 type: 'docSidebar',
-                sidebarId: 'chenSidebar',
-                label: '陳寅恪文集',
+                sidebarId: 'songSidebar',
+                label: '宋词',
               },
               {
                 type: 'docSidebar',
-                sidebarId: 'childrenSidebar',
-                label: '儿童书画集',
-              },
-            ],
-          },
-          {
-            type: 'dropdown',
-            position: 'left',
-            label: '诗集',
-            items: [
-              {
-                type: 'docSidebar',
-                sidebarId: 'classicPoetrySidebar',
-                label: '古典诗歌',
+                sidebarId: 'yuanSidebar',
+                label: '元曲',
               },
               {
                 type: 'docSidebar',
-                sidebarId: 'modernPoetrySidebar',
-                label: '现代诗歌',
+                sidebarId: 'othersSidebar',
+                label: '其他',
               },
             ],
           },
