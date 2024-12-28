@@ -9,13 +9,19 @@ import {
   FaLinkedin,
   FaTelegram,
   FaReddit,
-  FaTimes
+  FaTimes,
+  FaShareAlt,
+  FaFileAlt,
+  FaEllipsisH
 } from 'react-icons/fa';
 import { QRCodeSVG } from 'qrcode.react';
 import styles from './styles.module.css';
 
 export default function SocialShare({ title, content }) {
   const [showQRCode, setShowQRCode] = useState(false);
+  const [showShareUrl, setShowShareUrl] = useState(false);
+  const [showShareText, setShowShareText] = useState(false);
+  const [showMore, setShowMore] = useState(false);
   const shareUrl = typeof window !== 'undefined' ? window.location.href : '';
   const shareText = `${title}\n${content.join('\n')}`;
   
@@ -58,6 +64,22 @@ export default function SocialShare({ title, content }) {
           alert('复制失败，请手动复制');
         });
         return;
+      case 'text':
+        setShowShareText(true);
+        return;
+      case 'share':
+        if (navigator.share) {
+          navigator.share({
+            title: title,
+            text: shareText,
+            url: shareUrl,
+          }).catch(() => {
+            setShowShareUrl(true);
+          });
+        } else {
+          setShowShareUrl(true);
+        }
+        return;
     }
     
     if (shareLink) {
@@ -70,31 +92,7 @@ export default function SocialShare({ title, content }) {
       <div className={styles.shareContainer}>
         <span className={styles.shareText}>分享到：</span>
         <div className={styles.shareButtons}>
-          <div className={styles.domesticShare}>
-            <button
-              className={styles.shareButton}
-              onClick={() => handleShare('weixin')}
-              aria-label="分享到微信"
-            >
-              <FaWeixin />
-            </button>
-            <button
-              className={styles.shareButton}
-              onClick={() => handleShare('weibo')}
-              aria-label="分享到微博"
-            >
-              <FaWeibo />
-            </button>
-            <button
-              className={styles.shareButton}
-              onClick={() => handleShare('qq')}
-              aria-label="分享到QQ"
-            >
-              <FaQq />
-            </button>
-          </div>
-          <div className={styles.divider} />
-          <div className={styles.internationalShare}>
+          <div className={styles.mainShare}>
             <button
               className={styles.shareButton}
               onClick={() => handleShare('twitter')}
@@ -104,41 +102,60 @@ export default function SocialShare({ title, content }) {
             </button>
             <button
               className={styles.shareButton}
-              onClick={() => handleShare('facebook')}
-              aria-label="Share on Facebook"
+              onClick={() => handleShare('weixin')}
+              aria-label="分享到微信"
             >
-              <FaFacebook />
+              <FaWeixin />
             </button>
             <button
               className={styles.shareButton}
-              onClick={() => handleShare('linkedin')}
-              aria-label="Share on LinkedIn"
+              onClick={() => handleShare('text')}
+              aria-label="复制文本"
             >
-              <FaLinkedin />
+              <FaFileAlt />
             </button>
             <button
               className={styles.shareButton}
-              onClick={() => handleShare('telegram')}
-              aria-label="Share on Telegram"
+              onClick={() => handleShare('share')}
+              aria-label="分享网址"
             >
-              <FaTelegram />
+              <FaShareAlt />
             </button>
-            <button
-              className={styles.shareButton}
-              onClick={() => handleShare('reddit')}
-              aria-label="Share on Reddit"
-            >
-              <FaReddit />
-            </button>
+            <div className={styles.moreContainer}>
+              <button
+                className={styles.shareButton}
+                onClick={() => setShowMore(!showMore)}
+                aria-label="更多分享选项"
+              >
+                <FaEllipsisH />
+              </button>
+              {showMore && (
+                <div className={styles.moreDropdown}>
+                  <button onClick={() => handleShare('weibo')}>
+                    <FaWeibo /> 微博
+                  </button>
+                  <button onClick={() => handleShare('qq')}>
+                    <FaQq /> QQ
+                  </button>
+                  <button onClick={() => handleShare('facebook')}>
+                    <FaFacebook /> Facebook
+                  </button>
+                  <button onClick={() => handleShare('linkedin')}>
+                    <FaLinkedin /> LinkedIn
+                  </button>
+                  <button onClick={() => handleShare('telegram')}>
+                    <FaTelegram /> Telegram
+                  </button>
+                  <button onClick={() => handleShare('reddit')}>
+                    <FaReddit /> Reddit
+                  </button>
+                  <button onClick={() => handleShare('copy')}>
+                    <FaLink /> 复制链接
+                  </button>
+                </div>
+              )}
+            </div>
           </div>
-          <div className={styles.divider} />
-          <button
-            className={styles.shareButton}
-            onClick={() => handleShare('copy')}
-            aria-label="复制链接"
-          >
-            <FaLink />
-          </button>
         </div>
       </div>
 
@@ -162,6 +179,79 @@ export default function SocialShare({ title, content }) {
             <p className={styles.qrcodeHint}>
               请使用微信扫描二维码<br />
               点击右上角按钮分享
+            </p>
+          </div>
+        </div>
+      )}
+
+      {showShareUrl && (
+        <div className={styles.qrcodeOverlay} onClick={() => setShowShareUrl(false)}>
+          <div className={styles.qrcodeModal} onClick={e => e.stopPropagation()}>
+            <button
+              className={styles.closeButton}
+              onClick={() => setShowShareUrl(false)}
+              aria-label="关闭"
+            >
+              <FaTimes />
+            </button>
+            <h3>分享网址</h3>
+            <div className={styles.urlContainer}>
+              <input
+                type="text"
+                value={shareUrl}
+                readOnly
+                className={styles.urlInput}
+                onClick={e => e.target.select()}
+              />
+              <button
+                className={styles.copyButton}
+                onClick={() => {
+                  navigator.clipboard.writeText(shareUrl).then(() => {
+                    alert('链接已复制到剪贴板');
+                  });
+                }}
+              >
+                复制
+              </button>
+            </div>
+            <p className={styles.qrcodeHint}>
+              复制链接分享给好友
+            </p>
+          </div>
+        </div>
+      )}
+
+      {showShareText && (
+        <div className={styles.qrcodeOverlay} onClick={() => setShowShareText(false)}>
+          <div className={styles.qrcodeModal} onClick={e => e.stopPropagation()}>
+            <button
+              className={styles.closeButton}
+              onClick={() => setShowShareText(false)}
+              aria-label="关闭"
+            >
+              <FaTimes />
+            </button>
+            <h3>复制文本</h3>
+            <div className={styles.textContainer}>
+              <textarea
+                value={shareText}
+                readOnly
+                className={styles.textArea}
+                onClick={e => e.target.select()}
+              />
+              <button
+                className={styles.copyButton}
+                onClick={() => {
+                  navigator.clipboard.writeText(shareText).then(() => {
+                    alert('文本已复制到剪贴板');
+                  });
+                }}
+              >
+                复制
+              </button>
+            </div>
+            <p className={styles.qrcodeHint}>
+              复制文本分享给好友
             </p>
           </div>
         </div>
