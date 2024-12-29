@@ -15,7 +15,7 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
   ]}
   pinyinData={[
     ["chuáng qián míng yuè guāng,"],
-    ["yí shì dì shàng shuāng,"],
+    ["yí shì dì shàng shuāng."],
     ["jǔ tóu wàng míng yuè,"],
     ["dī tóu sī gù xiāng."]
   ]}

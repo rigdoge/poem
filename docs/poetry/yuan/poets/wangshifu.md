@@ -1,33 +1,22 @@
 ---
-sidebar_position: 2
+title: 王实甫曲选
 ---
 
-import PinyinSwitch from '@site/src/components/PinyinSwitch';
 import PinyinPoem from '@site/src/components/PinyinPoem';
 
-# 王实甫曲选
-
-<PinyinSwitch />
-
-export const poems = {
-  siShengYuan: {
-    title: "四声猿·秋",
-    author: "王实甫",
-    content: [
-      "碧云天，黄叶地，",
-      "秋色连波，波上寒烟翠。",
-      "山映斜阳天接水，",
-      "芳草无情，更在斜阳外。"
-    ],
-    pinyinData: [
-      ["bì", "yún", "tiān", "huáng", "yè", "dì"],
-      ["qiū", "sè", "lián", "bō", "bō", "shàng", "hán", "yān", "cuì"],
-      ["shān", "yìng", "xié", "yáng", "tiān", "jiē", "shuǐ"],
-      ["fāng", "cǎo", "wú", "qíng", "gèng", "zài", "xié", "yáng", "wài"]
-    ]
-  }
-};
-
-{Object.values(poems).map((poem) => (
-  <PinyinPoem key={poem.title} {...poem} />
-))} 
+<PinyinPoem 
+  title="西厢记·长亭送别" 
+  author="王实甫"
+  content={[
+    "碧云天，黄花地，西风紧，北雁南飞。",
+    "晓来谁染霜林醉？总是离人泪。",
+    "长亭外，古道边，芳草碧连天。",
+    "问君此去几时来？来时莫徘徊。"
+  ]}
+  pinyinData={[
+    ["bì yún tiān, huáng huā dì, xī fēng jǐn, běi yàn nán fēi."],
+    ["xiǎo lái shuí rǎn shuāng lín zuì? zǒng shì lí rén lèi."],
+    ["cháng tíng wài, gǔ dào biān, fāng cǎo bì lián tiān."],
+    ["wèn jūn cǐ qù jǐ shí lái? lái shí mò pái huái."]
+  ]}
+/> 

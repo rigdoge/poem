@@ -25,6 +25,6 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
     ["diāo lán yù qì yīng yóu zài,"],
     ["zhǐ shì zhū yán gǎi."],
     ["wèn jūn néng yǒu jǐ duō chóu?"],
-    ["qià sì yī jiāng chūn shuǐ xiàng dōng liú."]
+    ["qià sì yì jiāng chūn shuǐ xiàng dōng liú."]
   ]}
 /> 
