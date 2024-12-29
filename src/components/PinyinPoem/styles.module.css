@@ -1,6 +1,8 @@
 .poem {
   margin: 2rem 0;
   font-family: var(--ifm-font-family-base);
+  overflow-x: hidden;
+  width: 100%;
 }
 
 .title {
@@ -20,6 +22,7 @@
 .content {
   font-size: 1.4rem;
   line-height: 1.6;
+  width: 100%;
 }
 
 .line {
@@ -28,6 +31,8 @@
   display: flex;
   justify-content: center;
   gap: 0.5rem;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .lineWithPinyin {
@@ -54,6 +59,8 @@
   margin-bottom: 0.3rem;
   text-align: center;
   min-width: 2em;
+  word-break: keep-all;
+  white-space: nowrap;
 }
 
 .character {
@@ -67,4 +74,50 @@
 .character:hover {
   color: var(--ifm-color-primary);
   transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+  .poem {
+    margin: 1.5rem 0;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .author {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .content {
+    font-size: 1.2rem;
+  }
+
+  .line {
+    gap: 0.3rem;
+    padding: 0 0.5rem;
+  }
+
+  .lineWithPinyin {
+    gap: 1rem;
+  }
+
+  .characterWrapper {
+    min-width: 1.2em;
+  }
+
+  .withPinyin {
+    min-width: 1.5em;
+    height: 3.5em;
+  }
+
+  .pinyinChar {
+    font-size: 0.85rem;
+    min-width: 1.5em;
+  }
+
+  .character {
+    font-size: 1.3rem;
+  }
 } 
