@@ -4,6 +4,12 @@ title: 李煜词选
 
 import PinyinPoem from '@site/src/components/PinyinPoem';
 
+<div className="hidden-title">
+
+### 虞美人·春花秋月何时了
+
+</div>
+
 <PinyinPoem 
   title="虞美人·春花秋月何时了" 
   author="李煜"

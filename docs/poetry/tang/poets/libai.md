@@ -4,6 +4,12 @@ title: 李白诗选
 
 import PinyinPoem from '@site/src/components/PinyinPoem';
 
+<div className="hidden-title">
+
+### 静夜思
+
+</div>
+
 <PinyinPoem 
   title="静夜思" 
   author="李白"
@@ -15,11 +21,17 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
   ]}
   pinyinData={[
     ["chuáng qián míng yuè guāng,"],
-    ["yí shì dì shàng shuāng,"],
+    ["yí shì dì shàng shuāng."],
     ["jǔ tóu wàng míng yuè,"],
     ["dī tóu sī gù xiāng."]
   ]}
 />
+
+<div className="hidden-title">
+
+### 望庐山瀑布
+
+</div>
 
 <PinyinPoem 
   title="望庐山瀑布" 
@@ -32,11 +44,17 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
   ]}
   pinyinData={[
     ["rì zhào xiāng lú shēng zǐ yān,"],
-    ["yáo kàn pù bù guà qián chuān,"],
+    ["yáo kàn pù bù guà qián chuān."],
     ["fēi liú zhí xià sān qiān chǐ,"],
     ["yí shì yín hé luò jiǔ tiān."]
   ]}
 />
+
+<div className="hidden-title">
+
+### 早发白帝城
+
+</div>
 
 <PinyinPoem 
   title="早发白帝城" 
@@ -49,7 +67,7 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
   ]}
   pinyinData={[
     ["zhāo cí bái dì cǎi yún jiān,"],
-    ["qiān lǐ jiāng líng yī rì huán,"],
+    ["qiān lǐ jiāng líng yī rì huán."],
     ["liǎng àn yuán shēng tí bù zhù,"],
     ["qīng zhōu yǐ guò wàn chóng shān."]
   ]}

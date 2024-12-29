@@ -4,6 +4,12 @@ title: 杜甫诗选
 
 import PinyinPoem from '@site/src/components/PinyinPoem';
 
+<div className="hidden-title">
+
+### 春望
+
+</div>
+
 <PinyinPoem 
   title="春望" 
   author="杜甫"
@@ -19,15 +25,21 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
   ]}
   pinyinData={[
     ["guó pò shān hé zài,"],
-    ["chéng chūn cǎo mù shēn,"],
+    ["chéng chūn cǎo mù shēn."],
     ["gǎn shí huā jiàn lèi,"],
-    ["hèn bié niǎo jīng xīn,"],
+    ["hèn bié niǎo jīng xīn."],
     ["fēng huǒ lián sān yuè,"],
-    ["jiā shū dǐ wàn jīn,"],
+    ["jiā shū dǐ wàn jīn."],
     ["bái tóu sāo gèng duǎn,"],
     ["hún yù bù shèng zān."]
   ]}
 />
+
+<div className="hidden-title">
+
+### 江南逢李龟年
+
+</div>
 
 <PinyinPoem 
   title="江南逢李龟年" 
@@ -40,7 +52,7 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
   ]}
   pinyinData={[
     ["qí wáng zhái lǐ xún cháng jiàn,"],
-    ["cuī jiǔ táng qián jǐ dù wén,"],
+    ["cuī jiǔ táng qián jǐ dù wén."],
     ["zhèng shì jiāng nán hǎo fēng jǐng,"],
     ["luò huā shí jié yòu féng jūn."]
   ]}

@@ -65,6 +65,7 @@ const sidebars = {
         description: '按诗人分类浏览其他时期诗歌'
       },
       items: [
+        'poetry/others/poets/caocao',
         'poetry/others/poets/quyuan',
         'poetry/others/poets/anonymous'
       ],

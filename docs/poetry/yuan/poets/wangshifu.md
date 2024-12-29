@@ -4,6 +4,12 @@ title: 王实甫曲选
 
 import PinyinPoem from '@site/src/components/PinyinPoem';
 
+<div className="hidden-title">
+
+### 西厢记·长亭送别
+
+</div>
+
 <PinyinPoem 
   title="西厢记·长亭送别" 
   author="王实甫"

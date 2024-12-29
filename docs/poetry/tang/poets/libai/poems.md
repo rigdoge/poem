@@ -5,9 +5,7 @@ sidebar_position: 2
 
 import PinyinPoem from '@site/src/components/PinyinPoem';
 
-# 李白诗选
-
-## 静夜思
+### 静夜思
 
 <PinyinPoem 
   title="静夜思" 
@@ -26,7 +24,7 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
   ]}
 />
 
-## 望庐山瀑布
+### 望庐山瀑布
 
 <PinyinPoem 
   title="望庐山瀑布" 
@@ -45,7 +43,7 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
   ]}
 />
 
-## 早发白帝城
+### 早发白帝城
 
 <PinyinPoem 
   title="早发白帝城" 

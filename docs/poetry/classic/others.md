@@ -4,6 +4,8 @@ title: 其他诗选
 
 import PinyinPoem from '@site/src/components/PinyinPoem';
 
+### 离骚
+
 <PinyinPoem 
   title="离骚" 
   author="屈原"
@@ -24,6 +26,8 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
     ["zhào xī yú yǐ jiā míng."]
   ]}
 />
+
+### 木兰辞
 
 <PinyinPoem 
   title="木兰辞" 
