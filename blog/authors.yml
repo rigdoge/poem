@@ -21,3 +21,15 @@ slorber:
     linkedin: sebastienlorber
     github: slorber
     newsletter: https://thisweekinreact.com
+
+tattoomaster:
+  name: TattooMaster
+  title: Full Stack Developer
+  url: https://github.com/tattoomaster
+  image_url: https://github.com/tattoomaster.png
+
+rigdoge:
+  name: rigdoge
+  title: 古诗词爱好者
+  url: https://github.com/rigdoge
+  image_url: /img/authors/rigdoge.svg

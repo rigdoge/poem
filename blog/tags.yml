@@ -1,19 +1,44 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+ai:
+  label: AI
+  permalink: /tags/ai
+  description: 人工智能相关内容
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+tech:
+  label: 技术
+  permalink: /tags/tech
+  description: 技术相关内容
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+development:
+  label: 开发
+  permalink: /tags/development
+  description: 软件开发相关内容
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+poetry-appreciation:
+  label: 诗词欣赏
+  permalink: /tags/poetry-appreciation
+  description: 古诗词鉴赏与解读
+
+tutorial:
+  label: 教程
+  permalink: /tags/tutorial
+  description: 学习指南与教程
+
+poetry-analysis:
+  label: 诗词鉴赏
+  permalink: /tags/poetry-analysis
+  description: 深入解读古诗词的艺术价值
+
+art:
+  label: 艺术
+  permalink: /tags/art
+  description: 艺术相关内容
+
+calligraphy:
+  label: 书法
+  permalink: /tags/calligraphy
+  description: 书法艺术与欣赏
+
+painting:
+  label: 绘画
+  permalink: /tags/painting
+  description: 绘画艺术与欣赏
