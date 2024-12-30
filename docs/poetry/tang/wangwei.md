@@ -4,6 +4,10 @@ title: 王维诗选
 
 import PinyinPoem from '@site/src/components/PinyinPoem';
 
+<div className="hidden-title">
+### 鹿柴
+</div>
+
 <PinyinPoem 
   title="鹿柴" 
   author="王维"
@@ -20,6 +24,10 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
     ["fù zhào qīng tái shàng."]
   ]}
 />
+
+<div className="hidden-title">
+### 送别
+</div>
 
 <PinyinPoem 
   title="送别" 

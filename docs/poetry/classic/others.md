@@ -4,7 +4,9 @@ title: 其他诗选
 
 import PinyinPoem from '@site/src/components/PinyinPoem';
 
+<div className="hidden-title">
 ### 离骚
+</div>
 
 <PinyinPoem 
   title="离骚" 
@@ -27,7 +29,9 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
   ]}
 />
 
+<div className="hidden-title">
 ### 木兰辞
+</div>
 
 <PinyinPoem 
   title="木兰辞" 

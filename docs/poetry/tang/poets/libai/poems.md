@@ -5,7 +5,9 @@ sidebar_position: 2
 
 import PinyinPoem from '@site/src/components/PinyinPoem';
 
+<div className="hidden-title">
 ### 静夜思
+</div>
 
 <PinyinPoem 
   title="静夜思" 
@@ -24,7 +26,9 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
   ]}
 />
 
+<div className="hidden-title">
 ### 望庐山瀑布
+</div>
 
 <PinyinPoem 
   title="望庐山瀑布" 
@@ -43,7 +47,9 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
   ]}
 />
 
+<div className="hidden-title">
 ### 早发白帝城
+</div>
 
 <PinyinPoem 
   title="早发白帝城" 

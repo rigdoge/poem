@@ -88,3 +88,31 @@
   font-size: 0.9rem;
   color: var(--ifm-color-content-secondary);
 }
+
+/* 隐藏标题 */
+.hidden-title {
+  display: none;
+}
+
+/* 明暗模式切换按钮 */
+.clean-btn {
+  color: var(--ifm-color-content);
+}
+
+.clean-btn:hover {
+  background: var(--ifm-color-emphasis-200);
+}
+
+.navbar-sidebar__brand .clean-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem;
+  margin: 0 0.6rem;
+  border-radius: 50%;
+  transition: background var(--ifm-transition-fast);
+}
+
+.navbar-sidebar__brand .clean-btn:hover {
+  background: var(--ifm-color-emphasis-200);
+}

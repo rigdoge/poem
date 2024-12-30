@@ -4,6 +4,10 @@ title: 苏轼词选
 
 import PinyinPoem from '@site/src/components/PinyinPoem';
 
+<div className="hidden-title">
+### 水调歌头·明月几时有
+</div>
+
 <PinyinPoem 
   title="水调歌头·明月几时有" 
   author="苏轼"
@@ -29,4 +33,4 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
     ["qǐ wǔ nòng qīng yǐng,"],
     ["hé sì zài rén jiān."]
   ]}
-/> 
+/>

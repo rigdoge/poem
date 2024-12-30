@@ -4,6 +4,10 @@ title: 杜甫诗选
 
 import PinyinPoem from '@site/src/components/PinyinPoem';
 
+<div className="hidden-title">
+### 春望
+</div>
+
 <PinyinPoem 
   title="春望" 
   author="杜甫"
@@ -28,6 +32,10 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
     ["hún yù bù shèng zān."]
   ]}
 />
+
+<div className="hidden-title">
+### 江南逢李龟年
+</div>
 
 <PinyinPoem 
   title="江南逢李龟年" 
