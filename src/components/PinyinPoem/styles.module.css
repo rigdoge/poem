@@ -63,13 +63,13 @@
 }
 
 .line {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   text-align: center;
   width: 100%;
 }
 
 .lineWithPinyin {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .characterWrapper {
@@ -82,12 +82,12 @@
 }
 
 .withPinyin {
-  height: 2.8em;
+  height: 3.2em;
 }
 
 .pinyinChar {
   position: absolute;
-  top: 0;
+  top: 2em;
   left: 0;
   right: 0;
   text-align: center;
@@ -152,7 +152,7 @@
   }
 
   .lineWithPinyin {
-    margin-bottom: 1.8rem;
+    margin-bottom: 0.8rem;
   }
 
   .characterWrapper {
@@ -162,11 +162,12 @@
   }
 
   .withPinyin {
-    height: 2.4em;
+    height: 2.8em;
   }
 
   .pinyinChar {
     font-size: 0.65rem;
+    top: 1em;
   }
 
   .character {
