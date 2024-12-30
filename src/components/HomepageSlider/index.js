@@ -1,29 +1,32 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 const slides = [
   {
-    title: '李敖大全集',
-    description: '收录李敖先生的经典著作与文章',
-    image: '/img/slider/slide1.svg',
-    link: '/docs/liao',
+    title: '探索古诗词之美',
+    description: '让我们一起领略中国传统文化的魅力，感受诗词之美。',
+    image: '/img/slides/poetry.svg',
+    link: '/docs/intro',
   },
   {
-    title: '陳寅恪文集',
-    description: '深入了解中国历史文化的瑰宝',
-    image: '/img/slider/slide2.svg',
-    link: '/docs/chen',
+    title: '在线朗读体验',
+    description: '配备专业朗读音频，让您更好地欣赏诗词韵律。',
+    image: '/img/slides/audio.svg',
+    link: '/docs/intro',
   },
   {
-    title: '儿童书画集',
-    description: '激发孩子的艺术创造力',
-    image: '/img/slider/slide3.svg',
-    link: '/docs/children',
+    title: '互动学习社区',
+    description: '加入我们的社区，与其他诗词爱好者交流分享。',
+    image: '/img/slides/community.svg',
+    link: '/docs/intro',
   },
 ];
 
@@ -31,28 +34,27 @@ export default function HomepageSlider() {
   return (
     <section className={styles.sliderSection}>
       <Swiper
+        modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={30}
-        centeredSlides={true}
+        slidesPerView={1}
+        navigation
+        pagination={{ clickable: true }}
         autoplay={{
           delay: 5000,
           disableOnInteraction: false,
         }}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
+        loop={true}
         className={styles.swiper}
       >
-        {slides.map((slide, idx) => (
-          <SwiperSlide key={idx} className={styles.slide}>
+        {slides.map((slide, index) => (
+          <SwiperSlide key={index} className={styles.slide}>
             <div className={styles.slideContent}>
               <div className={styles.textContent}>
                 <h2>{slide.title}</h2>
                 <p>{slide.description}</p>
-                <a href={slide.link} className={styles.button}>
+                <Link to={slide.link} className={styles.button}>
                   了解更多
-                </a>
+                </Link>
               </div>
               <div 
                 className={styles.imageContent}

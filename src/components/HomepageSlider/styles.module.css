@@ -1,17 +1,34 @@
 .sliderSection {
-  padding: 2rem 0;
+  padding: 0;
   width: 100%;
   background: var(--ifm-background-color);
+  position: relative;
+  overflow: hidden;
+}
+
+.sliderSection::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--primary-glow);
+  filter: blur(50px);
+  transform: translateZ(0);
+  z-index: 0;
 }
 
 .swiper {
   width: 100%;
   height: 500px;
+  position: relative;
+  z-index: 1;
 }
 
 .slide {
   text-align: center;
-  background: var(--ifm-background-color);
+  background: transparent;
 }
 
 .slideContent {
@@ -37,6 +54,10 @@
   color: var(--ifm-color-primary);
   font-weight: 700;
   line-height: 1.2;
+  background: linear-gradient(45deg, var(--ifm-color-primary), var(--ifm-color-primary-light));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .textContent p {
@@ -61,13 +82,13 @@
 
 .button {
   display: inline-block;
-  padding: 1rem 2.5rem;
+  padding: 0.8rem 1.8rem;
   background: var(--ifm-color-primary);
   color: white;
-  border-radius: 30px;
+  border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1rem;
   transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
@@ -83,17 +104,34 @@
 /* Swiper Navigation Styles */
 :global(.swiper-button-next),
 :global(.swiper-button-prev) {
-  color: var(--ifm-color-primary);
-  background: white;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 3rem !important;
+  height: 3rem !important;
+  background: transparent;
+  color: var(--ifm-color-primary) !important;
+  transition: all 0.3s ease;
+  opacity: 0.7;
 }
 
-:global(.swiper-button-next:after),
-:global(.swiper-button-prev:after) {
-  font-size: 1.5rem;
+:global(.swiper-button-next:hover),
+:global(.swiper-button-prev:hover) {
+  background: transparent;
+  color: var(--ifm-color-primary) !important;
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+:global(.swiper-button-next::after),
+:global(.swiper-button-prev::after) {
+  font-size: 2rem !important;
+  font-weight: bold;
+}
+
+:global(.swiper-button-next) {
+  right: 1rem !important;
+}
+
+:global(.swiper-button-prev) {
+  left: 1rem !important;
 }
 
 :global(.swiper-pagination-bullet) {
@@ -101,10 +139,13 @@
   height: 10px;
   background: var(--ifm-color-primary);
   opacity: 0.5;
+  transition: all 0.3s ease;
 }
 
 :global(.swiper-pagination-bullet-active) {
   opacity: 1;
+  width: 20px;
+  border-radius: 5px;
 }
 
 /* Responsive Design */
