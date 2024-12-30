@@ -17,7 +17,7 @@ const sidebars = {
         'poetry/tang/poets/dufu',
         'poetry/tang/poets/wangwei'
       ],
-    },
+    }
   ],
 
   // 宋词
