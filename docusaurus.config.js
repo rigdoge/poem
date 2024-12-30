@@ -55,6 +55,7 @@ const config = {
           alt: '古诗词网 Logo',
           src: 'img/logo.svg',
         },
+        style: 'dark',
         items: [
           {
             type: 'dropdown',
@@ -93,10 +94,10 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
-            title: '内容',
+            title: '内容导航',
             items: [
               {
                 label: '唐诗',
@@ -117,7 +118,7 @@ const config = {
             ],
           },
           {
-            title: '社区',
+            title: '关注我们',
             items: [
               {
                 label: '博客',
@@ -130,7 +131,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} 古诗词网. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 古诗词网 | Built with Docusaurus`,
       },
       prism: {
         theme: prismThemes.github,
@@ -140,6 +141,13 @@ const config = {
         defaultMode: 'light',
         disableSwitch: false,
         respectPrefersColorScheme: true,
+      },
+      algolia: {
+        appId: 'FB58SOI0YV',
+        apiKey: 'ea9b97e3a7aac8e80c2dab5f35271115',
+        indexName: 'rigdoge',
+        placeholder: '搜索诗词...',
+        contextualSearch: false,
       },
     }),
 };
