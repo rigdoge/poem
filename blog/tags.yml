@@ -1,19 +1,14 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+ai:
+  label: AI
+  permalink: /tags/ai
+  description: 人工智能相关文章
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+tech:
+  label: Technology
+  permalink: /tags/tech
+  description: 技术相关文章
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
-
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+development:
+  label: Development
+  permalink: /tags/development
+  description: 开发相关文章
