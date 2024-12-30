@@ -1,8 +1,8 @@
 {
   "name": "古诗词网",
   "short_name": "古诗词网",
-  "description": "应用描述",
-  "version": "0.0.13",
+  "description": "传承中华文化，品味诗词之美",
+  "version": "0.1.1",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",

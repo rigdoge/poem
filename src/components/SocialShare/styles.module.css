@@ -54,27 +54,43 @@
 /* More Dropdown */
 .moreContainer {
   position: relative;
+  display: inline-block;
 }
 
 .moreDropdown {
   position: absolute;
-  top: 100%;
-  right: 0;
-  margin-top: 0.5rem;
+  top: 40%;
+  left: calc(100% + 0.5rem);
+  transform: translateY(-50%);
   background: var(--ifm-background-color);
   border-radius: 0.5rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   padding: 0.5rem;
-  z-index: 100;
-  min-width: 160px;
+  z-index: 1000;
+  display: flex;
+  gap: 0.5rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  white-space: nowrap;
+  animation: slideRight 0.2s ease;
+}
+
+@keyframes slideRight {
+  from {
+    opacity: 0;
+    transform: translate(-10px, -50%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, -50%);
+  }
 }
 
 .moreDropdown button {
   display: flex;
   align-items: center;
-  gap: 0.8rem;
-  width: 100%;
-  padding: 0.5rem 1rem;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
   border: none;
   background: none;
   color: var(--ifm-color-emphasis-700);
@@ -82,16 +98,19 @@
   cursor: pointer;
   transition: all 0.2s ease;
   border-radius: 0.3rem;
+  min-width: 40px;
+  flex-direction: column;
 }
 
 .moreDropdown button:hover {
   background: var(--ifm-color-emphasis-100);
   color: var(--ifm-color-primary);
+  transform: translateY(-2px);
 }
 
 .moreDropdown button svg {
-  width: 1rem;
-  height: 1rem;
+  width: 1.2rem;
+  height: 1.2rem;
 }
 
 /* QR Code Modal */
@@ -221,15 +240,32 @@
     bottom: 0;
     left: 0;
     right: 0;
+    top: auto;
+    transform: none;
     margin: 0;
     border-radius: 1rem 1rem 0 0;
     padding: 1rem;
-    max-height: 80vh;
-    overflow-y: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    animation: slideUp 0.2s ease;
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 
   .moreDropdown button {
-    padding: 0.8rem 1rem;
+    flex: 0 0 auto;
+    min-width: 80px;
+    padding: 0.8rem;
   }
 
   .urlContainer,

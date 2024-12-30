@@ -95,42 +95,7 @@ const config = {
       },
       footer: {
         style: 'light',
-        links: [
-          {
-            title: '内容导航',
-            items: [
-              {
-                label: '唐诗',
-                to: '/docs/poetry/tang/intro',
-              },
-              {
-                label: '宋词',
-                to: '/docs/poetry/song/intro',
-              },
-              {
-                label: '元曲',
-                to: '/docs/poetry/yuan/intro',
-              },
-              {
-                label: '其他',
-                to: '/docs/poetry/others/intro',
-              },
-            ],
-          },
-          {
-            title: '关注我们',
-            items: [
-              {
-                label: '博客',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/tattoomaster/my-website',
-              },
-            ],
-          },
-        ],
+        links: [],
         copyright: `Copyright © ${new Date().getFullYear()} 古诗词网 | Built with Docusaurus`,
       },
       prism: {

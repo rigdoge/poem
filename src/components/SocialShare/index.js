@@ -1,24 +1,20 @@
 import React, { useState } from 'react';
 import {
-  FaWeixin,
   FaWeibo,
-  FaQq,
   FaLink,
-  FaTwitter,
+  FaXTwitter,
   FaFacebook,
   FaLinkedin,
   FaTelegram,
   FaReddit,
-  FaTimes,
-  FaShareAlt,
-  FaFileAlt,
-  FaEllipsisH
-} from 'react-icons/fa';
-import { QRCodeSVG } from 'qrcode.react';
+  FaXmark,
+  FaShareNodes,
+  FaFile,
+  FaEllipsis
+} from 'react-icons/fa6';
 import styles from './styles.module.css';
 
 export default function SocialShare({ title, content }) {
-  const [showQRCode, setShowQRCode] = useState(false);
   const [showShareUrl, setShowShareUrl] = useState(false);
   const [showShareText, setShowShareText] = useState(false);
   const [showMore, setShowMore] = useState(false);
@@ -36,23 +32,17 @@ export default function SocialShare({ title, content }) {
       case 'weibo':
         shareLink = `http://service.weibo.com/share/share.php?url=${encodedUrl}&title=${encodedText}`;
         break;
-      case 'qq':
-        shareLink = `http://connect.qq.com/widget/shareqq/index.html?url=${encodedUrl}&title=${encodedTitle}&summary=${encodedText}`;
+      case 'x':
+        shareLink = `https://x.com/intent/tweet?text=${encodedText}&url=${encodedUrl}`;
         break;
-      case 'weixin':
-        setShowQRCode(true);
-        return;
-      case 'twitter':
-        shareLink = `https://twitter.com/intent/tweet?text=${encodedText}&url=${encodedUrl}`;
+      case 'telegram':
+        shareLink = `https://t.me/share/url?url=${encodedUrl}&text=${encodedText}`;
         break;
       case 'facebook':
         shareLink = `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`;
         break;
       case 'linkedin':
         shareLink = `https://www.linkedin.com/shareArticle?mini=true&url=${encodedUrl}&title=${encodedTitle}&summary=${encodedText}`;
-        break;
-      case 'telegram':
-        shareLink = `https://t.me/share/url?url=${encodedUrl}&text=${encodedText}`;
         break;
       case 'reddit':
         shareLink = `https://reddit.com/submit?url=${encodedUrl}&title=${encodedTitle}`;
@@ -95,31 +85,31 @@ export default function SocialShare({ title, content }) {
           <div className={styles.mainShare}>
             <button
               className={styles.shareButton}
-              onClick={() => handleShare('twitter')}
-              aria-label="Share on Twitter"
+              onClick={() => handleShare('x')}
+              aria-label="Share on X"
             >
-              <FaTwitter />
+              <FaXTwitter />
             </button>
             <button
               className={styles.shareButton}
-              onClick={() => handleShare('weixin')}
-              aria-label="分享到微信"
+              onClick={() => handleShare('telegram')}
+              aria-label="Share on Telegram"
             >
-              <FaWeixin />
+              <FaTelegram />
             </button>
             <button
               className={styles.shareButton}
               onClick={() => handleShare('text')}
               aria-label="复制文本"
             >
-              <FaFileAlt />
+              <FaFile />
             </button>
             <button
               className={styles.shareButton}
               onClick={() => handleShare('share')}
               aria-label="分享网址"
             >
-              <FaShareAlt />
+              <FaShareNodes />
             </button>
             <div className={styles.moreContainer}>
               <button
@@ -127,24 +117,18 @@ export default function SocialShare({ title, content }) {
                 onClick={() => setShowMore(!showMore)}
                 aria-label="更多分享选项"
               >
-                <FaEllipsisH />
+                <FaEllipsis />
               </button>
               {showMore && (
                 <div className={styles.moreDropdown}>
                   <button onClick={() => handleShare('weibo')}>
                     <FaWeibo /> 微博
                   </button>
-                  <button onClick={() => handleShare('qq')}>
-                    <FaQq /> QQ
-                  </button>
                   <button onClick={() => handleShare('facebook')}>
                     <FaFacebook /> Facebook
                   </button>
                   <button onClick={() => handleShare('linkedin')}>
                     <FaLinkedin /> LinkedIn
-                  </button>
-                  <button onClick={() => handleShare('telegram')}>
-                    <FaTelegram /> Telegram
                   </button>
                   <button onClick={() => handleShare('reddit')}>
                     <FaReddit /> Reddit
@@ -159,31 +143,6 @@ export default function SocialShare({ title, content }) {
         </div>
       </div>
 
-      {showQRCode && (
-        <div className={styles.qrcodeOverlay} onClick={() => setShowQRCode(false)}>
-          <div className={styles.qrcodeModal} onClick={e => e.stopPropagation()}>
-            <button
-              className={styles.closeButton}
-              onClick={() => setShowQRCode(false)}
-              aria-label="关闭"
-            >
-              <FaTimes />
-            </button>
-            <h3>微信扫码分享</h3>
-            <QRCodeSVG
-              value={shareUrl}
-              size={200}
-              level="H"
-              includeMargin={true}
-            />
-            <p className={styles.qrcodeHint}>
-              请使用微信扫描二维码<br />
-              点击右上角按钮分享
-            </p>
-          </div>
-        </div>
-      )}
-
       {showShareUrl && (
         <div className={styles.qrcodeOverlay} onClick={() => setShowShareUrl(false)}>
           <div className={styles.qrcodeModal} onClick={e => e.stopPropagation()}>
@@ -192,7 +151,7 @@ export default function SocialShare({ title, content }) {
               onClick={() => setShowShareUrl(false)}
               aria-label="关闭"
             >
-              <FaTimes />
+              <FaXmark />
             </button>
             <h3>分享网址</h3>
             <div className={styles.urlContainer}>
@@ -229,7 +188,7 @@ export default function SocialShare({ title, content }) {
               onClick={() => setShowShareText(false)}
               aria-label="关闭"
             >
-              <FaTimes />
+              <FaXmark />
             </button>
             <h3>复制文本</h3>
             <div className={styles.textContainer}>
