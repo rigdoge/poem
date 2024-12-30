@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v0.0.13';
+const CACHE_VERSION = 'v0.1.1';
 const CACHE_NAME = `app-cache-${CACHE_VERSION}`;
 
 self.addEventListener('install', (event) => {
