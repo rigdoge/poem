@@ -2,9 +2,13 @@
 title: 曹操诗选
 ---
 
+# 曹操诗选
+
+## 诗歌列表
+
 import PinyinPoem from '@site/src/components/PinyinPoem';
 
-<div className="hidden-title">
+<div className="poem-title-hidden">
 
 ### 观沧海
 
@@ -33,7 +37,7 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
   ]}
 />
 
-<div className="hidden-title">
+<div className="poem-title-hidden">
 
 ### 短歌行
 
@@ -54,7 +58,7 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
     "明明如月，何时可掇？",
     "忧从中来，不可断绝。",
     "越陌度阡，枉用相存。",
-    "契阔谈宴，心念旧恩。",
+    "契阔谈讌，心念旧恩。",
     "月明星稀，乌鹊南飞。",
     "绕树三匝，何枝可依？",
     "山不厌高，海不厌深。",
@@ -66,7 +70,7 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
     ["kǎi dāng yǐ kāng, yōu sī nán wàng."],
     ["hé yǐ jiě yōu? wéi yǒu dù kāng."],
     ["qīng qīng zǐ jīn, yōu yōu wǒ xīn."],
-    ["dàn wéi jūn gù, chén yín zhì jīn."],
+    ["dàn wèi jūn gù, chén yín zhì jīn."],
     ["yōu yōu lù míng, shí yě zhī píng."],
     ["wǒ yǒu jiā bīn, gǔ sè chuī shēng."],
     ["míng míng rú yuè, hé shí kě duó?"],
@@ -80,7 +84,7 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
   ]}
 />
 
-<div className="hidden-title">
+<div className="poem-title-hidden">
 
 ### 龟虽寿
 
@@ -109,7 +113,7 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
   ]}
 />
 
-<div className="hidden-title">
+<div className="poem-title-hidden">
 
 ### 步出夏门行
 
@@ -144,7 +148,7 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
   ]}
 />
 
-<div className="hidden-title">
+<div className="poem-title-hidden">
 
 ### 度关山
 
@@ -175,7 +179,7 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
   ]}
 />
 
-<div className="hidden-title">
+<div className="poem-title-hidden">
 
 ### 苦寒行
 
@@ -206,7 +210,7 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
   ]}
 />
 
-<div className="hidden-title">
+<div className="poem-title-hidden">
 
 ### 精列
 
@@ -237,7 +241,7 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
   ]}
 />
 
-<div className="hidden-title">
+<div className="poem-title-hidden">
 
 ### 却东西门行
 
@@ -270,7 +274,7 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
   ]}
 />
 
-<div className="hidden-title">
+<div className="poem-title-hidden">
 
 ### 气出唱
 
@@ -301,7 +305,7 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
   ]}
 />
 
-<div className="hidden-title">
+<div className="poem-title-hidden">
 
 ### 陌上桑
 

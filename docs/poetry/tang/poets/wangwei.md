@@ -2,9 +2,13 @@
 title: 王维诗选
 ---
 
+# 王维诗选
+
+## 诗歌列表
+
 import PinyinPoem from '@site/src/components/PinyinPoem';
 
-<div className="hidden-title">
+<div className="poem-title-hidden">
 
 ### 鹿柴
 
@@ -27,7 +31,7 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
   ]}
 />
 
-<div className="hidden-title">
+<div className="poem-title-hidden">
 
 ### 送别
 

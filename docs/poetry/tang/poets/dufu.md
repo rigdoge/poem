@@ -2,9 +2,13 @@
 title: 杜甫诗选
 ---
 
+# 杜甫诗选
+
+## 诗歌列表
+
 import PinyinPoem from '@site/src/components/PinyinPoem';
 
-<div className="hidden-title">
+<div className="poem-title-hidden">
 
 ### 春望
 
@@ -35,7 +39,7 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
   ]}
 />
 
-<div className="hidden-title">
+<div className="poem-title-hidden">
 
 ### 江南逢李龟年
 

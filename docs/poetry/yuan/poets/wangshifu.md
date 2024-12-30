@@ -2,9 +2,13 @@
 title: 王实甫曲选
 ---
 
+# 王实甫曲选
+
+## 曲作列表
+
 import PinyinPoem from '@site/src/components/PinyinPoem';
 
-<div className="hidden-title">
+<div className="poem-title-hidden">
 
 ### 西厢记·长亭送别
 

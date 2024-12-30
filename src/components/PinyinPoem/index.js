@@ -20,9 +20,12 @@ const PinyinPoem = ({ title, author, content, pinyinData }) => {
       .flatMap(segment => segment.split(' ').filter(pinyin => pinyin !== ''));
   };
 
+  // 生成标题的 id
+  const titleId = title.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+
   return (
     <div className={styles.poem}>
-      <h2 className={styles.title}>{title}</h2>
+      <h3 id={titleId} className={styles.title}>{title}</h3>
       <div className={styles.authorLine}>
         <span className={styles.author}>{author}</span>
         <button

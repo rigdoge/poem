@@ -2,9 +2,13 @@
 title: 李白诗选
 ---
 
+# 李白诗选
+
+## 诗歌列表
+
 import PinyinPoem from '@site/src/components/PinyinPoem';
 
-<div className="hidden-title">
+<div className="poem-title-hidden">
 
 ### 静夜思
 
@@ -27,7 +31,7 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
   ]}
 />
 
-<div className="hidden-title">
+<div className="poem-title-hidden">
 
 ### 望庐山瀑布
 
@@ -50,7 +54,7 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
   ]}
 />
 
-<div className="hidden-title">
+<div className="poem-title-hidden">
 
 ### 早发白帝城
 

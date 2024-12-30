@@ -2,9 +2,13 @@
 title: 苏轼词选
 ---
 
+# 苏轼词选
+
+## 词作列表
+
 import PinyinPoem from '@site/src/components/PinyinPoem';
 
-<div className="hidden-title">
+<div className="poem-title-hidden">
 
 ### 水调歌头·明月几时有
 
@@ -35,7 +39,7 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
   ]}
 />
 
-<div className="hidden-title">
+<div className="poem-title-hidden">
 
 ### 定风波·莫听穿林打叶声
 

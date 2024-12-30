@@ -2,9 +2,13 @@
 title: 马致远曲选
 ---
 
+# 马致远曲选
+
+## 曲作列表
+
 import PinyinPoem from '@site/src/components/PinyinPoem';
 
-<div className="hidden-title">
+<div className="poem-title-hidden">
 
 ### 天净沙·秋思
 
@@ -29,7 +33,7 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
   ]}
 />
 
-<div className="hidden-title">
+<div className="poem-title-hidden">
 
 ### 汉宫秋·雨打梧桐
 
@@ -66,7 +70,7 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
   ]}
 />
 
-<div className="hidden-title">
+<div className="poem-title-hidden">
 
 ### 青石烟雨·江南春
 
@@ -105,7 +109,7 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
   ]}
 />
 
-<div className="hidden-title">
+<div className="poem-title-hidden">
 
 ### 寿阳曲·夜深沉
 
