@@ -1,0 +1,12 @@
+{
+  "reportMissingModuleSource": false,
+  "reportMissingImports": false,
+  "pythonVersion": "3.9",
+  "venvPath": ".",
+  "include": [
+    "scripts/poetry-automation/poetry_generator.py"
+  ],
+  "extraPaths": [
+    "scripts/poetry-automation"
+  ]
+} 
