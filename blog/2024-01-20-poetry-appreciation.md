@@ -1,7 +1,7 @@
 ---
 slug: poetry-appreciation
 title: 如何欣赏古诗词
-authors: [rigdoge]
+authors: [tschenyinkoh]
 tags: [poetry-appreciation, tutorial]
 ---
 

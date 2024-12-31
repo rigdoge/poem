@@ -1,35 +1,5 @@
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-  page: true
-  socials:
-    x: yangshunz
-    github: yangshun
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
-  socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
-
-tattoomaster:
-  name: TattooMaster
-  title: Full Stack Developer
+tschenyinkoh:
+  name: TSCHENYINKOH
+  title: 一年五班小憨憨
   url: https://github.com/tattoomaster
   image_url: https://github.com/tattoomaster.png
-
-rigdoge:
-  name: rigdoge
-  title: 古诗词爱好者
-  url: https://github.com/rigdoge
-  image_url: /img/authors/rigdoge.svg

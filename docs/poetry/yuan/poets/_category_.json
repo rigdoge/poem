@@ -1,8 +1,4 @@
 {
   "label": "曲家",
-  "position": 1,
-  "link": {
-    "type": "generated-index",
-    "description": "按作者分类浏览元曲"
-  }
+  "position": 2
 } 

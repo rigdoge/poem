@@ -1,0 +1,145 @@
+.mastersSection {
+  padding: 4rem 0;
+  background: var(--ifm-background-surface-color);
+  position: relative;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
+  background: linear-gradient(45deg, var(--ifm-color-primary), var(--ifm-color-primary-light));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sectionSubtitle {
+  font-size: 1.2rem;
+  color: var(--ifm-color-content-secondary);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.mastersGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.masterCardLink {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.masterCard {
+  background: var(--ifm-background-color);
+  border-radius: 16px;
+  padding: 2rem;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.masterCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--ifm-color-primary), var(--ifm-color-primary-light));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.masterCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.masterCard:hover::before {
+  opacity: 1;
+}
+
+.masterInfo {
+  position: relative;
+  z-index: 1;
+}
+
+.dynasty {
+  display: inline-block;
+  padding: 0.3rem 1rem;
+  background: var(--ifm-color-primary);
+  color: white;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.masterName {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0.5rem 0;
+  color: var(--ifm-color-primary-darker);
+}
+
+.masterTitle {
+  font-size: 1.1rem;
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.masterDescription {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--ifm-color-content-secondary);
+  margin-bottom: 1rem;
+}
+
+.masterYears {
+  font-size: 0.9rem;
+  color: var(--ifm-color-content-secondary);
+  font-style: italic;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 996px) {
+  .mastersSection {
+    padding: 3rem 0;
+  }
+
+  .sectionTitle {
+    font-size: 2rem;
+  }
+
+  .sectionSubtitle {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .mastersGrid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .masterCard {
+    padding: 1.5rem;
+  }
+
+  .masterName {
+    font-size: 1.75rem;
+  }
+} 

@@ -5,6 +5,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import HomepageSlider from '@site/src/components/HomepageSlider';
+import EightMasters from '@site/src/components/EightMasters';
 import styles from './index.module.css';
 
 function HomepageHeader() {
@@ -37,6 +38,7 @@ export default function Home() {
         <HomepageSlider />
         <HomepageHeader />
         <HomepageFeatures />
+        <EightMasters />
       </main>
     </Layout>
   );

@@ -1,8 +1,9 @@
 {
   "label": "诗人",
-  "position": 1,
+  "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "按诗人分类浏览唐诗"
+    "title": "唐代诗人",
+    "description": "唐诗是中国古典诗歌发展的黄金时期，涌现出了众多杰出的诗人。在这里，您可以浏览各位诗人的生平事迹和代表作品。"
   }
 } 

@@ -1,7 +1,7 @@
 ---
 slug: poetry-and-art
 title: 诗词与艺术的完美融合
-authors: [rigdoge]
+authors: [tschenyinkoh]
 tags: [poetry-analysis, art, calligraphy, painting]
 ---
 

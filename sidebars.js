@@ -8,15 +8,12 @@ const sidebars = {
     {
       type: 'category',
       label: '诗人',
-      link: {
-        type: 'generated-index',
-        description: '按诗人分类浏览唐诗'
-      },
+      collapsed: false,
       items: [
         'poetry/tang/poets/libai',
         'poetry/tang/poets/dufu',
         'poetry/tang/poets/wangwei'
-      ],
+      ]
     }
   ],
 
@@ -26,15 +23,12 @@ const sidebars = {
     {
       type: 'category',
       label: '词人',
-      link: {
-        type: 'generated-index',
-        description: '按词人分类浏览宋词'
-      },
+      collapsed: false,
       items: [
         'poetry/song/poets/sushi',
         'poetry/song/poets/liyu'
-      ],
-    },
+      ]
+    }
   ],
 
   // 元曲
@@ -43,15 +37,12 @@ const sidebars = {
     {
       type: 'category',
       label: '曲家',
-      link: {
-        type: 'generated-index',
-        description: '按作者分类浏览元曲'
-      },
+      collapsed: false,
       items: [
         'poetry/yuan/poets/mazhiyuan',
         'poetry/yuan/poets/wangshifu'
-      ],
-    },
+      ]
+    }
   ],
 
   // 其他
@@ -60,17 +51,14 @@ const sidebars = {
     {
       type: 'category',
       label: '诗人',
-      link: {
-        type: 'generated-index',
-        description: '按诗人分类浏览其他时期诗歌'
-      },
+      collapsed: false,
       items: [
         'poetry/others/poets/caocao',
         'poetry/others/poets/quyuan',
         'poetry/others/poets/anonymous'
-      ],
-    },
-  ],
+      ]
+    }
+  ]
 };
 
 module.exports = sidebars;

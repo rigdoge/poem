@@ -48,6 +48,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: false
+        },
+      },
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: '古诗词网',
@@ -58,38 +64,34 @@ const config = {
         style: 'dark',
         items: [
           {
-            type: 'dropdown',
+            type: 'docSidebar',
+            sidebarId: 'tangSidebar',
+            label: '唐诗',
             position: 'left',
-            label: '诗词',
-            items: [
-              {
-                type: 'docSidebar',
-                sidebarId: 'tangSidebar',
-                label: '唐诗',
-              },
-              {
-                type: 'docSidebar',
-                sidebarId: 'songSidebar',
-                label: '宋词',
-              },
-              {
-                type: 'docSidebar',
-                sidebarId: 'yuanSidebar',
-                label: '元曲',
-              },
-              {
-                type: 'docSidebar',
-                sidebarId: 'othersSidebar',
-                label: '其他',
-              },
-            ],
           },
-          {to: '/blog', label: '博客', position: 'left'},
           {
-            href: 'https://github.com/tattoomaster/my-website',
+            type: 'docSidebar',
+            sidebarId: 'songSidebar',
+            label: '宋词',
+            position: 'left',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'yuanSidebar',
+            label: '元曲',
+            position: 'left',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'othersSidebar',
+            label: '更多古诗',
+            position: 'left',
+          },
+          {
+            to: '/blog',
             position: 'right',
-            className: 'header-github-link',
-            'aria-label': 'GitHub repository',
+            className: 'header-blog-link',
+            'aria-label': '博客',
           },
         ],
       },
