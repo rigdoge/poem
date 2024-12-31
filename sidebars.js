@@ -49,6 +49,7 @@ const sidebars = {
   othersSidebar: [
     'poetry/others/intro',
     'poetry/others/kongque',
+    'poetry/others/mulan',
     {
       type: 'category',
       label: '诗人',
