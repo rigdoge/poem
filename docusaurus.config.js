@@ -133,7 +133,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} 一年五班 | Built with Docusaurus`,
+        copyright: `Copyright © ${new Date().getFullYear()} 一年五班 ｜小憨憨`,
       },
       prism: {
         theme: prismThemes.github,
