@@ -5,7 +5,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '古诗词网',
+  title: '一年五班小憨憨',
   tagline: '传承中华文化，品味诗词之美',
   favicon: 'img/favicon.ico',
 

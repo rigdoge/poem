@@ -1,7 +1,7 @@
 ---
 slug: poetry-and-art
-title: 诗词与艺术的完美融合
-authors: [tschenyinkoh]
+title: 诗画相融：古诗词与传统艺术的完美结合
+authors: [johnny]
 tags: [poetry-analysis, art, calligraphy, painting]
 ---
 

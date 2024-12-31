@@ -1,7 +1,7 @@
 ---
 slug: poetry-appreciation
-title: 如何欣赏古诗词
-authors: [tschenyinkoh]
+title: 诗词鉴赏：如何品味古诗词之美
+authors: [johnny]
 tags: [poetry-appreciation, tutorial]
 ---
 
