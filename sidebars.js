@@ -48,6 +48,7 @@ const sidebars = {
   // 其他
   othersSidebar: [
     'poetry/others/intro',
+    'poetry/others/kongque',
     {
       type: 'category',
       label: '诗人',
