@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="400" fill="#F2F5F8"/>
+  
+  <!-- 云纹背景 -->
+  <path d="M0 180 Q200 120, 400 180 T800 180 L800 400 L0 400 Z" fill="#E2E5E8" opacity="0.5"/>
+  <path d="M0 220 Q200 160, 400 220 T800 220 L800 400 L0 400 Z" fill="#D2D5D8" opacity="0.3"/>
+  
+  <!-- 诗句 -->
+  <text x="100" y="150" font-family="serif" font-size="36" fill="#333">
+    枯藤老树昏鸦，
+  </text>
+  <text x="100" y="200" font-family="serif" font-size="36" fill="#333">
+    小桥流水人家。
+  </text>
+  
+  <!-- 装饰元素 -->
+  <circle cx="600" cy="150" r="45" fill="#6F4A8C" opacity="0.1"/>
+  <circle cx="650" cy="180" r="28" fill="#6F4A8C" opacity="0.1"/>
+  <circle cx="620" cy="120" r="18" fill="#6F4A8C" opacity="0.1"/>
+  
+  <!-- 标题 -->
+  <text x="100" y="80" font-family="serif" font-size="48" font-weight="bold" fill="#333">
+    元曲选集
+  </text>
+</svg> 
