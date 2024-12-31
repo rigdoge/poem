@@ -14,19 +14,19 @@ const slides = [
     title: '探索古诗词之美',
     description: '让我们一起领略中国传统文化的魅力，感受诗词之美。',
     image: '/img/slides/poetry.svg',
-    link: '/docs/intro',
+    link: '/docs/poetry/tang/intro',
   },
   {
     title: '在线朗读体验',
     description: '配备专业朗读音频，让您更好地欣赏诗词韵律。',
     image: '/img/slides/audio.svg',
-    link: '/docs/intro',
+    link: '/docs/poetry/song/intro',
   },
   {
     title: '互动学习社区',
     description: '加入我们的社区，与其他诗词爱好者交流分享。',
     image: '/img/slides/community.svg',
-    link: '/docs/intro',
+    link: '/docs/poetry/yuan/intro',
   },
 ];
 
