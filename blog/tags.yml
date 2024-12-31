@@ -42,3 +42,13 @@ painting:
   label: 绘画
   permalink: /tags/painting
   description: 绘画艺术与欣赏
+
+聊天:
+  name: 聊天
+  description: 关于聊天功能的文章
+隐私:
+  name: 隐私
+  description: 关于隐私保护的文章
+Mattermost:
+  name: Mattermost
+  description: 关于 Mattermost 平台的文章

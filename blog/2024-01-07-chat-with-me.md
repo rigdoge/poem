@@ -7,6 +7,8 @@ tags: [聊天, 隐私, Mattermost]
 
 你可能已经注意到了，在网站底部有一个聊天图标。点击它，你就可以进入到我搭建的 Mattermost 聊天平台。今天，我想和大家详细介绍一下这个功能。
 
+<!-- truncate -->
+
 ## 什么是 Mattermost？
 
 Mattermost 是一个开源的团队协作平台，类似于 Slack 或 Microsoft Teams，但它完全开源，并且可以自托管。这意味着：
