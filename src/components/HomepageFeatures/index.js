@@ -19,7 +19,7 @@ const FeatureList = [
   },
   {
     title: '元曲',
-    description: '元曲集诗词之大成，融合了民间文学的特色。关汉卿、马致远等曲作家的作品展现了元代社会的方方面面。',
+    description: '元曲是元代文学的巅峰，兼具诗词雅致与民间活力。以散曲和杂剧为主要形式，关汉卿的《窦娥冤》、马致远的《天净沙·秋思》等佳作，生动展现了市井生活、历史故事和人情冷暖，是中国戏曲文学的重要源头。',
     icon: <FaUsers className={styles.featureIcon} />,
     link: '/docs/poetry/yuan/intro',
   },
