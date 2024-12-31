@@ -8,32 +8,68 @@
 
 ## 原文
 
-孔雀东南飞，五里一徘徊。  
-"十三能织素，十四学裁衣，  
-十五弹箜篌，十六诵诗书。  
-十七为君妇，心中常苦悲。"  
+import PinyinPoem from '@site/src/components/PinyinPoem';
 
-君既为府吏，守节情不移。  
-贱妾留空房，相见常日稀。  
-早晚下三巴，预将书报知。  
-"今日岁华尽，送故迎新时。  
-三winter 阳气动，送君上河梯。  
-望君何处所，云之浩浩里。"  
-
-同时朝天子，使我心悲伤。  
-上穷碧落下黄泉，两处茫茫皆不见。  
-忆君君不见，承欢心力绝。  
-
-翻手作云覆手雨，纷纷轻薄何须数。  
-君当作磐石，妾当作蒲苇。  
-蒲苇纫如丝，磐石无转移。  
-蒲苇韧如丝，磐石无转移。  
-我有亲父兄，性行暴如雷。  
-逼我成此计，此计将奈何？  
-
-我既不能强，不如守故处。  
-横恨却飞去，止于从来处。  
-当就云雨散，何时复相遇？  
+<PinyinPoem 
+  title="孔雀东南飞" 
+  author="佚名"
+  content={[
+    "孔雀东南飞，五里一徘徊。",
+    "十三能织素，十四学裁衣，",
+    "十五弹箜篌，十六诵诗书。",
+    "十七为君妇，心中常苦悲。",
+    "",
+    "君既为府吏，守节情不移。",
+    "贱妾留空房，相见常日稀。",
+    "早晚下三巴，预将书报知。",
+    "今日岁华尽，送故迎新时。",
+    "三冬阳气动，送君上河梯。",
+    "望君何处所，云之浩浩里。",
+    "",
+    "同时朝天子，使我心悲伤。",
+    "上穷碧落下黄泉，两处茫茫皆不见。",
+    "忆君君不见，承欢心力绝。",
+    "",
+    "翻手作云覆手雨，纷纷轻薄何须数。",
+    "君当作磐石，妾当作蒲苇。",
+    "蒲苇纫如丝，磐石无转移。",
+    "蒲苇韧如丝，磐石无转移。",
+    "我有亲父兄，性行暴如雷。",
+    "逼我成此计，此计将奈何？",
+    "",
+    "我既不能强，不如守故处。",
+    "横恨却飞去，止于从来处。",
+    "当就云雨散，何时复相遇？"
+  ]}
+  pinyinData={[
+    "kǒng què dōng nán fēi, wǔ lǐ yī pái huái.",
+    "shí sān néng zhī sù, shí sì xué cái yī,",
+    "shí wǔ tán kōng hóu, shí liù sòng shī shū.",
+    "shí qī wéi jūn fù, xīn zhōng cháng kǔ bēi.",
+    "",
+    "jūn jì wéi fǔ lì, shǒu jié qíng bù yí.",
+    "jiàn qiè liú kōng fáng, xiāng jiàn cháng rì xī.",
+    "zǎo wǎn xià sān bā, yù jiāng shū bào zhī.",
+    "jīn rì suì huá jìn, sòng gù yíng xīn shí.",
+    "sān dōng yáng qì dòng, sòng jūn shàng hé tī.",
+    "wàng jūn hé chù suǒ, yún zhī hào hào lǐ.",
+    "",
+    "tóng shí cháo tiān zǐ, shǐ wǒ xīn bēi shāng.",
+    "shàng qióng bì luò xià huáng quán, liǎng chù máng máng jiē bù jiàn.",
+    "yì jūn jūn bù jiàn, chéng huān xīn lì jué.",
+    "",
+    "fān shǒu zuò yún fù shǒu yǔ, fēn fēn qīng bó hé xū shǔ.",
+    "jūn dāng zuò pán shí, qiè dāng zuò pú wěi.",
+    "pú wěi rèn rú sī, pán shí wú zhuǎn yí.",
+    "pú wěi rèn rú sī, pán shí wú zhuǎn yí.",
+    "wǒ yǒu qīn fù xiōng, xìng xíng bào rú léi.",
+    "bī wǒ chéng cǐ jì, cǐ jì jiāng nài hé?",
+    "",
+    "wǒ jì bù néng qiáng, bù rú shǒu gù chù.",
+    "héng hèn què fēi qù, zhǐ yú cóng lái chù.",
+    "dāng jiù yún yǔ sàn, hé shí fù xiāng yù?"
+  ]}
+/>
 
 ## 赏析
 
