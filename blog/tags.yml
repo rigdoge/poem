@@ -1,59 +1,64 @@
-ai:
-  label: AI
-  permalink: /tags/ai
-  description: 人工智能相关内容
+song-ci:
+  label: 宋词
+  permalink: /tags/song-ci
+  description: 宋朝时期的词作，包括豪放派和婉约派的代表作品。
 
-tech:
-  label: 技术
-  permalink: /tags/tech
-  description: 技术相关内容
+li-qingzhao:
+  label: 李清照
+  permalink: /tags/li-qingzhao
+  description: 宋代女词人，婉约派代表，有"千古第一才女"之称。
 
-development:
-  label: 开发
-  permalink: /tags/development
-  description: 软件开发相关内容
+su-shi:
+  label: 苏轼
+  permalink: /tags/su-shi
+  description: 北宋文学家、政治家，豪放派代表人物，字东坡。
+
+lyric:
+  label: 抒情
+  permalink: /tags/lyric
+  description: 表达作者情感的诗词作品。
 
 poetry-appreciation:
   label: 诗词欣赏
   permalink: /tags/poetry-appreciation
-  description: 古诗词鉴赏与解读
+  description: 古诗词鉴赏与解读。
 
 tutorial:
   label: 教程
   permalink: /tags/tutorial
-  description: 学习指南与教程
-
-poetry-analysis:
-  label: 诗词鉴赏
-  permalink: /tags/poetry-analysis
-  description: 深入解读古诗词的艺术价值
-
-art:
-  label: 艺术
-  permalink: /tags/art
-  description: 艺术相关内容
-
-calligraphy:
-  label: 书法
-  permalink: /tags/calligraphy
-  description: 书法艺术与欣赏
-
-painting:
-  label: 绘画
-  permalink: /tags/painting
-  description: 绘画艺术与欣赏
+  description: 学习指南与教程。
 
 chat:
   label: 聊天
   permalink: /tags/chat
-  description: 关于聊天功能的文章
+  description: 关于聊天功能的文章。
 
 privacy:
   label: 隐私
   permalink: /tags/privacy
-  description: 关于隐私保护的文章
+  description: 关于隐私保护的文章。
 
 mattermost:
   label: Mattermost
   permalink: /tags/mattermost
-  description: 关于 Mattermost 平台的文章
+  description: 关于 Mattermost 平台的文章。
+
+poetry-analysis:
+  label: 诗词鉴赏
+  permalink: /tags/poetry-analysis
+  description: 深入解读古诗词的艺术价值。
+
+art:
+  label: 艺术
+  permalink: /tags/art
+  description: 艺术相关内容。
+
+calligraphy:
+  label: 书法
+  permalink: /tags/calligraphy
+  description: 书法艺术与欣赏。
+
+painting:
+  label: 绘画
+  permalink: /tags/painting
+  description: 绘画艺术与欣赏。

@@ -19,8 +19,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
   margin-bottom: 2rem;
+  gap: 1rem;
 }
 
 .author {
@@ -30,26 +30,24 @@
   text-align: center;
 }
 
-.content {
-  font-size: 1.4rem;
-  line-height: 1.6;
-  width: 100%;
-  position: relative;
+.controls {
+  display: flex;
+  gap: 0.5rem;
 }
 
 .pinyinToggle {
   background: none;
   border: none;
-  color: var(--ifm-color-emphasis-600);
   cursor: pointer;
   padding: 0.5rem;
+  color: var(--ifm-color-emphasis-600);
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.3s ease;
   border-radius: 50%;
   width: 2rem;
   height: 2rem;
+  transition: all 0.3s ease;
 }
 
 .pinyinToggle:hover {
@@ -62,8 +60,11 @@
   height: 1.2rem;
 }
 
-.toggleText {
-  font-weight: 500;
+.content {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  width: 100%;
+  position: relative;
 }
 
 .line {
