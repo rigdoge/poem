@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://poetry.tschenfeng.com/blog</id>
-    <title>古诗词网 Blog</title>
+    <title>一年五班 Blog</title>
     <updated>2024-01-21T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://poetry.tschenfeng.com/blog"/>
-    <subtitle>古诗词网 Blog</subtitle>
+    <subtitle>一年五班 Blog</subtitle>
     <icon>https://poetry.tschenfeng.com/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[诗词与艺术的完美融合]]></title>
+        <title type="html"><![CDATA[诗画相融：古诗词与传统艺术的完美结合]]></title>
         <id>https://poetry.tschenfeng.com/blog/poetry-and-art</id>
         <link href="https://poetry.tschenfeng.com/blog/poetry-and-art"/>
         <updated>2024-01-21T00:00:00.000Z</updated>
@@ -42,7 +42,7 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="结语">结语<a href="https://poetry.tschenfeng.com/blog/poetry-and-art#%E7%BB%93%E8%AF%AD" class="hash-link" aria-label="结语的直接链接" title="结语的直接链接">​</a></h2>
 <p>诗画相融的艺术理念，展现了中国传统文化的独特魅力，也为现代艺术创作提供了宝贵的借鉴。</p>]]></content>
         <author>
-            <name>TSCHENYINKOH</name>
+            <name>Johnny</name>
             <uri>https://github.com/tattoomaster</uri>
         </author>
         <category label="诗词鉴赏" term="诗词鉴赏"/>
@@ -51,7 +51,7 @@
         <category label="绘画" term="绘画"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[如何欣赏古诗词]]></title>
+        <title type="html"><![CDATA[诗词鉴赏：如何品味古诗词之美]]></title>
         <id>https://poetry.tschenfeng.com/blog/poetry-appreciation</id>
         <link href="https://poetry.tschenfeng.com/blog/poetry-appreciation"/>
         <updated>2024-01-20T00:00:00.000Z</updated>
@@ -82,14 +82,14 @@
 </ul>
 <p>这样才能更深入地理解诗词中蕴含的情感。</p>]]></content>
         <author>
-            <name>TSCHENYINKOH</name>
+            <name>Johnny</name>
             <uri>https://github.com/tattoomaster</uri>
         </author>
         <category label="诗词欣赏" term="诗词欣赏"/>
         <category label="教程" term="教程"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[AI 赋能古诗词网站开发]]></title>
+        <title type="html"><![CDATA[AI 赋能古诗词学习]]></title>
         <id>https://poetry.tschenfeng.com/blog/ai-power</id>
         <link href="https://poetry.tschenfeng.com/blog/ai-power"/>
         <updated>2023-12-20T00:00:00.000Z</updated>
@@ -97,7 +97,7 @@
         <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet...</p>
 <p>...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
         <author>
-            <name>TSCHENYINKOH</name>
+            <name>Johnny</name>
             <uri>https://github.com/tattoomaster</uri>
         </author>
         <category label="AI" term="AI"/>
