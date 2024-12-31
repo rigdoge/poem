@@ -5,7 +5,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '一年五班小憨憨',
+  title: '一年五班',
   tagline: '传承中华文化，品味诗词之美',
   favicon: 'img/favicon.ico',
 
@@ -56,9 +56,9 @@ const config = {
       },
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: '古诗词网',
+        title: '一年五班',
         logo: {
-          alt: '古诗词网 Logo',
+          alt: '一年五班 Logo',
           src: 'img/logo.svg',
         },
         style: 'dark',
@@ -133,7 +133,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} 古诗词网 | Built with Docusaurus`,
+        copyright: `Copyright © ${new Date().getFullYear()} 一年五班 | Built with Docusaurus`,
       },
       prism: {
         theme: prismThemes.github,
