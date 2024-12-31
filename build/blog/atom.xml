@@ -88,20 +88,4 @@
         <category label="诗词欣赏" term="诗词欣赏"/>
         <category label="教程" term="教程"/>
     </entry>
-    <entry>
-        <title type="html"><![CDATA[AI 赋能古诗词学习]]></title>
-        <id>https://poetry.tschenfeng.com/blog/ai-power</id>
-        <link href="https://poetry.tschenfeng.com/blog/ai-power"/>
-        <updated>2023-12-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet...]]></summary>
-        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet...</p>
-<p>...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
-        <author>
-            <name>Johnny</name>
-            <uri>https://github.com/tattoomaster</uri>
-        </author>
-        <category label="AI" term="AI"/>
-        <category label="技术" term="技术"/>
-        <category label="开发" term="开发"/>
-    </entry>
 </feed>

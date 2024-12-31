@@ -81,17 +81,5 @@
             <category>诗词欣赏</category>
             <category>教程</category>
         </item>
-        <item>
-            <title><![CDATA[AI 赋能古诗词学习]]></title>
-            <link>https://poetry.tschenfeng.com/blog/ai-power</link>
-            <guid>https://poetry.tschenfeng.com/blog/ai-power</guid>
-            <pubDate>Wed, 20 Dec 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Lorem ipsum dolor sit amet...]]></description>
-            <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet...</p>
-<p>...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
-            <category>AI</category>
-            <category>技术</category>
-            <category>开发</category>
-        </item>
     </channel>
 </rss>
