@@ -2,7 +2,7 @@
 slug: chat-with-me
 title: 和我聊天
 authors: [johnny]
-tags: [聊天, 隐私, Mattermost]
+tags: [chat, privacy, mattermost]
 ---
 
 你可能已经注意到了，在网站底部有一个聊天图标。点击它，你就可以进入到我搭建的 Mattermost 聊天平台。今天，我想和大家详细介绍一下这个功能。
