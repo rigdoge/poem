@@ -16,7 +16,7 @@ function HomepageHeader() {
         <h1 className={styles.heroTitle}>{siteConfig.title}</h1>
         <p className={styles.heroSubtitle}>{siteConfig.tagline}</p>
         <div className={styles.heroButtons}>
-          <Link className={styles.primaryButton} to="/docs/intro">
+          <Link className={styles.primaryButton} to="/docs/poetry/classic/others">
             开始阅读
           </Link>
           <Link className={styles.secondaryButton} to="/blog">
