@@ -50,6 +50,9 @@ const sidebars = {
     'poetry/others/intro',
     'poetry/others/kongque',
     'poetry/others/mulan',
+    'poetry/others/quyuan',
+    'poetry/others/chuci',
+    'poetry/others/shijing',
     {
       type: 'category',
       label: '诗人',
