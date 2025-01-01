@@ -1,0 +1,162 @@
+.poem {
+  margin: 2rem 0;
+  font-family: var(--ifm-font-family-base);
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--ifm-color-primary);
+}
+
+.authorLine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.author {
+  font-size: 1.2rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.annotationToggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  color: var(--ifm-color-emphasis-600);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  transition: all 0.3s ease;
+}
+
+.annotationToggle:hover {
+  background: var(--ifm-color-emphasis-100);
+  color: var(--ifm-color-primary);
+}
+
+.annotationToggle svg {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.content {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  width: 100%;
+}
+
+.line {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.character {
+  display: inline-block;
+  position: relative;
+  margin: 0 0.2em;
+  transition: all 0.3s ease;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  padding: 0.3em;
+}
+
+.hasAnnotation {
+  cursor: help;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: var(--ifm-color-emphasis-500);
+  text-underline-offset: 4px;
+}
+
+.character.active {
+  color: var(--ifm-color-primary);
+  transform: scale(1.1);
+}
+
+.character:hover.hasAnnotation {
+  color: var(--ifm-color-primary);
+  transform: scale(1.1);
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--ifm-background-color);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700);
+  white-space: normal;
+  z-index: 1000;
+  margin-bottom: 0.5rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  animation: fadeIn 0.2s ease;
+  min-width: 120px;
+  max-width: 200px;
+  text-align: left;
+}
+
+.tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-top-color: var(--ifm-background-color);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 5px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .author {
+    font-size: 1rem;
+  }
+
+  .content {
+    font-size: 1.2rem;
+  }
+
+  .character {
+    padding: 0.4em;
+  }
+
+  .annotationToggle {
+    width: 2.4rem;
+    height: 2.4rem;
+    padding: 0.5rem;
+  }
+
+  .annotationToggle svg {
+    width: 1.4rem;
+    height: 1.4rem;
+  }
+} 
