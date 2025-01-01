@@ -67,6 +67,7 @@ const sidebars = {
     },
     'poetry/others/poem-1735650006',
     'poetry/others/poem-1735650007',
+    'poetry/others/poem-1735738090',
     'poetry/others/kongque',
     'poetry/others/mulan',
     'poetry/others/quyuan',
