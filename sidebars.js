@@ -5,6 +5,12 @@ const sidebars = {
   // 唐诗
   tangSidebar: [
     'poetry/tang/intro',
+    'poetry/tang/xiang-si',
+    'poetry/tang/deng-gao',
+    'poetry/tang/chun-xiao',
+    'poetry/tang/jing-ye-si',
+    'poetry/tang/chun-jiang-hua-yue-ye',
+    'poetry/tang/hua-tang-chun',
     {
       type: 'category',
       label: '诗人',
@@ -12,8 +18,7 @@ const sidebars = {
       items: [
         'poetry/tang/poets/libai',
         'poetry/tang/poets/dufu',
-        'poetry/tang/poets/wangwei'
-      ]
+        'poetry/tang/poets/wangwei']
     }
   ],
 
@@ -48,6 +53,20 @@ const sidebars = {
   // 其他
   othersSidebar: [
     'poetry/others/intro',
+    {
+      type: 'category',
+      label: '无题诗',
+      collapsed: false,
+      items: [
+        'poetry/others/poem-1735650001',
+        'poetry/others/poem-1735650002',
+        'poetry/others/poem-1735650003',
+        'poetry/others/poem-1735650004',
+        'poetry/others/poem-1735650005'
+      ]
+    },
+    'poetry/others/poem-1735650006',
+    'poetry/others/poem-1735650007',
     'poetry/others/kongque',
     'poetry/others/mulan',
     'poetry/others/quyuan',
@@ -60,8 +79,7 @@ const sidebars = {
       items: [
         'poetry/others/poets/caocao',
         'poetry/others/poets/quyuan',
-        'poetry/others/poets/anonymous'
-      ]
+        'poetry/others/poets/anonymous']
     }
   ]
 };
