@@ -1,13 +1,18 @@
 import React, { useState } from 'react';
 import styles from './styles.module.css';
 import SocialShare from '../SocialShare';
-import { FaEye, FaEyeSlash } from 'react-icons/fa';
+import { FaEye, FaEyeSlash, FaBookOpen, FaBook } from 'react-icons/fa';
 import { MdTranslate } from 'react-icons/md';
 import { s2t, t2s } from 'chinese-s2t';
 
-const PinyinPoem = ({ title, author, content, pinyinData }) => {
+const UNDERLINE_STYLES = ['solid', 'dotted', 'dashed', 'double', 'wavy'];
+
+const PinyinPoem = ({ title, author, dynasty = "", content, pinyinData, annotations = {} }) => {
   const [showPinyin, setShowPinyin] = useState(false);
   const [isTraditional, setIsTraditional] = useState(false);
+  const [showAnnotations, setShowAnnotations] = useState(false);
+  const [activeTooltip, setActiveTooltip] = useState(null);
+  const [underlineStyle, setUnderlineStyle] = useState('dashed');
 
   const togglePinyin = () => {
     setShowPinyin(!showPinyin);
@@ -15,6 +20,26 @@ const PinyinPoem = ({ title, author, content, pinyinData }) => {
 
   const toggleChinese = () => {
     setIsTraditional(!isTraditional);
+  };
+
+  const toggleAnnotations = () => {
+    setShowAnnotations(!showAnnotations);
+    setActiveTooltip(null);
+  };
+
+  const handleInteraction = (tooltipKey) => {
+    if (!showAnnotations) return;
+    if (activeTooltip === tooltipKey) {
+      setActiveTooltip(null);
+    } else {
+      setActiveTooltip(tooltipKey);
+    }
+  };
+
+  const cycleUnderlineStyle = () => {
+    const currentIndex = UNDERLINE_STYLES.indexOf(underlineStyle);
+    const nextIndex = (currentIndex + 1) % UNDERLINE_STYLES.length;
+    setUnderlineStyle(UNDERLINE_STYLES[nextIndex]);
   };
 
   // 处理拼音数据，将每行的拼音字符串拆分成单个拼音
@@ -39,7 +64,10 @@ const PinyinPoem = ({ title, author, content, pinyinData }) => {
     <div className={styles.poem}>
       <h3 id={titleId} className={styles.title}>{convertText(title)}</h3>
       <div className={styles.authorLine}>
-        <span className={styles.author}>{convertText(author)}</span>
+        <span className={styles.author}>
+          {dynasty && showAnnotations && <span className={styles.dynasty}>[{convertText(dynasty)}] </span>}
+          {convertText(author)}
+        </span>
         <div className={styles.controls}>
           <button
             onClick={toggleChinese}
@@ -57,6 +85,24 @@ const PinyinPoem = ({ title, author, content, pinyinData }) => {
           >
             {showPinyin ? <FaEyeSlash /> : <FaEye />}
           </button>
+          <button
+            onClick={toggleAnnotations}
+            className={styles.pinyinToggle}
+            aria-label={showAnnotations ? '关闭注释' : '开启注释'}
+            title={showAnnotations ? '关闭注释' : '开启注释'}
+          >
+            {showAnnotations ? <FaBookOpen /> : <FaBook />}
+          </button>
+          {showAnnotations && (
+            <button
+              onClick={cycleUnderlineStyle}
+              className={styles.pinyinToggle}
+              aria-label="切换下划线样式"
+              title={`当前样式: ${underlineStyle}`}
+            >
+              _
+            </button>
+          )}
         </div>
       </div>
       <div className={styles.content}>
@@ -68,19 +114,38 @@ const PinyinPoem = ({ title, author, content, pinyinData }) => {
           return (
             <div key={lineIndex} className={`${styles.line} ${showPinyin ? styles.lineWithPinyin : ''}`}>
               {chars.map((char, charIndex) => {
-                // 跳过标点符号的拼音
                 const isPunctuation = /[，。？！、；：""''（）【】《》〈〉…—～「」『』〔〕]/u.test(char);
                 const pinyin = !isPunctuation ? pinyinLine[pinyinIndex++] : '';
-                
+                const tooltipKey = `${lineIndex}-${charIndex}`;
+                const annotation = annotations[tooltipKey];
+                const hasAnnotation = annotation && showAnnotations;
+
                 return (
-                  <div key={charIndex} className={`${styles.characterWrapper} ${showPinyin ? styles.withPinyin : ''}`}>
+                  <div 
+                    key={charIndex} 
+                    className={`${styles.characterWrapper} ${showPinyin ? styles.withPinyin : ''}`}
+                  >
                     {showPinyin && pinyin && (
                       <div className={styles.pinyinChar}>
                         {pinyin}
                       </div>
                     )}
-                    <div className={styles.character}>
+                    <div 
+                      className={`${styles.character} ${hasAnnotation ? styles.hasAnnotation : ''} ${activeTooltip === tooltipKey ? styles.active : ''}`}
+                      data-style={hasAnnotation ? underlineStyle : undefined}
+                      onClick={() => annotation && handleInteraction(tooltipKey)}
+                      onMouseEnter={() => annotation && showAnnotations && setActiveTooltip(tooltipKey)}
+                      onMouseLeave={() => setActiveTooltip(null)}
+                    >
                       {char}
+                      {activeTooltip === tooltipKey && annotation && (
+                        <div 
+                          className={styles.tooltip}
+                          onClick={(e) => e.stopPropagation()}
+                        >
+                          {annotation}
+                        </div>
+                      )}
                     </div>
                   </div>
                 );
