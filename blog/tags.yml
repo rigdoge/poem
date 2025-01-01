@@ -62,3 +62,11 @@ painting:
   label: 绘画
   permalink: /tags/painting
   description: 绘画艺术与欣赏。
+
+release:
+  name: Release
+  description: 版本发布和更新记录
+
+feature:
+  name: Feature
+  description: 新功能介绍
