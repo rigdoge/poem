@@ -1,0 +1,9 @@
+2024-12-31 17:37:35 - INFO - Input file: /Users/tattoomaster/my-website/scripts/poetry-automation/test_data.json
+2024-12-31 17:37:35 - INFO - Output directory: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 17:37:35 - INFO - Dry run: False
+2024-12-31 17:37:35 - INFO - Force mode: False
+2024-12-31 17:37:35 - INFO - Project root: /Users/tattoomaster/my-website
+2024-12-31 17:37:35 - INFO - Base dir: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 17:37:35 - DEBUG - Starting new HTTPS connection (1): api.gushi.ci:443
+2024-12-31 17:37:36 - ERROR - Error fetching poem from API: HTTPSConnectionPool(host='api.gushi.ci', port=443): Max retries exceeded with url: /all.json (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+2024-12-31 17:37:36 - ERROR - No poems found

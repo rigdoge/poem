@@ -1,0 +1,68 @@
+2024-12-31 17:40:29 - INFO - Input file: /Users/tattoomaster/my-website/scripts/poetry-automation/test_data.json
+2024-12-31 17:40:29 - INFO - Output directory: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 17:40:29 - INFO - Dry run: False
+2024-12-31 17:40:29 - INFO - Force mode: False
+2024-12-31 17:40:29 - INFO - Project root: /Users/tattoomaster/my-website
+2024-12-31 17:40:29 - INFO - Base dir: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 17:40:29 - DEBUG - Starting new HTTPS connection (1): v2.jinrishici.com:443
+2024-12-31 17:40:29 - DEBUG - https://v2.jinrishici.com:443 "GET /token HTTP/1.1" 200 62
+2024-12-31 17:40:30 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:40:30 - INFO - Found 1 poems
+2024-12-31 17:40:30 - INFO - 
+Processing poem: 春江花月夜
+2024-12-31 17:40:30 - DEBUG - Poetry data: {
+  "id": "5b8b9572e116fb3714e6fa40",
+  "title": "春江花月夜",
+  "author": "张若虚",
+  "dynasty": "唐代",
+  "category": "tang",
+  "content": [
+    "春江潮水连海平，海上明月共潮生。",
+    "滟滟随波千万里，何处春江无月明！",
+    "江流宛转绕芳甸，月照花林皆似霰。",
+    "空里流霜不觉飞，汀上白沙看不见。",
+    "江天一色无纤尘，皎皎空中孤月轮。",
+    "江畔何人初见月，江月何年初照人？",
+    "人生代代无穷已，江月年年只相似。",
+    "不知江月待何人，但见长江送流水。",
+    "白云一片去悠悠，青枫浦上不胜愁。",
+    "谁家今夜扁舟子，何处相思明月楼？",
+    "可怜楼上月徘徊，应照离人妆镜台。",
+    "玉户帘中卷不去，捣衣砧上拂还来。",
+    "此时相望不相闻，愿逐月华流照君。",
+    "鸿雁长飞光不度，鱼龙潜跃水成文。",
+    "昨夜闲潭梦落花，可怜春半不还家。",
+    "江水流春去欲尽，江潭落月复西斜。",
+    "斜月沉沉藏海雾，碣石潇湘无限路。",
+    "不知乘月几人归，落月摇情满江树。"
+  ],
+  "pinyinData": [
+    "chun jiang chao shui lian hai ping hai shang ming yue gong chao sheng",
+    "yan yan sui bo qian wan li he chu chun jiang wu yue ming",
+    "jiang liu wan zhuan rao fang dian yue zhao hua lin jie si xian",
+    "kong li liu shuang bu jue fei ting shang bai sha kan bu jian",
+    "jiang tian yi se wu xian chen jiao jiao kong zhong gu yue lun",
+    "jiang pan he ren chu jian yue jiang yue he nian chu zhao ren",
+    "ren sheng dai dai wu qiong yi jiang yue nian nian zhi xiang si",
+    "bu zhi jiang yue dai he ren dan jian chang jiang song liu shui",
+    "bai yun yi pian qu you you qing feng pu shang bu sheng chou",
+    "shui jia jin ye bian zhou zi he chu xiang si ming yue lou",
+    "ke lian lou shang yue pai huai ying zhao li ren zhuang jing tai",
+    "yu hu lian zhong juan bu qu dao yi zhen shang fu huan lai",
+    "ci shi xiang wang bu xiang wen yuan zhu yue hua liu zhao jun",
+    "hong yan chang fei guang bu du yu long qian yue shui cheng wen",
+    "zuo ye xian tan meng luo hua ke lian chun ban bu huan jia",
+    "jiang shui liu chun qu yu jin jiang tan luo yue fu xi xie",
+    "xie yue chen chen cang hai wu jie shi xiao xiang wu xian lu",
+    "bu zhi cheng yue ji ren gui luo yue yao qing man jiang shu"
+  ]
+}
+2024-12-31 17:40:30 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/tang/5b8b9572e116fb3714e6fa40.md
+2024-12-31 17:40:30 - INFO - Updated sidebar: added 'poetry/tang/5b8b9572e116fb3714e6fa40'
+2024-12-31 17:40:30 - INFO - Created author index: /Users/tattoomaster/my-website/docs/poetry/author-index.md
+2024-12-31 17:40:30 - INFO - 
+Processing completed:
+2024-12-31 17:40:30 - INFO - Total poems: 1
+2024-12-31 17:40:30 - INFO - Successfully processed: 1
+2024-12-31 17:40:30 - INFO - Failed to process: 0
+2024-12-31 17:40:30 - INFO - Skipped: 0

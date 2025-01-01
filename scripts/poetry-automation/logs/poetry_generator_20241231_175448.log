@@ -1,0 +1,10 @@
+2024-12-31 17:54:48 - INFO - Input file: /Users/tattoomaster/my-website/scripts/poetry-automation/test_data.json
+2024-12-31 17:54:48 - INFO - Output directory: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 17:54:48 - INFO - Dry run: False
+2024-12-31 17:54:48 - INFO - Force mode: False
+2024-12-31 17:54:48 - INFO - Project root: /Users/tattoomaster/my-website
+2024-12-31 17:54:48 - INFO - Base dir: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 17:54:48 - DEBUG - Starting new HTTPS connection (1): v2.jinrishici.com:443
+2024-12-31 17:55:47 - DEBUG - https://v2.jinrishici.com:443 "GET /token HTTP/1.1" 403 0
+2024-12-31 17:55:47 - ERROR - Error getting token: 403 Client Error: Forbidden for url: https://v2.jinrishici.com/token
+2024-12-31 17:55:47 - ERROR - Failed to get token

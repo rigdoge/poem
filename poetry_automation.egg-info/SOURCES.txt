@@ -1,0 +1,7 @@
+README.md
+setup.py
+poetry_automation.egg-info/PKG-INFO
+poetry_automation.egg-info/SOURCES.txt
+poetry_automation.egg-info/dependency_links.txt
+poetry_automation.egg-info/requires.txt
+poetry_automation.egg-info/top_level.txt

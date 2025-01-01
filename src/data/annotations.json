@@ -1,0 +1,224 @@
+{
+  "version": "1.0.0",
+  "characters": {
+    "床": {
+      "pinyin": "chuáng",
+      "meanings": [
+        "床榻，用于睡觉休息的家具",
+        "量词，用于床类物品",
+        "姓氏"
+      ],
+      "level": 1,
+      "examples": ["床前明月光", "病榻", "卧床"],
+      "traditional": "床"
+    },
+    "前": {
+      "pinyin": "qián",
+      "meanings": [
+        "在某个事物的前面",
+        "以前，从前",
+        "将要来临",
+        "在...以前",
+        "优先，重要"
+      ],
+      "level": 1,
+      "examples": ["前后", "从前", "前途"],
+      "traditional": "前"
+    },
+    "明": {
+      "pinyin": "míng",
+      "meanings": [
+        "明亮，光明",
+        "清楚，明白",
+        "公开，显露",
+        "明朝",
+        "明天"
+      ],
+      "level": 1,
+      "examples": ["明月", "明白", "明天"],
+      "traditional": "明"
+    },
+    "月": {
+      "pinyin": "yuè",
+      "meanings": [
+        "月亮，月球",
+        "月份，一个月",
+        "阴历的月份"
+      ],
+      "level": 1,
+      "examples": ["月光", "月份", "月末"],
+      "traditional": "月"
+    },
+    "光": {
+      "pinyin": "guāng",
+      "meanings": [
+        "光明，光亮",
+        "时间，光阴",
+        "仅仅，只",
+        "完，光",
+        "荣耀"
+      ],
+      "level": 1,
+      "examples": ["阳光", "光阴", "光荣"],
+      "traditional": "光"
+    },
+    "疑": {
+      "pinyin": "yí",
+      "meanings": [
+        "怀疑，不确定",
+        "疑惑，不明白",
+        "猜测，揣测",
+        "似乎，好像"
+      ],
+      "level": 2,
+      "examples": ["疑问", "疑虑", "疑心"],
+      "traditional": "疑"
+    },
+    "是": {
+      "pinyin": "shì",
+      "meanings": [
+        "是，判断词",
+        "对，正确",
+        "表示肯定",
+        "确实，的确"
+      ],
+      "level": 1,
+      "examples": ["是非", "是否", "确是"],
+      "traditional": "是"
+    },
+    "地": {
+      "pinyin": "dì",
+      "meanings": [
+        "地面，土地",
+        "地球",
+        "地方，处所",
+        "表示状语的助词"
+      ],
+      "level": 1,
+      "examples": ["地上", "地方", "地点"],
+      "traditional": "地"
+    },
+    "上": {
+      "pinyin": "shàng",
+      "meanings": [
+        "上面，上边",
+        "向上",
+        "高于",
+        "之前，以前"
+      ],
+      "level": 1,
+      "examples": ["上下", "上升", "上进"],
+      "traditional": "上"
+    },
+    "霜": {
+      "pinyin": "shuāng",
+      "meanings": [
+        "霜，冰霜",
+        "白色，白霜",
+        "寒冷",
+        "年老（白发如霜）"
+      ],
+      "level": 2,
+      "examples": ["霜降", "霜花", "白霜"],
+      "traditional": "霜"
+    },
+    "举": {
+      "pinyin": "jǔ",
+      "meanings": [
+        "举起，抬起",
+        "提出，举荐",
+        "全部，整个",
+        "举办，举行"
+      ],
+      "level": 2,
+      "examples": ["举手", "推举", "举办"],
+      "traditional": "舉"
+    },
+    "头": {
+      "pinyin": "tóu",
+      "meanings": [
+        "头部，脑袋",
+        "开头，前端",
+        "首领，领头",
+        "方向"
+      ],
+      "level": 1,
+      "examples": ["头脑", "头领", "点头"],
+      "traditional": "頭"
+    },
+    "望": {
+      "pinyin": "wàng",
+      "meanings": [
+        "看，观看",
+        "希望，盼望",
+        "朝向",
+        "月望，农历十五"
+      ],
+      "level": 2,
+      "examples": ["希望", "眺望", "盼望"],
+      "traditional": "望"
+    },
+    "低": {
+      "pinyin": "dī",
+      "meanings": [
+        "低下，向下",
+        "矮，不高",
+        "低沉",
+        "降低，减低"
+      ],
+      "level": 1,
+      "examples": ["低头", "低声", "低调"],
+      "traditional": "低"
+    },
+    "思": {
+      "pinyin": "sī",
+      "meanings": [
+        "思考，思索",
+        "思念，想念",
+        "意图，打算",
+        "思维，思想"
+      ],
+      "level": 2,
+      "examples": ["思念", "思考", "思想"],
+      "traditional": "思"
+    },
+    "故": {
+      "pinyin": "gù",
+      "meanings": [
+        "原来的，从前的",
+        "故意，有意",
+        "缘故，原因",
+        "去世"
+      ],
+      "level": 2,
+      "examples": ["故乡", "故意", "故人"],
+      "traditional": "故"
+    },
+    "乡": {
+      "pinyin": "xiāng",
+      "meanings": [
+        "家乡，故乡",
+        "乡村，农村",
+        "方向",
+        "香"
+      ],
+      "level": 2,
+      "examples": ["故乡", "乡愁", "乡村"],
+      "traditional": "鄉"
+    }
+  },
+  "metadata": {
+    "levels": {
+      "1": "基础",
+      "2": "进阶",
+      "3": "高级"
+    },
+    "categories": [
+      "自然",
+      "人文",
+      "情感",
+      "物象",
+      "时空"
+    ]
+  }
+} 

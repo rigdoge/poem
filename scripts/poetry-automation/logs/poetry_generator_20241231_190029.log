@@ -1,0 +1,19 @@
+2024-12-31 19:00:29 - INFO - Input file: /Users/tattoomaster/my-website/scripts/poetry-automation/test_data.json
+2024-12-31 19:00:29 - INFO - Output directory: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 19:00:29 - INFO - Dry run: False
+2024-12-31 19:00:29 - INFO - Force mode: False
+2024-12-31 19:00:29 - INFO - Project root: /Users/tattoomaster/my-website
+2024-12-31 19:00:29 - INFO - Base dir: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 19:00:30 - INFO - Found 1 poems
+2024-12-31 19:00:30 - ERROR - Error generating pinyin: get() got an unexpected keyword argument 'format'
+2024-12-31 19:00:30 - INFO - 
+Processing poem: 无题
+2024-12-31 19:00:30 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735642830.md
+2024-12-31 19:00:30 - INFO - Updated sidebar: added 'poetry/others/poem-1735642830'
+2024-12-31 19:00:30 - INFO - Created author index: /Users/tattoomaster/my-website/docs/poetry/author-index.md
+2024-12-31 19:00:30 - INFO - 
+Processing completed:
+2024-12-31 19:00:30 - INFO - Total poems: 1
+2024-12-31 19:00:30 - INFO - Successfully processed: 1
+2024-12-31 19:00:30 - INFO - Failed to process: 0
+2024-12-31 19:00:30 - INFO - Skipped: 0

@@ -1,0 +1,33 @@
+2024-12-31 17:56:29 - INFO - Input file: /Users/tattoomaster/my-website/scripts/poetry-automation/test_data.json
+2024-12-31 17:56:29 - INFO - Output directory: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 17:56:29 - INFO - Dry run: False
+2024-12-31 17:56:29 - INFO - Force mode: False
+2024-12-31 17:56:29 - INFO - Project root: /Users/tattoomaster/my-website
+2024-12-31 17:56:29 - INFO - Base dir: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 17:56:29 - DEBUG - Starting new HTTPS connection (1): v1.jinrishici.com:443
+2024-12-31 17:56:29 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 200 173
+2024-12-31 17:56:29 - INFO - Found 1 poems
+2024-12-31 17:56:29 - INFO - 
+Processing poem: 无题
+2024-12-31 17:56:29 - DEBUG - Poetry data: {
+  "id": "poem-1735638989",
+  "title": "无题",
+  "author": "纳兰性德",
+  "dynasty": "未知",
+  "category": "others",
+  "content": [
+    "红叶满寒溪，一路空山万木齐。"
+  ],
+  "pinyinData": [
+    "hong ye man han xi yi lu kong shan wan mu qi"
+  ]
+}
+2024-12-31 17:56:29 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735638989.md
+2024-12-31 17:56:29 - INFO - Updated sidebar: added 'poetry/others/poem-1735638989'
+2024-12-31 17:56:29 - INFO - Created author index: /Users/tattoomaster/my-website/docs/poetry/author-index.md
+2024-12-31 17:56:29 - INFO - 
+Processing completed:
+2024-12-31 17:56:29 - INFO - Total poems: 1
+2024-12-31 17:56:29 - INFO - Successfully processed: 1
+2024-12-31 17:56:29 - INFO - Failed to process: 0
+2024-12-31 17:56:29 - INFO - Skipped: 0

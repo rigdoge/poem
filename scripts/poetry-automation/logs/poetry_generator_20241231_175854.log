@@ -1,0 +1,397 @@
+2024-12-31 17:58:54 - INFO - Input file: /Users/tattoomaster/my-website/scripts/poetry-automation/test_data.json
+2024-12-31 17:58:54 - INFO - Output directory: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 17:58:54 - INFO - Dry run: False
+2024-12-31 17:58:54 - INFO - Force mode: True
+2024-12-31 17:58:54 - INFO - Project root: /Users/tattoomaster/my-website
+2024-12-31 17:58:54 - INFO - Base dir: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 17:58:54 - DEBUG - Starting new HTTPS connection (1): v1.jinrishici.com:443
+2024-12-31 17:58:54 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 200 159
+2024-12-31 17:58:54 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 200 167
+2024-12-31 17:58:55 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 200 165
+2024-12-31 17:58:55 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 200 185
+2024-12-31 17:58:55 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 200 168
+2024-12-31 17:59:00 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 403 0
+2024-12-31 17:59:00 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v1.jinrishici.com/all.json
+2024-12-31 17:59:00 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 200 197
+2024-12-31 17:59:00 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 200 161
+2024-12-31 17:59:00 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 200 170
+2024-12-31 17:59:01 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 200 170
+2024-12-31 17:59:01 - DEBUG - Skipping duplicate poem: 无题
+2024-12-31 17:59:01 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 200 150
+2024-12-31 17:59:06 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 403 0
+2024-12-31 17:59:06 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v1.jinrishici.com/all.json
+2024-12-31 17:59:06 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 200 167
+2024-12-31 17:59:06 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 200 173
+2024-12-31 17:59:06 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 200 None
+2024-12-31 17:59:06 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 200 170
+2024-12-31 17:59:06 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 200 194
+2024-12-31 17:59:12 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 403 0
+2024-12-31 17:59:12 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v1.jinrishici.com/all.json
+2024-12-31 17:59:12 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 200 144
+2024-12-31 17:59:12 - DEBUG - Skipping duplicate poem: 无题
+2024-12-31 17:59:12 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 200 156
+2024-12-31 17:59:12 - DEBUG - Skipping duplicate poem: 无题
+2024-12-31 17:59:12 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 200 156
+2024-12-31 17:59:12 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 200 156
+2024-12-31 17:59:12 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 200 159
+2024-12-31 17:59:12 - DEBUG - Skipping duplicate poem: 无题
+2024-12-31 17:59:17 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 403 0
+2024-12-31 17:59:17 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v1.jinrishici.com/all.json
+2024-12-31 17:59:17 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 200 167
+2024-12-31 17:59:18 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 200 165
+2024-12-31 17:59:18 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 200 170
+2024-12-31 17:59:18 - DEBUG - Skipping duplicate poem: 无题
+2024-12-31 17:59:18 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 200 162
+2024-12-31 17:59:18 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 200 180
+2024-12-31 17:59:18 - DEBUG - Skipping duplicate poem: 无题
+2024-12-31 17:59:23 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 403 0
+2024-12-31 17:59:23 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v1.jinrishici.com/all.json
+2024-12-31 17:59:23 - DEBUG - https://v1.jinrishici.com:443 "GET /all.json HTTP/1.1" 200 None
+2024-12-31 17:59:23 - INFO - Found 20 poems
+2024-12-31 17:59:23 - INFO - 
+Processing poem: 无题
+2024-12-31 17:59:23 - DEBUG - Poetry data: {
+  "id": "poem-1735639134",
+  "title": "无题",
+  "author": "李益",
+  "dynasty": "未知",
+  "category": "others",
+  "content": [
+    "问姓惊初见，称名忆旧容。"
+  ],
+  "pinyinData": [
+    "wen xing liang chu jian cheng ming yi jiu rong"
+  ]
+}
+2024-12-31 17:59:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735639134.md
+2024-12-31 17:59:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735639134'
+2024-12-31 17:59:23 - INFO - 
+Processing poem: 无题
+2024-12-31 17:59:23 - DEBUG - Poetry data: {
+  "id": "poem-1735639134",
+  "title": "无题",
+  "author": "苏轼",
+  "dynasty": "未知",
+  "category": "others",
+  "content": [
+    "但愿人长久，千里共婵娟。"
+  ],
+  "pinyinData": [
+    "dan yuan ren chang jiu qian li gong chan juan"
+  ]
+}
+2024-12-31 17:59:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735639134.md
+2024-12-31 17:59:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735639134'
+2024-12-31 17:59:23 - INFO - 
+Processing poem: 无题
+2024-12-31 17:59:23 - DEBUG - Poetry data: {
+  "id": "poem-1735639135",
+  "title": "无题",
+  "author": "李贺",
+  "dynasty": "未知",
+  "category": "others",
+  "content": [
+    "吾闻马周昔作新丰客，天荒地老无人识。"
+  ],
+  "pinyinData": [
+    "wu wen ma zhou xi zuo xin feng ke tian huang di lao wu ren shi"
+  ]
+}
+2024-12-31 17:59:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735639135.md
+2024-12-31 17:59:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735639135'
+2024-12-31 17:59:23 - INFO - 
+Processing poem: 无题
+2024-12-31 17:59:23 - DEBUG - Poetry data: {
+  "id": "poem-1735639135",
+  "title": "无题",
+  "author": "辛弃疾",
+  "dynasty": "未知",
+  "category": "others",
+  "content": [
+    "山远近，路横斜，青旗沽酒有人家。"
+  ],
+  "pinyinData": [
+    "shan yuan jin lu heng xie qing qi gu jiu you ren jia"
+  ]
+}
+2024-12-31 17:59:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735639135.md
+2024-12-31 17:59:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735639135'
+2024-12-31 17:59:23 - INFO - 
+Processing poem: 无题
+2024-12-31 17:59:23 - DEBUG - Poetry data: {
+  "id": "poem-1735639135",
+  "title": "无题",
+  "author": "杨万里",
+  "dynasty": "未知",
+  "category": "others",
+  "content": [
+    "童子柳阴眠正着，一牛吃过柳阴西。"
+  ],
+  "pinyinData": [
+    "tong zi liu yin mian zheng zhao yi niu chi guo liu yin xi"
+  ]
+}
+2024-12-31 17:59:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735639135.md
+2024-12-31 17:59:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735639135'
+2024-12-31 17:59:23 - INFO - 
+Processing poem: 无题
+2024-12-31 17:59:23 - DEBUG - Poetry data: {
+  "id": "poem-1735639140",
+  "title": "无题",
+  "author": "吴文英",
+  "dynasty": "未知",
+  "category": "others",
+  "content": [
+    "山远翠眉长。高处凄凉。菊花清瘦杜秋娘。"
+  ],
+  "pinyinData": [
+    "shan yuan cui mei chang gao chu qi liang ju hua qing shou du qiu niang"
+  ]
+}
+2024-12-31 17:59:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735639140.md
+2024-12-31 17:59:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735639140'
+2024-12-31 17:59:23 - INFO - 
+Processing poem: 无题
+2024-12-31 17:59:23 - DEBUG - Poetry data: {
+  "id": "poem-1735639140",
+  "title": "无题",
+  "author": "纳兰性德",
+  "dynasty": "未知",
+  "category": "others",
+  "content": [
+    "西风多少恨，吹不散眉弯。"
+  ],
+  "pinyinData": [
+    "xi feng duo shao hen chui bu san mei wan"
+  ]
+}
+2024-12-31 17:59:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735639140.md
+2024-12-31 17:59:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735639140'
+2024-12-31 17:59:23 - INFO - 
+Processing poem: 无题
+2024-12-31 17:59:23 - DEBUG - Poetry data: {
+  "id": "poem-1735639140",
+  "title": "无题",
+  "author": "杜甫",
+  "dynasty": "未知",
+  "category": "others",
+  "content": [
+    "弟妹萧条各何在，干戈衰谢两相催！"
+  ],
+  "pinyinData": [
+    "di mei xiao tiao ge he zai gan ge shuai xie liang xiang cui"
+  ]
+}
+2024-12-31 17:59:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735639140.md
+2024-12-31 17:59:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735639140'
+2024-12-31 17:59:23 - INFO - 
+Processing poem: 无题
+2024-12-31 17:59:23 - DEBUG - Poetry data: {
+  "id": "poem-1735639141",
+  "title": "无题",
+  "author": "刘禹锡",
+  "dynasty": "未知",
+  "category": "others",
+  "content": [
+    "何处秋风至？萧萧送雁群。"
+  ],
+  "pinyinData": [
+    "he chu qiu feng zhi xiao xiao song yan qun"
+  ]
+}
+2024-12-31 17:59:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735639141.md
+2024-12-31 17:59:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735639141'
+2024-12-31 17:59:23 - INFO - 
+Processing poem: 无题
+2024-12-31 17:59:23 - DEBUG - Poetry data: {
+  "id": "poem-1735639146",
+  "title": "无题",
+  "author": "李白",
+  "dynasty": "未知",
+  "category": "others",
+  "content": [
+    "欲渡黄河冰塞川，将登太行雪满山。"
+  ],
+  "pinyinData": [
+    "yu du huang he bing sai chuan jiang deng tai xing xue man shan"
+  ]
+}
+2024-12-31 17:59:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735639146.md
+2024-12-31 17:59:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735639146'
+2024-12-31 17:59:23 - INFO - 
+Processing poem: 无题
+2024-12-31 17:59:23 - DEBUG - Poetry data: {
+  "id": "poem-1735639146",
+  "title": "无题",
+  "author": "元稹",
+  "dynasty": "未知",
+  "category": "others",
+  "content": [
+    "闲坐悲君亦自悲，百年多是几多时。"
+  ],
+  "pinyinData": [
+    "xian zuo bei jun yi zi bei bai nian duo shi ji duo shi"
+  ]
+}
+2024-12-31 17:59:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735639146.md
+2024-12-31 17:59:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735639146'
+2024-12-31 17:59:23 - INFO - 
+Processing poem: 无题
+2024-12-31 17:59:23 - DEBUG - Poetry data: {
+  "id": "poem-1735639146",
+  "title": "无题",
+  "author": "白居易",
+  "dynasty": "未知",
+  "category": "others",
+  "content": [
+    "蜃散云收破楼阁，虹残水照断桥粱。"
+  ],
+  "pinyinData": [
+    "shen san yun shou po lou ge hong can shui zhao duan qiao liang"
+  ]
+}
+2024-12-31 17:59:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735639146.md
+2024-12-31 17:59:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735639146'
+2024-12-31 17:59:23 - INFO - 
+Processing poem: 无题
+2024-12-31 17:59:23 - DEBUG - Poetry data: {
+  "id": "poem-1735639146",
+  "title": "无题",
+  "author": "姜夔",
+  "dynasty": "未知",
+  "category": "others",
+  "content": [
+    "长记曾携手处，千树压、西湖寒碧。"
+  ],
+  "pinyinData": [
+    "chang ji ceng xie shou chu qian shu ya 、 xi hu han bi"
+  ]
+}
+2024-12-31 17:59:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735639146.md
+2024-12-31 17:59:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735639146'
+2024-12-31 17:59:23 - INFO - 
+Processing poem: 无题
+2024-12-31 17:59:23 - DEBUG - Poetry data: {
+  "id": "poem-1735639146",
+  "title": "无题",
+  "author": "冯延巳",
+  "dynasty": "未知",
+  "category": "others",
+  "content": [
+    "双燕飞来，陌上相逢否？撩乱春愁如柳絮。"
+  ],
+  "pinyinData": [
+    "shuang yan fei lai mo shang xiang feng fou liao luan chun chou ru liu xu"
+  ]
+}
+2024-12-31 17:59:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735639146.md
+2024-12-31 17:59:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735639146'
+2024-12-31 17:59:23 - INFO - 
+Processing poem: 无题
+2024-12-31 17:59:23 - DEBUG - Poetry data: {
+  "id": "poem-1735639152",
+  "title": "无题",
+  "author": "郑燮",
+  "dynasty": "未知",
+  "category": "others",
+  "content": [
+    "新竹高于旧竹枝，全凭老干为扶持。"
+  ],
+  "pinyinData": [
+    "xin zhu gao yu jiu zhu zhi quan ping lao gan wei fu chi"
+  ]
+}
+2024-12-31 17:59:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735639152.md
+2024-12-31 17:59:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735639152'
+2024-12-31 17:59:23 - INFO - 
+Processing poem: 无题
+2024-12-31 17:59:23 - DEBUG - Poetry data: {
+  "id": "poem-1735639152",
+  "title": "无题",
+  "author": "屈原",
+  "dynasty": "未知",
+  "category": "others",
+  "content": [
+    "路漫漫其修远兮，吾将上下而求索。"
+  ],
+  "pinyinData": [
+    "lu man man qi xiu yuan xi wu jiang shang xia er qiu suo"
+  ]
+}
+2024-12-31 17:59:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735639152.md
+2024-12-31 17:59:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735639152'
+2024-12-31 17:59:23 - INFO - 
+Processing poem: 无题
+2024-12-31 17:59:23 - DEBUG - Poetry data: {
+  "id": "poem-1735639157",
+  "title": "无题",
+  "author": "卢梅坡",
+  "dynasty": "未知",
+  "category": "others",
+  "content": [
+    "有梅无雪不精神，有雪无诗俗了人。"
+  ],
+  "pinyinData": [
+    "you mei wu xue bu jing shen you xue wu shi su le ren"
+  ]
+}
+2024-12-31 17:59:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735639157.md
+2024-12-31 17:59:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735639157'
+2024-12-31 17:59:23 - INFO - 
+Processing poem: 无题
+2024-12-31 17:59:23 - DEBUG - Poetry data: {
+  "id": "poem-1735639158",
+  "title": "无题",
+  "author": "杜牧",
+  "dynasty": "未知",
+  "category": "others",
+  "content": [
+    "可怜赤壁争雄渡，唯有蓑翁坐钓鱼。"
+  ],
+  "pinyinData": [
+    "ke lian chi bi zheng xiong du wei you suo weng zuo diao yu"
+  ]
+}
+2024-12-31 17:59:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735639158.md
+2024-12-31 17:59:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735639158'
+2024-12-31 17:59:23 - INFO - 
+Processing poem: 无题
+2024-12-31 17:59:23 - DEBUG - Poetry data: {
+  "id": "poem-1735639158",
+  "title": "无题",
+  "author": "任希古",
+  "dynasty": "未知",
+  "category": "others",
+  "content": [
+    "更深黄月落，夜久靥星稀。"
+  ],
+  "pinyinData": [
+    "geng shen huang yue luo ye jiu ye xing xi"
+  ]
+}
+2024-12-31 17:59:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735639158.md
+2024-12-31 17:59:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735639158'
+2024-12-31 17:59:23 - INFO - 
+Processing poem: 无题
+2024-12-31 17:59:23 - DEBUG - Poetry data: {
+  "id": "poem-1735639163",
+  "title": "无题",
+  "author": "顾敻",
+  "dynasty": "未知",
+  "category": "others",
+  "content": [
+    "云淡风高叶乱飞，小庭寒雨绿苔微，深闺人静掩屏帷。"
+  ],
+  "pinyinData": [
+    "yun dan feng gao ye luan fei xiao ting han yu lv tai wei shen gui ren jing yan ping wei"
+  ]
+}
+2024-12-31 17:59:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735639163.md
+2024-12-31 17:59:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735639163'
+2024-12-31 17:59:23 - INFO - Created author index: /Users/tattoomaster/my-website/docs/poetry/author-index.md
+2024-12-31 17:59:23 - INFO - 
+Processing completed:
+2024-12-31 17:59:23 - INFO - Total poems: 20
+2024-12-31 17:59:23 - INFO - Successfully processed: 20
+2024-12-31 17:59:23 - INFO - Failed to process: 0
+2024-12-31 17:59:23 - INFO - Skipped: 0

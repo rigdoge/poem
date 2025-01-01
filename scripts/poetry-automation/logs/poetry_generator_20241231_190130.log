@@ -1,0 +1,18 @@
+2024-12-31 19:01:30 - INFO - Input file: /Users/tattoomaster/my-website/scripts/poetry-automation/test_data.json
+2024-12-31 19:01:30 - INFO - Output directory: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 19:01:30 - INFO - Dry run: False
+2024-12-31 19:01:30 - INFO - Force mode: False
+2024-12-31 19:01:30 - INFO - Project root: /Users/tattoomaster/my-website
+2024-12-31 19:01:30 - INFO - Base dir: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 19:01:31 - INFO - Found 1 poems
+2024-12-31 19:01:31 - INFO - 
+Processing poem: 无题
+2024-12-31 19:01:31 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735642891.md
+2024-12-31 19:01:31 - INFO - Updated sidebar: added 'poetry/others/poem-1735642891'
+2024-12-31 19:01:31 - INFO - Created author index: /Users/tattoomaster/my-website/docs/poetry/author-index.md
+2024-12-31 19:01:31 - INFO - 
+Processing completed:
+2024-12-31 19:01:31 - INFO - Total poems: 1
+2024-12-31 19:01:31 - INFO - Successfully processed: 1
+2024-12-31 19:01:31 - INFO - Failed to process: 0
+2024-12-31 19:01:31 - INFO - Skipped: 0

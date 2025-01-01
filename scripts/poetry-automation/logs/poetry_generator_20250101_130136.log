@@ -1,0 +1,2 @@
+2025-01-01 13:01:36,845 - ERROR - Error generating markdown content: 'str' object has no attribute 'get'
+2025-01-01 13:01:36,845 - ERROR - Fatal error: 'str' object has no attribute 'get'

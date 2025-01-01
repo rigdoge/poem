@@ -1,0 +1,30 @@
+2024-12-31 18:43:50 - INFO - Input file: /Users/tattoomaster/my-website/scripts/poetry-automation/test_data.json
+2024-12-31 18:43:50 - INFO - Output directory: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 18:43:50 - INFO - Dry run: False
+2024-12-31 18:43:50 - INFO - Force mode: True
+2024-12-31 18:43:50 - INFO - Project root: /Users/tattoomaster/my-website
+2024-12-31 18:43:50 - INFO - Base dir: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 18:43:50 - INFO - Found 4 poems
+2024-12-31 18:43:50 - INFO - 
+Processing poem: 静夜思
+2024-12-31 18:43:50 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/tang/jing-ye-si.md
+2024-12-31 18:43:50 - INFO - Updated sidebar: added 'poetry/tang/jing-ye-si'
+2024-12-31 18:43:50 - INFO - 
+Processing poem: 春晓
+2024-12-31 18:43:50 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/tang/chun-xiao.md
+2024-12-31 18:43:50 - INFO - Updated sidebar: added 'poetry/tang/chun-xiao'
+2024-12-31 18:43:50 - INFO - 
+Processing poem: 登高
+2024-12-31 18:43:50 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/tang/deng-gao.md
+2024-12-31 18:43:50 - INFO - Updated sidebar: added 'poetry/tang/deng-gao'
+2024-12-31 18:43:50 - INFO - 
+Processing poem: 相思
+2024-12-31 18:43:50 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/tang/xiang-si.md
+2024-12-31 18:43:50 - INFO - Updated sidebar: added 'poetry/tang/xiang-si'
+2024-12-31 18:43:50 - INFO - Created author index: /Users/tattoomaster/my-website/docs/poetry/author-index.md
+2024-12-31 18:43:50 - INFO - 
+Processing completed:
+2024-12-31 18:43:50 - INFO - Total poems: 4
+2024-12-31 18:43:50 - INFO - Successfully processed: 4
+2024-12-31 18:43:50 - INFO - Failed to process: 0
+2024-12-31 18:43:50 - INFO - Skipped: 0

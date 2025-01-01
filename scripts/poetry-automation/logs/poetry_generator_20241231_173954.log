@@ -1,0 +1,35 @@
+2024-12-31 17:39:54 - INFO - Input file: /Users/tattoomaster/my-website/scripts/poetry-automation/test_data.json
+2024-12-31 17:39:54 - INFO - Output directory: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 17:39:54 - INFO - Dry run: False
+2024-12-31 17:39:54 - INFO - Force mode: False
+2024-12-31 17:39:54 - INFO - Project root: /Users/tattoomaster/my-website
+2024-12-31 17:39:54 - INFO - Base dir: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 17:39:54 - DEBUG - Starting new HTTPS connection (1): v2.jinrishici.com:443
+2024-12-31 17:39:54 - DEBUG - https://v2.jinrishici.com:443 "GET /token HTTP/1.1" 200 62
+2024-12-31 17:39:55 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:39:55 - INFO - Found 1 poems
+2024-12-31 17:39:55 - INFO - 
+Processing poem: 画堂春·东风吹柳日初长
+2024-12-31 17:39:55 - DEBUG - Poetry data: {
+  "id": "5b8b9572e116fb3714e731ec",
+  "title": "画堂春·东风吹柳日初长",
+  "author": "秦观",
+  "dynasty": "宋代",
+  "content": [
+    "东风吹柳日初长，雨余芳草斜阳。杏花零落燕泥香，睡损红妆。",
+    "宝篆烟销龙凤，画屏云锁潇湘。夜寒微透薄罗裳，无限思量。"
+  ],
+  "pinyinData": [
+    "dong feng chui liu ri chu chang yu yu fang cao xie yang xing hua ling luo yan ni xiang shui sun hong zhuang",
+    "bao zhuan yan xiao long feng hua ping yun suo xiao xiang ye han wei tou bo luo chang wu xian si liang"
+  ]
+}
+2024-12-31 17:39:55 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/tang/5b8b9572e116fb3714e731ec.md
+2024-12-31 17:39:55 - INFO - Updated sidebar: added 'poetry/tang/5b8b9572e116fb3714e731ec'
+2024-12-31 17:39:55 - INFO - Created author index: /Users/tattoomaster/my-website/docs/poetry/author-index.md
+2024-12-31 17:39:55 - INFO - 
+Processing completed:
+2024-12-31 17:39:55 - INFO - Total poems: 1
+2024-12-31 17:39:55 - INFO - Successfully processed: 1
+2024-12-31 17:39:55 - INFO - Failed to process: 0
+2024-12-31 17:39:55 - INFO - Skipped: 0

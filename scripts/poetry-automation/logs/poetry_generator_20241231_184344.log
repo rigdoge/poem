@@ -1,0 +1,26 @@
+2024-12-31 18:43:44 - INFO - Input file: /Users/tattoomaster/my-website/scripts/poetry-automation/test_data.json
+2024-12-31 18:43:44 - INFO - Output directory: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 18:43:44 - INFO - Dry run: False
+2024-12-31 18:43:44 - INFO - Force mode: False
+2024-12-31 18:43:44 - INFO - Project root: /Users/tattoomaster/my-website
+2024-12-31 18:43:44 - INFO - Base dir: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 18:43:44 - INFO - Found 4 poems
+2024-12-31 18:43:44 - INFO - 
+Processing poem: 静夜思
+2024-12-31 18:43:44 - WARNING - File already exists: /Users/tattoomaster/my-website/docs/poetry/tang/jing-ye-si.md
+2024-12-31 18:43:44 - INFO - 
+Processing poem: 春晓
+2024-12-31 18:43:44 - WARNING - File already exists: /Users/tattoomaster/my-website/docs/poetry/tang/chun-xiao.md
+2024-12-31 18:43:44 - INFO - 
+Processing poem: 登高
+2024-12-31 18:43:44 - WARNING - File already exists: /Users/tattoomaster/my-website/docs/poetry/tang/deng-gao.md
+2024-12-31 18:43:44 - INFO - 
+Processing poem: 相思
+2024-12-31 18:43:44 - WARNING - File already exists: /Users/tattoomaster/my-website/docs/poetry/tang/xiang-si.md
+2024-12-31 18:43:44 - WARNING - No poems to generate author index
+2024-12-31 18:43:44 - INFO - 
+Processing completed:
+2024-12-31 18:43:44 - INFO - Total poems: 4
+2024-12-31 18:43:44 - INFO - Successfully processed: 0
+2024-12-31 18:43:44 - INFO - Failed to process: 4
+2024-12-31 18:43:44 - INFO - Skipped: 0

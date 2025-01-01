@@ -1,0 +1,103 @@
+2024-12-31 17:34:58 - INFO - Input file: /Users/tattoomaster/my-website/scripts/poetry-automation/test_data.json
+2024-12-31 17:34:58 - INFO - Output directory: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 17:34:58 - INFO - Dry run: False
+2024-12-31 17:34:58 - INFO - Force mode: True
+2024-12-31 17:34:58 - INFO - Project root: /Users/tattoomaster/my-website
+2024-12-31 17:34:58 - INFO - Base dir: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 17:34:58 - INFO - Found 4 poems
+2024-12-31 17:34:58 - INFO - 
+Processing poem: 静夜思
+2024-12-31 17:34:58 - DEBUG - Poetry data: {
+  "id": "jing-ye-si",
+  "title": "静夜思",
+  "author": "李白",
+  "dynasty": "唐",
+  "content": [
+    "床前明月光，",
+    "疑是地上霜。",
+    "举头望明月，",
+    "低头思故乡。"
+  ],
+  "pinyinData": [
+    "chuang qian ming yue guang",
+    "yi shi di shang shuang",
+    "ju tou wang ming yue",
+    "di tou si gu xiang"
+  ]
+}
+2024-12-31 17:34:58 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/tang/jing-ye-si.md
+2024-12-31 17:34:58 - INFO - Updated sidebar: added 'poetry/tang/jing-ye-si'
+2024-12-31 17:34:58 - INFO - 
+Processing poem: 春晓
+2024-12-31 17:34:58 - DEBUG - Poetry data: {
+  "id": "chun-xiao",
+  "title": "春晓",
+  "author": "孟浩然",
+  "dynasty": "唐",
+  "content": [
+    "春眠不觉晓，",
+    "处处闻啼鸟。",
+    "夜来风雨声，",
+    "花落知多少。"
+  ],
+  "pinyinData": [
+    "chun mian bu jue xiao",
+    "chu chu wen ti niao",
+    "ye lai feng yu sheng",
+    "hua luo zhi duo shao"
+  ]
+}
+2024-12-31 17:34:58 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/tang/chun-xiao.md
+2024-12-31 17:34:58 - INFO - Updated sidebar: added 'poetry/tang/chun-xiao'
+2024-12-31 17:34:58 - INFO - 
+Processing poem: 登高
+2024-12-31 17:34:58 - DEBUG - Poetry data: {
+  "id": "deng-gao",
+  "title": "登高",
+  "author": "杜甫",
+  "dynasty": "唐",
+  "content": [
+    "风急天高猿啸哀，",
+    "渚清沙白鸟飞回。",
+    "无边落木萧萧下，",
+    "不尽长江滚滚来。",
+    "万里悲秋常作客，",
+    "百年多病独登台。",
+    "艰难苦恨繁霜鬓，",
+    "潦倒新停浊酒杯。"
+  ],
+  "pinyinData": [
+    "feng ji tian gao yuan xiao ai",
+    "zhu qing sha bai niao fei hui",
+    "wu bian luo mu xiao xiao xia",
+    "bu jin chang jiang gun gun lai",
+    "wan li bei qiu chang zuo ke",
+    "bai nian duo bing du deng tai",
+    "jian nan ku hen fan shuang bin",
+    "lao dao xin ting zhuo jiu bei"
+  ]
+}
+2024-12-31 17:34:58 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/tang/deng-gao.md
+2024-12-31 17:34:58 - INFO - Updated sidebar: added 'poetry/tang/deng-gao'
+2024-12-31 17:34:58 - INFO - 
+Processing poem: 相思
+2024-12-31 17:34:58 - DEBUG - Poetry data: {
+  "id": "xiang-si",
+  "title": "相思",
+  "author": "王维",
+  "dynasty": "唐",
+  "content": [
+    "红豆生南国，",
+    "春来发几枝。",
+    "愿君多采撷，",
+    "此物最相思。"
+  ],
+  "pinyinData": [
+    "hong dou sheng nan guo",
+    "chun lai fa ji zhi",
+    "yuan jun duo cai xie",
+    "ci wu zui xiang si"
+  ]
+}
+2024-12-31 17:34:58 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/tang/xiang-si.md
+2024-12-31 17:34:58 - INFO - Updated sidebar: added 'poetry/tang/xiang-si'

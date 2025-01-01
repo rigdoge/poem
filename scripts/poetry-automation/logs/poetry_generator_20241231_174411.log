@@ -1,0 +1,257 @@
+2024-12-31 17:44:11 - INFO - Input file: /Users/tattoomaster/my-website/scripts/poetry-automation/test_data.json
+2024-12-31 17:44:11 - INFO - Output directory: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 17:44:11 - INFO - Dry run: False
+2024-12-31 17:44:11 - INFO - Force mode: True
+2024-12-31 17:44:11 - INFO - Project root: /Users/tattoomaster/my-website
+2024-12-31 17:44:11 - INFO - Base dir: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 17:44:11 - DEBUG - Starting new HTTPS connection (1): v2.jinrishici.com:443
+2024-12-31 17:44:11 - DEBUG - https://v2.jinrishici.com:443 "GET /token HTTP/1.1" 200 62
+2024-12-31 17:44:11 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:11 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:11 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:11 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:11 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:11 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:11 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:17 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 403 0
+2024-12-31 17:44:17 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v2.jinrishici.com/one.json
+2024-12-31 17:44:17 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:17 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:17 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:17 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:17 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:17 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:17 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:17 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:17 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:17 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:22 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 403 0
+2024-12-31 17:44:22 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v2.jinrishici.com/one.json
+2024-12-31 17:44:22 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:22 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:23 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:23 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:23 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:23 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:23 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:23 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:23 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:23 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:28 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 403 0
+2024-12-31 17:44:28 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v2.jinrishici.com/one.json
+2024-12-31 17:44:28 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:28 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:28 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:28 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:28 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:28 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:29 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:29 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:29 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:29 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:34 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 403 0
+2024-12-31 17:44:34 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v2.jinrishici.com/one.json
+2024-12-31 17:44:34 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:34 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:34 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:34 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:34 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:34 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:34 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:34 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:34 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:34 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:40 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 403 0
+2024-12-31 17:44:40 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v2.jinrishici.com/one.json
+2024-12-31 17:44:40 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:40 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:40 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:40 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:40 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:40 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:40 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:40 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:40 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:40 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:45 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 403 0
+2024-12-31 17:44:45 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v2.jinrishici.com/one.json
+2024-12-31 17:44:46 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:46 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:46 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:46 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:46 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:46 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:46 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:46 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:46 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:46 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:51 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 403 0
+2024-12-31 17:44:51 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v2.jinrishici.com/one.json
+2024-12-31 17:44:52 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:52 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:52 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:52 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:52 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:52 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:52 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:52 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:52 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:52 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:57 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 403 0
+2024-12-31 17:44:57 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v2.jinrishici.com/one.json
+2024-12-31 17:44:57 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:57 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:58 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:58 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:58 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:58 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:58 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:58 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:44:58 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:44:58 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:03 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 403 0
+2024-12-31 17:45:03 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v2.jinrishici.com/one.json
+2024-12-31 17:45:03 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:03 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:03 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:03 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:04 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:04 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:04 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:04 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:04 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:04 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:09 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 403 0
+2024-12-31 17:45:09 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v2.jinrishici.com/one.json
+2024-12-31 17:45:09 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:09 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:09 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:09 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:09 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:09 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:10 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:10 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:10 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:10 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:15 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 403 0
+2024-12-31 17:45:15 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v2.jinrishici.com/one.json
+2024-12-31 17:45:15 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:15 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:15 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:15 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:15 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:15 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:15 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:15 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:15 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:15 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:21 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 403 0
+2024-12-31 17:45:21 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v2.jinrishici.com/one.json
+2024-12-31 17:45:21 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:21 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:21 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:21 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:21 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:21 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:21 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:21 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:21 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:21 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:26 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 403 0
+2024-12-31 17:45:26 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v2.jinrishici.com/one.json
+2024-12-31 17:45:27 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:27 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:27 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:27 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:27 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:27 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:27 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:27 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:27 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:27 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:32 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 403 0
+2024-12-31 17:45:32 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v2.jinrishici.com/one.json
+2024-12-31 17:45:32 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:32 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:32 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:32 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:33 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:33 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:33 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:33 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:33 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:33 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:38 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 403 0
+2024-12-31 17:45:38 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v2.jinrishici.com/one.json
+2024-12-31 17:45:38 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:38 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:38 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:38 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:38 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:38 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:39 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:39 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:39 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:39 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:44 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 403 0
+2024-12-31 17:45:44 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v2.jinrishici.com/one.json
+2024-12-31 17:45:44 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:44 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:44 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:44 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:44 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:44 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:44 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:44 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:44 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:44 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:50 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 403 0
+2024-12-31 17:45:50 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v2.jinrishici.com/one.json
+2024-12-31 17:45:50 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:50 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:50 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:50 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:50 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:50 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:50 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:50 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:50 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:50 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:55 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 403 0
+2024-12-31 17:45:55 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v2.jinrishici.com/one.json
+2024-12-31 17:45:56 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:56 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:56 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:56 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:56 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:56 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:56 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:56 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:45:56 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:45:56 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:46:01 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 403 0
+2024-12-31 17:46:01 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v2.jinrishici.com/one.json
+2024-12-31 17:46:01 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:46:01 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:46:02 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:46:02 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:46:02 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:46:02 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:46:02 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 200 None
+2024-12-31 17:46:02 - DEBUG - Skipping duplicate poem: 春江花月夜
+2024-12-31 17:47:00 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 403 0
+2024-12-31 17:47:00 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v2.jinrishici.com/one.json
+2024-12-31 17:47:58 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 403 0
+2024-12-31 17:47:58 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v2.jinrishici.com/one.json
+2024-12-31 17:48:56 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 403 0
+2024-12-31 17:48:56 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v2.jinrishici.com/one.json
+2024-12-31 17:49:54 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 403 0
+2024-12-31 17:49:54 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v2.jinrishici.com/one.json
+2024-12-31 17:50:52 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 403 0
+2024-12-31 17:50:52 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v2.jinrishici.com/one.json
+2024-12-31 17:51:51 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 403 0
+2024-12-31 17:51:51 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v2.jinrishici.com/one.json
+2024-12-31 17:52:49 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 403 0
+2024-12-31 17:52:49 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v2.jinrishici.com/one.json
+2024-12-31 17:53:47 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 403 0
+2024-12-31 17:53:47 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v2.jinrishici.com/one.json

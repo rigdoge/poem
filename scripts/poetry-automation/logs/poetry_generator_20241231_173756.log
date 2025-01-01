@@ -1,0 +1,10 @@
+2024-12-31 17:37:56 - INFO - Input file: /Users/tattoomaster/my-website/scripts/poetry-automation/test_data.json
+2024-12-31 17:37:56 - INFO - Output directory: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 17:37:56 - INFO - Dry run: False
+2024-12-31 17:37:56 - INFO - Force mode: False
+2024-12-31 17:37:56 - INFO - Project root: /Users/tattoomaster/my-website
+2024-12-31 17:37:56 - INFO - Base dir: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 17:37:56 - DEBUG - Starting new HTTPS connection (1): v2.jinrishici.com:443
+2024-12-31 17:37:57 - DEBUG - https://v2.jinrishici.com:443 "GET /one.json HTTP/1.1" 400 166
+2024-12-31 17:37:57 - ERROR - Error fetching poem from API: 400 Client Error: Bad Request for url: https://v2.jinrishici.com/one.json
+2024-12-31 17:37:57 - ERROR - No poems found

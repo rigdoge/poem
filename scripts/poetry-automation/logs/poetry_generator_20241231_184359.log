@@ -1,0 +1,98 @@
+2024-12-31 18:43:59 - INFO - Input file: /Users/tattoomaster/my-website/scripts/poetry-automation/test_data.json
+2024-12-31 18:43:59 - INFO - Output directory: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 18:43:59 - INFO - Dry run: False
+2024-12-31 18:43:59 - INFO - Force mode: True
+2024-12-31 18:43:59 - INFO - Project root: /Users/tattoomaster/my-website
+2024-12-31 18:43:59 - INFO - Base dir: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 18:44:05 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v1.jinrishici.com/all.json
+2024-12-31 18:44:11 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v1.jinrishici.com/all.json
+2024-12-31 18:44:16 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v1.jinrishici.com/all.json
+2024-12-31 18:44:22 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v1.jinrishici.com/all.json
+2024-12-31 18:44:23 - INFO - Found 20 poems
+2024-12-31 18:44:23 - INFO - 
+Processing poem: 无题
+2024-12-31 18:44:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735641839.md
+2024-12-31 18:44:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735641839'
+2024-12-31 18:44:23 - INFO - 
+Processing poem: 无题
+2024-12-31 18:44:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735641839.md
+2024-12-31 18:44:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735641839'
+2024-12-31 18:44:23 - INFO - 
+Processing poem: 无题
+2024-12-31 18:44:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735641839.md
+2024-12-31 18:44:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735641839'
+2024-12-31 18:44:23 - INFO - 
+Processing poem: 无题
+2024-12-31 18:44:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735641840.md
+2024-12-31 18:44:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735641840'
+2024-12-31 18:44:23 - INFO - 
+Processing poem: 无题
+2024-12-31 18:44:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735641840.md
+2024-12-31 18:44:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735641840'
+2024-12-31 18:44:23 - INFO - 
+Processing poem: 无题
+2024-12-31 18:44:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735641845.md
+2024-12-31 18:44:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735641845'
+2024-12-31 18:44:23 - INFO - 
+Processing poem: 无题
+2024-12-31 18:44:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735641845.md
+2024-12-31 18:44:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735641845'
+2024-12-31 18:44:23 - INFO - 
+Processing poem: 无题
+2024-12-31 18:44:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735641845.md
+2024-12-31 18:44:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735641845'
+2024-12-31 18:44:23 - INFO - 
+Processing poem: 无题
+2024-12-31 18:44:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735641845.md
+2024-12-31 18:44:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735641845'
+2024-12-31 18:44:23 - INFO - 
+Processing poem: 无题
+2024-12-31 18:44:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735641851.md
+2024-12-31 18:44:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735641851'
+2024-12-31 18:44:23 - INFO - 
+Processing poem: 无题
+2024-12-31 18:44:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735641851.md
+2024-12-31 18:44:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735641851'
+2024-12-31 18:44:23 - INFO - 
+Processing poem: 无题
+2024-12-31 18:44:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735641851.md
+2024-12-31 18:44:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735641851'
+2024-12-31 18:44:23 - INFO - 
+Processing poem: 无题
+2024-12-31 18:44:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735641851.md
+2024-12-31 18:44:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735641851'
+2024-12-31 18:44:23 - INFO - 
+Processing poem: 无题
+2024-12-31 18:44:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735641851.md
+2024-12-31 18:44:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735641851'
+2024-12-31 18:44:23 - INFO - 
+Processing poem: 无题
+2024-12-31 18:44:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735641856.md
+2024-12-31 18:44:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735641856'
+2024-12-31 18:44:23 - INFO - 
+Processing poem: 无题
+2024-12-31 18:44:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735641857.md
+2024-12-31 18:44:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735641857'
+2024-12-31 18:44:23 - INFO - 
+Processing poem: 无题
+2024-12-31 18:44:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735641857.md
+2024-12-31 18:44:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735641857'
+2024-12-31 18:44:23 - INFO - 
+Processing poem: 无题
+2024-12-31 18:44:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735641862.md
+2024-12-31 18:44:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735641862'
+2024-12-31 18:44:23 - INFO - 
+Processing poem: 无题
+2024-12-31 18:44:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735641863.md
+2024-12-31 18:44:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735641863'
+2024-12-31 18:44:23 - INFO - 
+Processing poem: 无题
+2024-12-31 18:44:23 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735641863.md
+2024-12-31 18:44:23 - INFO - Updated sidebar: added 'poetry/others/poem-1735641863'
+2024-12-31 18:44:23 - INFO - Created author index: /Users/tattoomaster/my-website/docs/poetry/author-index.md
+2024-12-31 18:44:23 - INFO - 
+Processing completed:
+2024-12-31 18:44:23 - INFO - Total poems: 20
+2024-12-31 18:44:23 - INFO - Successfully processed: 20
+2024-12-31 18:44:23 - INFO - Failed to process: 0
+2024-12-31 18:44:23 - INFO - Skipped: 0

@@ -1,0 +1,89 @@
+2024-12-31 18:58:59 - INFO - Input file: /Users/tattoomaster/my-website/scripts/poetry-automation/test_data.json
+2024-12-31 18:58:59 - INFO - Output directory: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 18:58:59 - INFO - Dry run: False
+2024-12-31 18:58:59 - INFO - Force mode: False
+2024-12-31 18:58:59 - INFO - Project root: /Users/tattoomaster/my-website
+2024-12-31 18:58:59 - INFO - Base dir: /Users/tattoomaster/my-website/docs/poetry
+2024-12-31 18:59:05 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v1.jinrishici.com/all.json
+2024-12-31 18:59:11 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v1.jinrishici.com/all.json
+2024-12-31 18:59:17 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v1.jinrishici.com/all.json
+2024-12-31 18:59:23 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v1.jinrishici.com/all.json
+2024-12-31 18:59:28 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v1.jinrishici.com/all.json
+2024-12-31 18:59:34 - ERROR - Error fetching poem from API: 403 Client Error: Forbidden for url: https://v1.jinrishici.com/all.json
+2024-12-31 18:59:35 - INFO - Found 20 poems
+2024-12-31 18:59:35 - INFO - 
+Processing poem: 无题
+2024-12-31 18:59:35 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735642740.md
+2024-12-31 18:59:35 - INFO - Updated sidebar: added 'poetry/others/poem-1735642740'
+2024-12-31 18:59:35 - INFO - 
+Processing poem: 无题
+2024-12-31 18:59:35 - WARNING - File already exists: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735642740.md
+2024-12-31 18:59:35 - INFO - 
+Processing poem: 无题
+2024-12-31 18:59:35 - WARNING - File already exists: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735642740.md
+2024-12-31 18:59:35 - INFO - 
+Processing poem: 无题
+2024-12-31 18:59:35 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735642746.md
+2024-12-31 18:59:35 - INFO - Updated sidebar: added 'poetry/others/poem-1735642746'
+2024-12-31 18:59:35 - INFO - 
+Processing poem: 无题
+2024-12-31 18:59:35 - WARNING - File already exists: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735642746.md
+2024-12-31 18:59:35 - INFO - 
+Processing poem: 无题
+2024-12-31 18:59:35 - WARNING - File already exists: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735642746.md
+2024-12-31 18:59:35 - INFO - 
+Processing poem: 无题
+2024-12-31 18:59:35 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735642751.md
+2024-12-31 18:59:35 - INFO - Updated sidebar: added 'poetry/others/poem-1735642751'
+2024-12-31 18:59:35 - INFO - 
+Processing poem: 无题
+2024-12-31 18:59:35 - WARNING - File already exists: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735642751.md
+2024-12-31 18:59:35 - INFO - 
+Processing poem: 无题
+2024-12-31 18:59:35 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735642752.md
+2024-12-31 18:59:35 - INFO - Updated sidebar: added 'poetry/others/poem-1735642752'
+2024-12-31 18:59:35 - INFO - 
+Processing poem: 无题
+2024-12-31 18:59:35 - WARNING - File already exists: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735642752.md
+2024-12-31 18:59:35 - INFO - 
+Processing poem: 无题
+2024-12-31 18:59:35 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735642757.md
+2024-12-31 18:59:35 - INFO - Updated sidebar: added 'poetry/others/poem-1735642757'
+2024-12-31 18:59:35 - INFO - 
+Processing poem: 无题
+2024-12-31 18:59:35 - WARNING - File already exists: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735642757.md
+2024-12-31 18:59:35 - INFO - 
+Processing poem: 无题
+2024-12-31 18:59:35 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735642763.md
+2024-12-31 18:59:35 - INFO - Updated sidebar: added 'poetry/others/poem-1735642763'
+2024-12-31 18:59:35 - INFO - 
+Processing poem: 无题
+2024-12-31 18:59:35 - WARNING - File already exists: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735642763.md
+2024-12-31 18:59:35 - INFO - 
+Processing poem: 无题
+2024-12-31 18:59:35 - WARNING - File already exists: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735642763.md
+2024-12-31 18:59:35 - INFO - 
+Processing poem: 无题
+2024-12-31 18:59:35 - WARNING - File already exists: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735642763.md
+2024-12-31 18:59:35 - INFO - 
+Processing poem: 无题
+2024-12-31 18:59:35 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735642769.md
+2024-12-31 18:59:35 - INFO - Updated sidebar: added 'poetry/others/poem-1735642769'
+2024-12-31 18:59:35 - INFO - 
+Processing poem: 无题
+2024-12-31 18:59:35 - WARNING - File already exists: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735642769.md
+2024-12-31 18:59:35 - INFO - 
+Processing poem: 无题
+2024-12-31 18:59:35 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735642774.md
+2024-12-31 18:59:35 - INFO - Updated sidebar: added 'poetry/others/poem-1735642774'
+2024-12-31 18:59:35 - INFO - 
+Processing poem: 无题
+2024-12-31 18:59:35 - INFO - Created file: /Users/tattoomaster/my-website/docs/poetry/others/poem-1735642775.md
+2024-12-31 18:59:35 - INFO - Updated sidebar: added 'poetry/others/poem-1735642775'
+2024-12-31 18:59:35 - INFO - Created author index: /Users/tattoomaster/my-website/docs/poetry/author-index.md
+2024-12-31 18:59:35 - INFO - 
+Processing completed:
+2024-12-31 18:59:35 - INFO - Total poems: 20
+2024-12-31 18:59:35 - INFO - Successfully processed: 9
+2024-12-31 18:59:35 - INFO - Failed to process: 11
+2024-12-31 18:59:35 - INFO - Skipped: 0
