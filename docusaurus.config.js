@@ -145,9 +145,9 @@ const config = {
         respectPrefersColorScheme: true,
       },
       algolia: {
-        appId: 'FB58SOI0YV',
-        apiKey: 'ea9b97e3a7aac8e80c2dab5f35271115',
-        indexName: 'rigdoge',
+        appId: 'COYED1GNJI',
+        apiKey: 'be83f151341f8b228b95039fae1ad316',
+        indexName: 'poetry-chenyinke',
         placeholder: '搜索诗词...',
         contextualSearch: false,
       },
