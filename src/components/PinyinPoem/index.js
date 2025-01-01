@@ -1,16 +1,17 @@
 import React, { useState } from 'react';
 import styles from './styles.module.css';
 import SocialShare from '../SocialShare';
-import { FaEye, FaEyeSlash, FaBookOpen, FaBook } from 'react-icons/fa';
+import { FaEye, FaEyeSlash, FaBookOpen, FaBook, FaMusic } from 'react-icons/fa';
 import { MdTranslate } from 'react-icons/md';
 import { s2t, t2s } from 'chinese-s2t';
 
 const UNDERLINE_STYLES = ['solid', 'dotted', 'dashed', 'double', 'wavy'];
 
-const PinyinPoem = ({ title, author, dynasty = "", content, pinyinData, annotations = {} }) => {
+const PinyinPoem = ({ title, author, dynasty = "", content, pinyinData, toneData = [], annotations = {} }) => {
   const [showPinyin, setShowPinyin] = useState(false);
   const [isTraditional, setIsTraditional] = useState(false);
   const [showAnnotations, setShowAnnotations] = useState(false);
+  const [showTones, setShowTones] = useState(false);
   const [activeTooltip, setActiveTooltip] = useState(null);
   const [underlineStyle, setUnderlineStyle] = useState('dashed');
 
@@ -25,6 +26,10 @@ const PinyinPoem = ({ title, author, dynasty = "", content, pinyinData, annotati
   const toggleAnnotations = () => {
     setShowAnnotations(!showAnnotations);
     setActiveTooltip(null);
+  };
+
+  const toggleTones = () => {
+    setShowTones(!showTones);
   };
 
   const handleInteraction = (tooltipKey) => {
@@ -86,6 +91,14 @@ const PinyinPoem = ({ title, author, dynasty = "", content, pinyinData, annotati
             {showPinyin ? <FaEyeSlash /> : <FaEye />}
           </button>
           <button
+            onClick={toggleTones}
+            className={styles.pinyinToggle}
+            aria-label={showTones ? '隐藏平仄' : '显示平仄'}
+            title={showTones ? '隐藏平仄' : '显示平仄'}
+          >
+            <FaMusic />
+          </button>
+          <button
             onClick={toggleAnnotations}
             className={styles.pinyinToggle}
             aria-label={showAnnotations ? '关闭注释' : '开启注释'}
@@ -108,6 +121,7 @@ const PinyinPoem = ({ title, author, dynasty = "", content, pinyinData, annotati
       <div className={styles.content}>
         {content.map((line, lineIndex) => {
           const pinyinLine = pinyinData[lineIndex] ? processPinyinLine(pinyinData[lineIndex]) : [];
+          const toneLine = toneData[lineIndex] || [];
           const chars = convertText(line).split('');
           let pinyinIndex = 0;
           
@@ -119,6 +133,7 @@ const PinyinPoem = ({ title, author, dynasty = "", content, pinyinData, annotati
                 const tooltipKey = `${lineIndex}-${charIndex}`;
                 const annotation = annotations[tooltipKey];
                 const hasAnnotation = annotation && showAnnotations;
+                const tone = !isPunctuation ? toneLine[charIndex] : '';
 
                 return (
                   <div 
@@ -138,6 +153,11 @@ const PinyinPoem = ({ title, author, dynasty = "", content, pinyinData, annotati
                       onMouseLeave={() => setActiveTooltip(null)}
                     >
                       {char}
+                      {showTones && tone && (
+                        <div className={styles.toneChar}>
+                          {tone === 'ping' ? '○' : '、'}
+                        </div>
+                      )}
                       {activeTooltip === tooltipKey && annotation && (
                         <div 
                           className={styles.tooltip}

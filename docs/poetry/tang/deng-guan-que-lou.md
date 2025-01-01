@@ -21,6 +21,12 @@ import PinyinPoem from '@site/src/components/PinyinPoem';
     ["yu qiong qian li mu"],
     ["geng shang yi ceng lou"]
   ]}
+  toneData={[
+    ["ze", "ze", "ping", "ping", "ze"],
+    ["ze", "ze", "ze", "ping", "ze"],
+    ["ze", "ze", "ping", "ping", "ze"],
+    ["ze", "ze", "ping", "ze", "ze"]
+  ]}
   annotations={{
     "0-0": "白：形容夕阳的颜色，此处暗示时近黄昏",
     "0-1": "日：太阳",

@@ -72,3 +72,13 @@ feature:
   label: Feature
   permalink: /tags/feature
   description: 新功能介绍
+
+update-log:
+  label: 更新记录
+  permalink: /tags/update-log
+  description: 网站功能更新和版本发布记录
+
+frontend:
+  label: 前端开发
+  permalink: /tags/frontend
+  description: 前端开发相关的技术文章和经验分享
