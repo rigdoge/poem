@@ -3,6 +3,7 @@ import styles from './styles.module.css';
 import SocialShare from '../SocialShare';
 import { FaEye, FaEyeSlash, FaBookOpen, FaBook, FaMusic } from 'react-icons/fa';
 import { MdTranslate } from 'react-icons/md';
+import { BsChatSquareText } from 'react-icons/bs';
 import { s2t, t2s } from 'chinese-s2t';
 
 const UNDERLINE_STYLES = ['solid', 'dotted', 'dashed', 'double', 'wavy'];
@@ -104,7 +105,7 @@ const PinyinPoem = ({ title, author, dynasty = "", content, pinyinData, toneData
             aria-label={showAnnotations ? '关闭注释' : '开启注释'}
             title={showAnnotations ? '关闭注释' : '开启注释'}
           >
-            {showAnnotations ? <FaBookOpen /> : <FaBook />}
+            <BsChatSquareText />
           </button>
           {showAnnotations && (
             <button
