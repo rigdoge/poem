@@ -1,7 +1,7 @@
 ---
 slug: chat-with-me
-title: 和我聊天
-authors: [johnny]
+title: 与我聊天
+authors: johnny
 tags: [chat, privacy, mattermost]
 ---
 

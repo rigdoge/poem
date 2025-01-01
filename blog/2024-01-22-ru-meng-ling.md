@@ -1,7 +1,7 @@
 ---
 slug: ru-meng-ling
 title: 如梦令·昨夜雨疏风骤
-authors: [johnny]
+authors: johnny
 tags: [song-ci, li-qingzhao, lyric]
 ---
 

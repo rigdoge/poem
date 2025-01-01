@@ -1,7 +1,7 @@
 ---
 slug: shui-diao-ge-tou
 title: 水调歌头·明月几时有
-authors: [johnny]
+authors: johnny
 tags: [song-ci, su-shi, lyric]
 ---
 
