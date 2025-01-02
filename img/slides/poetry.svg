@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景装饰 -->
+  <path d="M100,300 Q400,50 700,300" stroke="#b84592" stroke-width="2" fill="none" opacity="0.1"/>
+  <path d="M100,350 Q400,100 700,350" stroke="#b84592" stroke-width="2" fill="none" opacity="0.1"/>
+  
+  <!-- 书卷 -->
+  <path d="M250,200 C250,180 550,180 550,200 L550,400 C550,380 250,380 250,400 Z" fill="#f5f5f5" stroke="#b84592" stroke-width="2"/>
+  <path d="M250,200 C250,180 550,180 550,200" stroke="#b84592" stroke-width="4" fill="none"/>
+  
+  <!-- 毛笔 -->
+  <path d="M500,150 L600,250" stroke="#333" stroke-width="8" stroke-linecap="round"/>
+  <path d="M485,135 Q500,150 515,135" fill="#333"/>
+  
+  <!-- 诗词文字 -->
+  <text x="300" y="250" font-family="Microsoft YaHei" font-size="24" fill="#b84592">春眠不觉晓</text>
+  <text x="300" y="290" font-family="Microsoft YaHei" font-size="24" fill="#b84592">处处闻啼鸟</text>
+  <text x="300" y="330" font-family="Microsoft YaHei" font-size="24" fill="#b84592">夜来风雨声</text>
+  <text x="300" y="370" font-family="Microsoft YaHei" font-size="24" fill="#b84592">花落知多少</text>
+  
+  <!-- 装饰元素 -->
+  <circle cx="200" cy="150" r="5" fill="#b84592" opacity="0.5"/>
+  <circle cx="600" cy="450" r="5" fill="#b84592" opacity="0.5"/>
+  <circle cx="400" cy="100" r="3" fill="#b84592" opacity="0.5"/>
+  <circle cx="700" cy="300" r="3" fill="#b84592" opacity="0.5"/>
+</svg> 

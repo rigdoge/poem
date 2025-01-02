@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://your-docusaurus-site.example.com/blog</id>
+    <title>古诗文 Blog</title>
+    <updated>2024-01-24T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://your-docusaurus-site.example.com/blog"/>
+    <subtitle>古诗文 Blog</subtitle>
+    <icon>https://your-docusaurus-site.example.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[v0.2.7 发布说明]]></title>
+        <id>https://your-docusaurus-site.example.com/blog/v0.2.7</id>
+        <link href="https://your-docusaurus-site.example.com/blog/v0.2.7"/>
+        <updated>2024-01-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[在这个版本中，我们对诗词注释系统进行了全面升级，实现了更加详细和系统化的注释功能。]]></summary>
+        <content type="html"><![CDATA[<p>在这个版本中，我们对诗词注释系统进行了全面升级，实现了更加详细和系统化的注释功能。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="主要更新">主要更新<a href="https://your-docusaurus-site.example.com/blog/v0.2.7#%E4%B8%BB%E8%A6%81%E6%9B%B4%E6%96%B0" class="hash-link" aria-label="主要更新的直接链接" title="主要更新的直接链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-三层注释系统">1. 三层注释系统<a href="https://your-docusaurus-site.example.com/blog/v0.2.7#1-%E4%B8%89%E5%B1%82%E6%B3%A8%E9%87%8A%E7%B3%BB%E7%BB%9F" class="hash-link" aria-label="1. 三层注释系统的直接链接" title="1. 三层注释系统的直接链接">​</a></h3>
+<p>新版本引入了三层注释系统，确保每个字都有详细解释：</p>
+<ol>
+<li>
+<p><strong>诗歌专用注释</strong>：针对特定诗歌中的用字用词提供专门解释</p>
+<ul>
+<li>例如"金樽"、"黄河"等特定词语的详细注释</li>
+<li>包含词语在诗中的特殊含义和典故</li>
+</ul>
+</li>
+<li>
+<p><strong>词语关联注释</strong>：通过词语来理解单字</p>
+<ul>
+<li>当某个字出现在特定词语中时，会引用词语的完整解释</li>
+<li>帮助读者理解字在不同语境中的含义</li>
+</ul>
+</li>
+<li>
+<p><strong>基础字典</strong>：为所有汉字提供基本解释</p>
+<ul>
+<li>包含常用字的基本含义</li>
+<li>按照词性分类（动作、方位、时间、数量等）</li>
+<li>确保每个字都有注释说明</li>
+</ul>
+</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-注释分类系统">2. 注释分类系统<a href="https://your-docusaurus-site.example.com/blog/v0.2.7#2-%E6%B3%A8%E9%87%8A%E5%88%86%E7%B1%BB%E7%B3%BB%E7%BB%9F" class="hash-link" aria-label="2. 注释分类系统的直接链接" title="2. 注释分类系统的直接链接">​</a></h3>
+<p>基础字典中的字按以下类别组织：</p>
+<ul>
+<li>基本动作：见、来、去、望等</li>
+<li>方位词：上、下、中、内、外等</li>
+<li>时间词：朝、暮、昔、今等</li>
+<li>数量词：一、三、千、万等</li>
+<li>代词：我、其、之、尔等</li>
+<li>形容词：高、明、白、空等</li>
+<li>连词和语气词：且、与、为、何等</li>
+<li>名词：水、河、海、山等</li>
+<li>其他常用字</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-自动化工具升级">3. 自动化工具升级<a href="https://your-docusaurus-site.example.com/blog/v0.2.7#3-%E8%87%AA%E5%8A%A8%E5%8C%96%E5%B7%A5%E5%85%B7%E5%8D%87%E7%BA%A7" class="hash-link" aria-label="3. 自动化工具升级的直接链接" title="3. 自动化工具升级的直接链接">​</a></h3>
+<ul>
+<li>改进了诗歌生成脚本，支持更复杂的注释系统</li>
+<li>添加了注释数据库，可以方便地扩充注释内容</li>
+<li>支持通过命令行直接生成指定诗歌</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="使用示例">使用示例<a href="https://your-docusaurus-site.example.com/blog/v0.2.7#%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B" class="hash-link" aria-label="使用示例的直接链接" title="使用示例的直接链接">​</a></h2>
+<p>以李白的《将进酒》为例，新系统提供了：</p>
+<ol>
+<li>
+<p>字级注释：</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">君：对话中对对方的尊称</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">黄河：中国第二长河，发源于青海省巴颜克拉山脉，流经九个省区</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">金樽：美酒器皿，古代用以盛酒的金属容器</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>
+<p>句级注释：</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">君不见黄河之水天上来：开篇用设问，描写黄河之水奔腾而下的壮观景象</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">朝如青丝暮成雪：形容人容易衰老，早晨还是黑发，傍晚就白了</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="后续计划">后续计划<a href="https://your-docusaurus-site.example.com/blog/v0.2.7#%E5%90%8E%E7%BB%AD%E8%AE%A1%E5%88%92" class="hash-link" aria-label="后续计划的直接链接" title="后续计划的直接链接">​</a></h2>
+<ol>
+<li>继续扩充基础字典的收录范围</li>
+<li>添加更多诗歌的专用注释</li>
+<li>完善注释系统的智能推荐功能</li>
+<li>优化注释展示的用户界面</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="技术细节">技术细节<a href="https://your-docusaurus-site.example.com/blog/v0.2.7#%E6%8A%80%E6%9C%AF%E7%BB%86%E8%8A%82" class="hash-link" aria-label="技术细节的直接链接" title="技术细节的直接链接">​</a></h2>
+<ul>
+<li>使用 Python 实现自动化注释生成</li>
+<li>采用多层注释查找策略</li>
+<li>支持繁简转换</li>
+<li>整合拼音和平仄标注</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="反馈">反馈<a href="https://your-docusaurus-site.example.com/blog/v0.2.7#%E5%8F%8D%E9%A6%88" class="hash-link" aria-label="反馈的直接链接" title="反馈的直接链接">​</a></h2>
+<p>如果你在使用过程中发现任何问题，或者有改进建议，欢迎通过以下方式反馈：</p>
+<ol>
+<li>在 GitHub 上提交 Issue</li>
+<li>在评论区留言</li>
+<li>通过邮件联系我们</li>
+</ol>
+<p>感谢大家的支持！</p>]]></content>
+        <author>
+            <name>Johnny</name>
+            <uri>https://chat.chenyinke.com</uri>
+        </author>
+        <category label="版本发布" term="版本发布"/>
+        <category label="更新记录" term="更新记录"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v0.2.8 发布说明]]></title>
+        <id>https://your-docusaurus-site.example.com/blog/v0.2.8</id>
+        <link href="https://your-docusaurus-site.example.com/blog/v0.2.8"/>
+        <updated>2024-01-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[我们很高兴地宣布 v0.2.8 版本发布了！这个版本主要优化了网站的搜索体验。]]></summary>
+        <content type="html"><![CDATA[<p>我们很高兴地宣布 v0.2.8 版本发布了！这个版本主要优化了网站的搜索体验。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-新特性">🚀 新特性<a href="https://your-docusaurus-site.example.com/blog/v0.2.8#-%E6%96%B0%E7%89%B9%E6%80%A7" class="hash-link" aria-label="🚀 新特性的直接链接" title="🚀 新特性的直接链接">​</a></h2>
+<ul>
+<li>将搜索页面设置为网站首页，让用户可以更快地找到想要的诗词</li>
+<li>优化了搜索框的样式，使其更大更醒目</li>
+<li>移除了导航栏中的搜索链接，简化了导航结构</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-技术细节">🔧 技术细节<a href="https://your-docusaurus-site.example.com/blog/v0.2.8#-%E6%8A%80%E6%9C%AF%E7%BB%86%E8%8A%82" class="hash-link" aria-label="🔧 技术细节的直接链接" title="🔧 技术细节的直接链接">​</a></h2>
+<ul>
+<li>使用 Docusaurus 的 <code>index.js</code> 机制设置首页</li>
+<li>通过 CSS 自定义样式优化了搜索框的外观</li>
+<li>重构了网站的路由配置</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-其他改进">📝 其他改进<a href="https://your-docusaurus-site.example.com/blog/v0.2.8#-%E5%85%B6%E4%BB%96%E6%94%B9%E8%BF%9B" class="hash-link" aria-label="📝 其他改进的直接链接" title="📝 其他改进的直接链接">​</a></h2>
+<ul>
+<li>优化了代码结构</li>
+<li>提升了用户体验</li>
+<li>简化了网站导航</li>
+</ul>
+<p>我们会继续努力，为大家提供更好的古诗词学习平台。如果你有任何建议或发现任何问题，欢迎在 GitHub 上提交 issue。</p>]]></content>
+        <author>
+            <name>Johnny</name>
+            <uri>https://chat.chenyinke.com</uri>
+        </author>
+        <category label="版本发布" term="版本发布"/>
+        <category label="更新记录" term="更新记录"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[水调歌头·明月几时有]]></title>
+        <id>https://your-docusaurus-site.example.com/blog/shui-diao-ge-tou</id>
+        <link href="https://your-docusaurus-site.example.com/blog/shui-diao-ge-tou"/>
+        <updated>2024-01-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[《水调歌头》是苏轼最著名的词作之一，写于1082年中秋，抒发了作者对人生聚散无常的感慨，以及对亲人的思念之情。全词构思精巧，意境开阔，语言清丽自然。]]></summary>
+        <content type="html"><![CDATA[<p>《水调歌头》是苏轼最著名的词作之一，写于1082年中秋，抒发了作者对人生聚散无常的感慨，以及对亲人的思念之情。全词构思精巧，意境开阔，语言清丽自然。</p>
+<!-- -->
+<!-- -->
+<div class="poem_TUP3"><h3 id="-" class="title_uGe4">水调歌头·明月几时有</h3><div class="authorLine_FGg_"><span class="author_t8n9">苏轼</span><div class="controls_OZs8"><button class="pinyinToggle_O9C9" aria-label="切换繁体" title="切换繁体"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M12.87 15.07l-2.54-2.51.03-.03A17.52 17.52 0 0014.07 6H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg></button><button class="pinyinToggle_O9C9" aria-label="显示拼音" title="显示拼音"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"></path></svg></button><button class="pinyinToggle_O9C9" aria-label="显示平仄" title="显示平仄"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M470.38 1.51L150.41 96A32 32 0 0 0 128 126.51v261.41A139 139 0 0 0 96 384c-53 0-96 28.66-96 64s43 64 96 64 96-28.66 96-64V214.32l256-75v184.61a138.4 138.4 0 0 0-32-3.93c-53 0-96 28.66-96 64s43 64 96 64 96-28.65 96-64V32a32 32 0 0 0-41.62-30.49z"></path></svg></button><button class="pinyinToggle_O9C9" aria-label="开启注释" title="开启注释"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"></path><path d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"></path></svg></button></div></div><div class="content_Oh1b"><div class="line_ivj4"><div class="characterWrapper_UyLV"><div class="character_nTu0">明</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">月</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">几</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">时</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">有</div></div></div><div class="line_ivj4"><div class="characterWrapper_UyLV"><div class="character_nTu0">把</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">酒</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">问</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">青</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">天</div></div></div><div class="line_ivj4"><div class="characterWrapper_UyLV"><div class="character_nTu0">不</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">知</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">天</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">上</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">宫</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">阙</div></div></div><div class="line_ivj4"><div class="characterWrapper_UyLV"><div class="character_nTu0">今</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">夕</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">是</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">何</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">年</div></div></div><div class="line_ivj4"><div class="characterWrapper_UyLV"><div class="character_nTu0">我</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">欲</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">乘</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">风</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">归</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">去</div></div></div><div class="line_ivj4"><div class="characterWrapper_UyLV"><div class="character_nTu0">又</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">恐</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">琼</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">楼</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">玉</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">宇</div></div></div><div class="line_ivj4"><div class="characterWrapper_UyLV"><div class="character_nTu0">高</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">处</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">不</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">胜</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">寒</div></div></div><div class="line_ivj4"><div class="characterWrapper_UyLV"><div class="character_nTu0">起</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">舞</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">弄</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">清</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">影</div></div></div><div class="line_ivj4"><div class="characterWrapper_UyLV"><div class="character_nTu0">何</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">似</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">在</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">人</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">间</div></div></div><div class="line_ivj4"><div class="characterWrapper_UyLV"><div class="character_nTu0">转</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">朱</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">阁</div></div></div><div class="line_ivj4"><div class="characterWrapper_UyLV"><div class="character_nTu0">低</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">绮</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">户</div></div></div><div class="line_ivj4"><div class="characterWrapper_UyLV"><div class="character_nTu0">照</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">无</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">眠</div></div></div><div class="line_ivj4"><div class="characterWrapper_UyLV"><div class="character_nTu0">不</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">应</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">有</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">恨</div></div></div><div class="line_ivj4"><div class="characterWrapper_UyLV"><div class="character_nTu0">何</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">事</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">长</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">向</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">别</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">时</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">圆</div></div></div><div class="line_ivj4"><div class="characterWrapper_UyLV"><div class="character_nTu0">人</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">有</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">悲</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">欢</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">离</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">合</div></div></div><div class="line_ivj4"><div class="characterWrapper_UyLV"><div class="character_nTu0">月</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">有</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">阴</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">晴</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">圆</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">缺</div></div></div><div class="line_ivj4"><div class="characterWrapper_UyLV"><div class="character_nTu0">此</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">事</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">古</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">难</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">全</div></div></div><div class="line_ivj4"><div class="characterWrapper_UyLV"><div class="character_nTu0">但</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">愿</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">人</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">长</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">久</div></div></div><div class="line_ivj4"><div class="characterWrapper_UyLV"><div class="character_nTu0">千</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">里</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">共</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">婵</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">娟</div></div></div></div><div class="shareContainer_kswI"><span class="shareText_gscT">分享到：</span><div class="shareButtons_eI_Q"><div class="mainShare_cqoU"><button class="shareButton_bDlD" aria-label="Share on X"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path></svg></button><button class="shareButton_bDlD" aria-label="Share on Telegram"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"></path></svg></button><button class="shareButton_bDlD" aria-label="复制文本"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M0 64C0 28.7 28.7 0 64 0H224V128c0 17.7 14.3 32 32 32H384V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm384 64H256V0L384 128z"></path></svg></button><button class="shareButton_bDlD" aria-label="分享网址"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M352 224c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96c0 4 .2 8 .7 11.9l-94.1 47C145.4 170.2 121.9 160 96 160c-53 0-96 43-96 96s43 96 96 96c25.9 0 49.4-10.2 66.6-26.9l94.1 47c-.5 3.9-.7 7.8-.7 11.9c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-25.9 0-49.4 10.2-66.6 26.9l-94.1-47c.5-3.9 .7-7.8 .7-11.9s-.2-8-.7-11.9l94.1-47C302.6 213.8 326.1 224 352 224z"></path></svg></button><div class="moreContainer_Fh6U"><button class="shareButton_bDlD" aria-label="更多分享选项"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"></path></svg></button></div></div></div></div></div>]]></content>
+        <author>
+            <name>Johnny</name>
+            <uri>https://chat.chenyinke.com</uri>
+        </author>
+        <category label="宋词" term="宋词"/>
+        <category label="苏轼" term="苏轼"/>
+        <category label="抒情" term="抒情"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[版本 0.2.9 更新说明]]></title>
+        <id>https://your-docusaurus-site.example.com/blog/v0.2.9</id>
+        <link href="https://your-docusaurus-site.example.com/blog/v0.2.9"/>
+        <updated>2024-01-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[这个版本主要包含以下更新：]]></summary>
+        <content type="html"><![CDATA[<p>这个版本主要包含以下更新：</p>
+<ol>
+<li>
+<p>修复了诗词平仄显示的问题</p>
+<ul>
+<li>统一了平仄数据的格式，使用 <code>toneData</code> 作为属性名</li>
+<li>每个字的平仄使用 <code>"ping"</code> 或 <code>"ze"</code> 表示</li>
+<li>使用自动化脚本生成准确的平仄数据</li>
+</ul>
+</li>
+<li>
+<p>完善了诗词注释</p>
+<ul>
+<li>为《水调歌头·明月几时有》添加了完整的字词注释和行注释</li>
+<li>为《如梦令·昨夜雨疏风骤》添加了完整的字词注释和行注释</li>
+</ul>
+</li>
+<li>
+<p>优化了自动化脚本</p>
+<ul>
+<li>改进了平仄生成的逻辑</li>
+<li>完善了注释数据库</li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="平仄显示优化">平仄显示优化<a href="https://your-docusaurus-site.example.com/blog/v0.2.9#%E5%B9%B3%E4%BB%84%E6%98%BE%E7%A4%BA%E4%BC%98%E5%8C%96" class="hash-link" aria-label="平仄显示优化的直接链接" title="平仄显示优化的直接链接">​</a></h2>
+<p>在这个版本中，我们统一了平仄数据的格式：</p>
+<div class="language-javascript codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-javascript codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword module" style="color:#00009f">export</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> poemData </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token comment" style="color:#999988;font-style:italic">// ...</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token literal-property property" style="color:#36acaa">toneData</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">[</span><span class="token string" style="color:#e3116c">"ze"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"ze"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"ping"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"ze"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"ping"</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">[</span><span class="token string" style="color:#e3116c">"ping"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"ping"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"ze"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"ze"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"ze"</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token comment" style="color:#999988;font-style:italic">// ...</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">]</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>每个字的平仄都由一个字符串表示，可以是 <code>"ping"</code> 或 <code>"ze"</code>。这种格式更加清晰和统一，便于前端组件处理和显示。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="注释系统完善">注释系统完善<a href="https://your-docusaurus-site.example.com/blog/v0.2.9#%E6%B3%A8%E9%87%8A%E7%B3%BB%E7%BB%9F%E5%AE%8C%E5%96%84" class="hash-link" aria-label="注释系统完善的直接链接" title="注释系统完善的直接链接">​</a></h2>
+<p>我们为两首诗添加了完整的注释：</p>
+<ol>
+<li>字词注释：解释每个字的含义和用法</li>
+<li>行注释：解释每一行的整体含义</li>
+<li>词组注释：解释特定的词组，如"琼楼玉宇"、"绿肥红瘦"等</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="自动化改进">自动化改进<a href="https://your-docusaurus-site.example.com/blog/v0.2.9#%E8%87%AA%E5%8A%A8%E5%8C%96%E6%94%B9%E8%BF%9B" class="hash-link" aria-label="自动化改进的直接链接" title="自动化改进的直接链接">​</a></h2>
+<p>改进了自动化脚本的功能：</p>
+<ol>
+<li>平仄生成：根据拼音自动生成准确的平仄数据</li>
+<li>注释生成：从数据库中提取相关注释</li>
+<li>格式统一：确保生成的数据格式一致</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="下一步计划">下一步计划<a href="https://your-docusaurus-site.example.com/blog/v0.2.9#%E4%B8%8B%E4%B8%80%E6%AD%A5%E8%AE%A1%E5%88%92" class="hash-link" aria-label="下一步计划的直接链接" title="下一步计划的直接链接">​</a></h2>
+<ol>
+<li>继续完善注释数据库</li>
+<li>优化前端显示效果</li>
+<li>添加更多诗词作品</li>
+</ol>]]></content>
+        <author>
+            <name>Johnny</name>
+            <uri>https://chat.chenyinke.com</uri>
+        </author>
+        <category label="版本" term="版本"/>
+        <category label="更新" term="更新"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如梦令·昨夜雨疏风骤]]></title>
+        <id>https://your-docusaurus-site.example.com/blog/ru-meng-ling</id>
+        <link href="https://your-docusaurus-site.example.com/blog/ru-meng-ling"/>
+        <updated>2024-01-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[《如梦令》是李清照最著名的词作之一，描写了一个春天的早晨，词人在宿醉未醒时看到海棠花的场景，以"绿肥红瘦"的妙语道出了春天的特征。]]></summary>
+        <content type="html"><![CDATA[<p>《如梦令》是李清照最著名的词作之一，描写了一个春天的早晨，词人在宿醉未醒时看到海棠花的场景，以"绿肥红瘦"的妙语道出了春天的特征。</p>
+<!-- -->
+<!-- -->
+<div class="poem_TUP3"><h3 id="-" class="title_uGe4">如梦令·昨夜雨疏风骤</h3><div class="authorLine_FGg_"><span class="author_t8n9">李清照</span><div class="controls_OZs8"><button class="pinyinToggle_O9C9" aria-label="切换繁体" title="切换繁体"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M12.87 15.07l-2.54-2.51.03-.03A17.52 17.52 0 0014.07 6H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg></button><button class="pinyinToggle_O9C9" aria-label="显示拼音" title="显示拼音"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M572.52 241.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400a144 144 0 1 1 144-144 143.93 143.93 0 0 1-144 144zm0-240a95.31 95.31 0 0 0-25.31 3.79 47.85 47.85 0 0 1-66.9 66.9A95.78 95.78 0 1 0 288 160z"></path></svg></button><button class="pinyinToggle_O9C9" aria-label="显示平仄" title="显示平仄"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M470.38 1.51L150.41 96A32 32 0 0 0 128 126.51v261.41A139 139 0 0 0 96 384c-53 0-96 28.66-96 64s43 64 96 64 96-28.66 96-64V214.32l256-75v184.61a138.4 138.4 0 0 0-32-3.93c-53 0-96 28.66-96 64s43 64 96 64 96-28.65 96-64V32a32 32 0 0 0-41.62-30.49z"></path></svg></button><button class="pinyinToggle_O9C9" aria-label="开启注释" title="开启注释"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"></path><path d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"></path></svg></button></div></div><div class="content_Oh1b"><div class="line_ivj4"><div class="characterWrapper_UyLV"><div class="character_nTu0">昨</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">夜</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">雨</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">疏</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">风</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">骤</div></div></div><div class="line_ivj4"><div class="characterWrapper_UyLV"><div class="character_nTu0">浓</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">睡</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">不</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">消</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">残</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">酒</div></div></div><div class="line_ivj4"><div class="characterWrapper_UyLV"><div class="character_nTu0">试</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">问</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">卷</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">帘</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">人</div></div></div><div class="line_ivj4"><div class="characterWrapper_UyLV"><div class="character_nTu0">却</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">道</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">海</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">棠</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">依</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">旧</div></div></div><div class="line_ivj4"><div class="characterWrapper_UyLV"><div class="character_nTu0">知</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">否</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">，</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">知</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">否</div></div></div><div class="line_ivj4"><div class="characterWrapper_UyLV"><div class="character_nTu0">应</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">是</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">绿</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">肥</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">红</div></div><div class="characterWrapper_UyLV"><div class="character_nTu0">瘦</div></div></div></div><div class="shareContainer_kswI"><span class="shareText_gscT">分享到：</span><div class="shareButtons_eI_Q"><div class="mainShare_cqoU"><button class="shareButton_bDlD" aria-label="Share on X"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path></svg></button><button class="shareButton_bDlD" aria-label="Share on Telegram"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"></path></svg></button><button class="shareButton_bDlD" aria-label="复制文本"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M0 64C0 28.7 28.7 0 64 0H224V128c0 17.7 14.3 32 32 32H384V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm384 64H256V0L384 128z"></path></svg></button><button class="shareButton_bDlD" aria-label="分享网址"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M352 224c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96c0 4 .2 8 .7 11.9l-94.1 47C145.4 170.2 121.9 160 96 160c-53 0-96 43-96 96s43 96 96 96c25.9 0 49.4-10.2 66.6-26.9l94.1 47c-.5 3.9-.7 7.8-.7 11.9c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-25.9 0-49.4 10.2-66.6 26.9l-94.1-47c.5-3.9 .7-7.8 .7-11.9s-.2-8-.7-11.9l94.1-47C302.6 213.8 326.1 224 352 224z"></path></svg></button><div class="moreContainer_Fh6U"><button class="shareButton_bDlD" aria-label="更多分享选项"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"></path></svg></button></div></div></div></div></div>]]></content>
+        <author>
+            <name>Johnny</name>
+            <uri>https://chat.chenyinke.com</uri>
+        </author>
+        <category label="宋词" term="宋词"/>
+        <category label="李清照" term="李清照"/>
+        <category label="抒情" term="抒情"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[诗画相融：古诗词与传统艺术的完美结合]]></title>
+        <id>https://your-docusaurus-site.example.com/blog/poetry-and-art</id>
+        <link href="https://your-docusaurus-site.example.com/blog/poetry-and-art"/>
+        <updated>2024-01-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[诗词与绘画，是中国传统文化中最具代表性的两种艺术形式。它们不仅各自发展出独特的艺术语言，更在漫长的历史长河中不断交融，创造出"诗中有画，画中有诗"的艺术境界。]]></summary>
+        <content type="html"><![CDATA[<p>诗词与绘画，是中国传统文化中最具代表性的两种艺术形式。它们不仅各自发展出独特的艺术语言，更在漫长的历史长河中不断交融，创造出"诗中有画，画中有诗"的艺术境界。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="诗画同源">诗画同源<a href="https://your-docusaurus-site.example.com/blog/poetry-and-art#%E8%AF%97%E7%94%BB%E5%90%8C%E6%BA%90" class="hash-link" aria-label="诗画同源的直接链接" title="诗画同源的直接链接">​</a></h2>
+<p>中国古代文人常说"诗画一律"，意味着诗歌与绘画在艺术表现上有着共同的审美追求。两者都强调意境的营造，都追求"形神兼备"的艺术效果。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="山水诗与山水画">山水诗与山水画<a href="https://your-docusaurus-site.example.com/blog/poetry-and-art#%E5%B1%B1%E6%B0%B4%E8%AF%97%E4%B8%8E%E5%B1%B1%E6%B0%B4%E7%94%BB" class="hash-link" aria-label="山水诗与山水画的直接链接" title="山水诗与山水画的直接链接">​</a></h3>
+<p>以王维的诗句为例：</p>
+<blockquote>
+<p>空山新雨后，天气晚来秋。<br>
+<!-- -->明月松间照，清泉石上流。</p>
+</blockquote>
+<p>这首诗不仅用文字描绘出一幅清新秀丽的山水图，更在字里行间渗透着诗人对自然的感悟。同样的意境，在山水画中也常常可见。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="书法艺术">书法艺术<a href="https://your-docusaurus-site.example.com/blog/poetry-and-art#%E4%B9%A6%E6%B3%95%E8%89%BA%E6%9C%AF" class="hash-link" aria-label="书法艺术的直接链接" title="书法艺术的直接链接">​</a></h2>
+<p>书法作为诗词的载体，本身就是一种极具表现力的视觉艺术。名家书写的诗词作品，往往能通过笔法的变化展现出诗歌的韵律感和情感起伏。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="书法特点">书法特点<a href="https://your-docusaurus-site.example.com/blog/poetry-and-art#%E4%B9%A6%E6%B3%95%E7%89%B9%E7%82%B9" class="hash-link" aria-label="书法特点的直接链接" title="书法特点的直接链接">​</a></h3>
+<ol>
+<li>结构布局</li>
+<li>笔法变化</li>
+<li>墨色运用</li>
+<li>意境表达</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="现代启示">现代启示<a href="https://your-docusaurus-site.example.com/blog/poetry-and-art#%E7%8E%B0%E4%BB%A3%E5%90%AF%E7%A4%BA" class="hash-link" aria-label="现代启示的直接链接" title="现代启示的直接链接">​</a></h2>
+<p>在当代艺术创作中，我们依然可以从这种艺术融合中获得启发：</p>
+<ul>
+<li>跨界思维的重要性</li>
+<li>传统与现代的结合</li>
+<li>艺术表现的多样性</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="结语">结语<a href="https://your-docusaurus-site.example.com/blog/poetry-and-art#%E7%BB%93%E8%AF%AD" class="hash-link" aria-label="结语的直接链接" title="结语的直接链接">​</a></h2>
+<p>诗画相融的艺术理念，展现了中国传统文化的独特魅力，也为现代艺术创作提供了宝贵的借鉴。</p>]]></content>
+        <author>
+            <name>Johnny</name>
+            <uri>https://chat.chenyinke.com</uri>
+        </author>
+        <category label="诗词鉴赏" term="诗词鉴赏"/>
+        <category label="艺术" term="艺术"/>
+        <category label="书法" term="书法"/>
+        <category label="绘画" term="绘画"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[诗词鉴赏：如何品味古诗词之美]]></title>
+        <id>https://your-docusaurus-site.example.com/blog/poetry-appreciation</id>
+        <link href="https://your-docusaurus-site.example.com/blog/poetry-appreciation"/>
+        <updated>2024-01-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[在欣赏古诗词时，我们不仅要关注字面意思，更要体会诗人当时的心境和时代背景。本文将为大家介绍几种欣赏古诗词的方法。]]></summary>
+        <content type="html"><![CDATA[<p>在欣赏古诗词时，我们不仅要关注字面意思，更要体会诗人当时的心境和时代背景。本文将为大家介绍几种欣赏古诗词的方法。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="理解字面含义">理解字面含义<a href="https://your-docusaurus-site.example.com/blog/poetry-appreciation#%E7%90%86%E8%A7%A3%E5%AD%97%E9%9D%A2%E5%90%AB%E4%B9%89" class="hash-link" aria-label="理解字面含义的直接链接" title="理解字面含义的直接链接">​</a></h2>
+<p>首先要准确理解每个字的含义，特别是一些古字、通假字等。例如"不违农时"中的"违"通"失"，意思是不错过农时。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="把握意境">把握意境<a href="https://your-docusaurus-site.example.com/blog/poetry-appreciation#%E6%8A%8A%E6%8F%A1%E6%84%8F%E5%A2%83" class="hash-link" aria-label="把握意境的直接链接" title="把握意境的直接链接">​</a></h2>
+<p>诗词的意境往往包含多个层次：</p>
+<ul>
+<li>表层意境：直观感受到的景物描写</li>
+<li>深层意境：诗人想要表达的情感</li>
+<li>时代背景：创作时的历史环境</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="品味技法">品味技法<a href="https://your-docusaurus-site.example.com/blog/poetry-appreciation#%E5%93%81%E5%91%B3%E6%8A%80%E6%B3%95" class="hash-link" aria-label="品味技法的直接链接" title="品味技法的直接链接">​</a></h2>
+<p>古诗词常用的技法包括：</p>
+<ul>
+<li>比兴：以物比情，托物言志</li>
+<li>借景抒情：通过描绘景物来表达情感</li>
+<li>对偶：工整对称的句式</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="感受情感">感受情感<a href="https://your-docusaurus-site.example.com/blog/poetry-appreciation#%E6%84%9F%E5%8F%97%E6%83%85%E6%84%9F" class="hash-link" aria-label="感受情感的直接链接" title="感受情感的直接链接">​</a></h2>
+<p>要设身处地地思考：</p>
+<ul>
+<li>诗人是什么身份</li>
+<li>处于什么样的环境</li>
+<li>面临什么样的处境</li>
+</ul>
+<p>这样才能更深入地理解诗词中蕴含的情感。</p>]]></content>
+        <author>
+            <name>Johnny</name>
+            <uri>https://chat.chenyinke.com</uri>
+        </author>
+        <category label="诗词欣赏" term="诗词欣赏"/>
+        <category label="教程" term="教程"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[诗词网站更新：v0.2.3 - 添加注释系统]]></title>
+        <id>https://your-docusaurus-site.example.com/blog/v0.2.3-release</id>
+        <link href="https://your-docusaurus-site.example.com/blog/v0.2.3-release"/>
+        <updated>2024-01-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[我们很高兴地宣布诗词网站 v0.2.3 版本发布了！这个版本主要添加了注释系统，让用户可以更好地理解诗词的含义。]]></summary>
+        <content type="html"><![CDATA[<p>我们很高兴地宣布诗词网站 v0.2.3 版本发布了！这个版本主要添加了注释系统，让用户可以更好地理解诗词的含义。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="新功能hoverpoem-组件">新功能：HoverPoem 组件<a href="https://your-docusaurus-site.example.com/blog/v0.2.3-release#%E6%96%B0%E5%8A%9F%E8%83%BDhoverpoem-%E7%BB%84%E4%BB%B6" class="hash-link" aria-label="新功能：HoverPoem 组件的直接链接" title="新功能：HoverPoem 组件的直接链接">​</a></h2>
+<p>这个版本的主要更新是添加了 <code>HoverPoem</code> 组件，它提供了一种全新的诗歌注释交互方式：</p>
+<ol>
+<li>
+<p><strong>智能注释开关</strong></p>
+<ul>
+<li>添加了一个优雅的书本图标按钮</li>
+<li>默认关闭注释，保持诗歌原有的简洁美感</li>
+<li>点击按钮可以随时开启/关闭注释功能</li>
+</ul>
+</li>
+<li>
+<p><strong>交互式注释</strong></p>
+<ul>
+<li>当注释功能开启时，可注释的字词会显示下划线标记</li>
+<li>鼠标悬停或点击可以查看详细注释</li>
+<li>注释内容包含字词的多重含义和文化内涵</li>
+</ul>
+</li>
+<li>
+<p><strong>移动端优化</strong></p>
+<ul>
+<li>适配了移动设备的触摸交互</li>
+<li>优化了移动端的显示效果</li>
+<li>提供了流畅的点击体验</li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="技术细节">技术细节<a href="https://your-docusaurus-site.example.com/blog/v0.2.3-release#%E6%8A%80%E6%9C%AF%E7%BB%86%E8%8A%82" class="hash-link" aria-label="技术细节的直接链接" title="技术细节的直接链接">​</a></h2>
+<ul>
+<li>使用 React Hooks 管理组件状态</li>
+<li>采用 CSS Modules 实现样式隔离</li>
+<li>支持响应式设计</li>
+<li>使用 react-icons 提供图标支持</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="示例">示例<a href="https://your-docusaurus-site.example.com/blog/v0.2.3-release#%E7%A4%BA%E4%BE%8B" class="hash-link" aria-label="示例的直接链接" title="示例的直接链接">​</a></h2>
+<p>我们在 <a href="https://your-docusaurus-site.example.com/docs/poetry/tang/test-hover">测试页面</a> 提供了一个完整的示例，展示了杜甫的《登高》，每个字都添加了详尽的注释说明。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="依赖更新">依赖更新<a href="https://your-docusaurus-site.example.com/blog/v0.2.3-release#%E4%BE%9D%E8%B5%96%E6%9B%B4%E6%96%B0" class="hash-link" aria-label="依赖更新的直接链接" title="依赖更新的直接链接">​</a></h2>
+<ul>
+<li>保持了所有依赖包的最新版本</li>
+<li>核心框架：<!-- -->
+<ul>
+<li>@docusaurus/core: ^3.6.3</li>
+<li>react: ^18.0.0</li>
+<li>react-icons: ^4.12.0</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="下一步计划">下一步计划<a href="https://your-docusaurus-site.example.com/blog/v0.2.3-release#%E4%B8%8B%E4%B8%80%E6%AD%A5%E8%AE%A1%E5%88%92" class="hash-link" aria-label="下一步计划的直接链接" title="下一步计划的直接链接">​</a></h2>
+<p>我们将继续优化注释功能，计划添加：</p>
+<ul>
+<li>注释内容的分类展示</li>
+<li>更多的交互动画效果</li>
+<li>批注和笔记功能</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="反馈">反馈<a href="https://your-docusaurus-site.example.com/blog/v0.2.3-release#%E5%8F%8D%E9%A6%88" class="hash-link" aria-label="反馈的直接链接" title="反馈的直接链接">​</a></h2>
+<p>如果您在使用过程中遇到任何问题，或者有任何建议，欢迎在 GitHub 上提交 issue 或 pull request。</p>]]></content>
+        <author>
+            <name>Johnny</name>
+            <uri>https://chat.chenyinke.com</uri>
+        </author>
+        <category label="版本发布" term="版本发布"/>
+        <category label="Feature" term="Feature"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[诗词网站更新：v0.2.5]]></title>
+        <id>https://your-docusaurus-site.example.com/blog/2024/01/14/v0.2.5</id>
+        <link href="https://your-docusaurus-site.example.com/blog/2024/01/14/v0.2.5"/>
+        <updated>2024-01-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[今天我们发布了诗词网站的 v0.2.5 版本更新，主要改进了注释功能的视觉体验。]]></summary>
+        <content type="html"><![CDATA[<p>今天我们发布了诗词网站的 v0.2.5 版本更新，主要改进了注释功能的视觉体验。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="功能更新">功能更新<a href="https://your-docusaurus-site.example.com/blog/2024/01/14/v0.2.5#%E5%8A%9F%E8%83%BD%E6%9B%B4%E6%96%B0" class="hash-link" aria-label="功能更新的直接链接" title="功能更新的直接链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-整合注释系统">1. 整合注释系统<a href="https://your-docusaurus-site.example.com/blog/2024/01/14/v0.2.5#1-%E6%95%B4%E5%90%88%E6%B3%A8%E9%87%8A%E7%B3%BB%E7%BB%9F" class="hash-link" aria-label="1. 整合注释系统的直接链接" title="1. 整合注释系统的直接链接">​</a></h3>
+<ul>
+<li>将 <code>HoverPoem</code> 组件的注释功能整合到 <code>PinyinPoem</code> 组件中</li>
+<li>保留了原有的拼音显示和简繁体切换功能</li>
+<li>优化了组件的代码结构</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-注释样式优化">2. 注释样式优化<a href="https://your-docusaurus-site.example.com/blog/2024/01/14/v0.2.5#2-%E6%B3%A8%E9%87%8A%E6%A0%B7%E5%BC%8F%E4%BC%98%E5%8C%96" class="hash-link" aria-label="2. 注释样式优化的直接链接" title="2. 注释样式优化的直接链接">​</a></h3>
+<ul>
+<li>添加了5种下划线样式供选择：<!-- -->
+<ul>
+<li>实线 (solid)</li>
+<li>点线 (dotted)</li>
+<li>短划线 (dashed)</li>
+<li>双线 (double)</li>
+<li>波浪线 (wavy)</li>
+</ul>
+</li>
+<li>优化了下划线的视觉效果：<!-- -->
+<ul>
+<li>线条粗细调整为 0.5px</li>
+<li>添加了淡蓝色效果</li>
+<li>与文字的间距设为 4px</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-朝代信息显示">3. 朝代信息显示<a href="https://your-docusaurus-site.example.com/blog/2024/01/14/v0.2.5#3-%E6%9C%9D%E4%BB%A3%E4%BF%A1%E6%81%AF%E6%98%BE%E7%A4%BA" class="hash-link" aria-label="3. 朝代信息显示的直接链接" title="3. 朝代信息显示的直接链接">​</a></h3>
+<ul>
+<li>添加了诗人朝代信息</li>
+<li>默认隐藏，开启注释时才显示</li>
+<li>添加了优雅的淡入动画效果</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="技术细节">技术细节<a href="https://your-docusaurus-site.example.com/blog/2024/01/14/v0.2.5#%E6%8A%80%E6%9C%AF%E7%BB%86%E8%8A%82" class="hash-link" aria-label="技术细节的直接链接" title="技术细节的直接链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="css-优化">CSS 优化<a href="https://your-docusaurus-site.example.com/blog/2024/01/14/v0.2.5#css-%E4%BC%98%E5%8C%96" class="hash-link" aria-label="CSS 优化的直接链接" title="CSS 优化的直接链接">​</a></h3>
+<div class="language-css codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-css codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token selector class" style="color:#00009f">.character</span><span class="token selector class" style="color:#00009f">.hasAnnotation</span><span class="token selector attribute punctuation" style="color:#393A34">[</span><span class="token selector attribute attr-name" style="color:#00a4db">data-style</span><span class="token selector attribute operator" style="color:#393A34">=</span><span class="token selector attribute attr-value" style="color:#e3116c">"dashed"</span><span class="token selector attribute punctuation" style="color:#393A34">]</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">text-decoration</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> underline</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">text-decoration-style</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> dashed</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">text-decoration-color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token color function" style="color:#d73a49">rgba</span><span class="token color punctuation" style="color:#393A34">(</span><span class="token color number" style="color:#36acaa">100</span><span class="token color punctuation" style="color:#393A34">,</span><span class="token color"> </span><span class="token color number" style="color:#36acaa">149</span><span class="token color punctuation" style="color:#393A34">,</span><span class="token color"> </span><span class="token color number" style="color:#36acaa">237</span><span class="token color punctuation" style="color:#393A34">,</span><span class="token color"> </span><span class="token color number" style="color:#36acaa">0.5</span><span class="token color punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">text-decoration-thickness</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">0.5</span><span class="token unit">px</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">text-underline-offset</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">4</span><span class="token unit">px</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="动画效果">动画效果<a href="https://your-docusaurus-site.example.com/blog/2024/01/14/v0.2.5#%E5%8A%A8%E7%94%BB%E6%95%88%E6%9E%9C" class="hash-link" aria-label="动画效果的直接链接" title="动画效果的直接链接">​</a></h3>
+<div class="language-css codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-css codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token selector class" style="color:#00009f">.dynasty</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">opacity</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">0</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">animation</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> fadeIn </span><span class="token number" style="color:#36acaa">0.3</span><span class="token unit">s</span><span class="token plain"> ease forwards</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token atrule rule" style="color:#00a4db">@keyframes</span><span class="token atrule" style="color:#00a4db"> fadeIn</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token selector" style="color:#00009f">from</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">opacity</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">0</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">transform</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">translateY</span><span class="token punctuation" style="color:#393A34">(</span><span class="token number" style="color:#36acaa">-2</span><span class="token unit">px</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token selector" style="color:#00009f">to</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">opacity</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">transform</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">translateY</span><span class="token punctuation" style="color:#393A34">(</span><span class="token number" style="color:#36acaa">0</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="下一步计划">下一步计划<a href="https://your-docusaurus-site.example.com/blog/2024/01/14/v0.2.5#%E4%B8%8B%E4%B8%80%E6%AD%A5%E8%AE%A1%E5%88%92" class="hash-link" aria-label="下一步计划的直接链接" title="下一步计划的直接链接">​</a></h2>
+<ol>
+<li>添加更多诗词作品</li>
+<li>优化移动端显示效果</li>
+<li>增加更多交互功能</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="反馈">反馈<a href="https://your-docusaurus-site.example.com/blog/2024/01/14/v0.2.5#%E5%8F%8D%E9%A6%88" class="hash-link" aria-label="反馈的直接链接" title="反馈的直接链接">​</a></h2>
+<p>如果你在使用过程中发现任何问题，或者有任何建议，欢迎在 GitHub 上提交 issue 或者直接联系我们。</p>
+<hr>
+<p>Johnny<br>
+<!-- -->2024年1月14日</p>]]></content>
+        <author>
+            <name>Johnny</name>
+            <uri>https://chat.chenyinke.com</uri>
+        </author>
+        <category label="更新记录" term="更新记录"/>
+        <category label="前端开发" term="前端开发"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[诗词网站更新：v0.2.6 - PinyinPoem 组件功能详解]]></title>
+        <id>https://your-docusaurus-site.example.com/blog/2024/01/14/v0.2.6</id>
+        <link href="https://your-docusaurus-site.example.com/blog/2024/01/14/v0.2.6"/>
+        <updated>2024-01-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[今天我们来详细介绍诗词网站中 PinyinPoem 组件的各项功能。这个组件是我们网站的核心，为用户提供了丰富的诗词学习和欣赏体验。]]></summary>
+        <content type="html"><![CDATA[<p>今天我们来详细介绍诗词网站中 <code>PinyinPoem</code> 组件的各项功能。这个组件是我们网站的核心，为用户提供了丰富的诗词学习和欣赏体验。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="功能概览">功能概览<a href="https://your-docusaurus-site.example.com/blog/2024/01/14/v0.2.6#%E5%8A%9F%E8%83%BD%E6%A6%82%E8%A7%88" class="hash-link" aria-label="功能概览的直接链接" title="功能概览的直接链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-拼音显示">1. 拼音显示<a href="https://your-docusaurus-site.example.com/blog/2024/01/14/v0.2.6#1-%E6%8B%BC%E9%9F%B3%E6%98%BE%E7%A4%BA" class="hash-link" aria-label="1. 拼音显示的直接链接" title="1. 拼音显示的直接链接">​</a></h3>
+<ul>
+<li>点击眼睛图标可以切换拼音的显示/隐藏</li>
+<li>拼音显示在汉字上方，字体较小以免影响阅读</li>
+<li>自动跳过标点符号，保持排版整洁</li>
+<li>支持移动端自适应显示</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-简繁体切换">2. 简繁体切换<a href="https://your-docusaurus-site.example.com/blog/2024/01/14/v0.2.6#2-%E7%AE%80%E7%B9%81%E4%BD%93%E5%88%87%E6%8D%A2" class="hash-link" aria-label="2. 简繁体切换的直接链接" title="2. 简繁体切换的直接链接">​</a></h3>
+<ul>
+<li>通过翻译图标进行切换</li>
+<li>实时转换标题、作者和诗句内容</li>
+<li>保持注释内容同步转换</li>
+<li>使用 <code>chinese-s2t</code> 库确保转换准确性</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-注释系统">3. 注释系统<a href="https://your-docusaurus-site.example.com/blog/2024/01/14/v0.2.6#3-%E6%B3%A8%E9%87%8A%E7%B3%BB%E7%BB%9F" class="hash-link" aria-label="3. 注释系统的直接链接" title="3. 注释系统的直接链接">​</a></h3>
+<ul>
+<li>点击书本图标开启/关闭注释功能</li>
+<li>带注释的字会显示下划线提示</li>
+<li>鼠标悬停或点击可查看注释内容</li>
+<li>注释框带有动画效果和箭头指示</li>
+<li>支持五种下划线样式：<!-- -->
+<ul>
+<li>实线 (solid)</li>
+<li>点线 (dotted)</li>
+<li>短划线 (dashed)</li>
+<li>双线 (double)</li>
+<li>波浪线 (wavy)</li>
+</ul>
+</li>
+<li>下划线样式优化：<!-- -->
+<ul>
+<li>线条粗细：0.5px</li>
+<li>淡蓝色效果</li>
+<li>与文字间距：4px</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-平仄显示">4. 平仄显示<a href="https://your-docusaurus-site.example.com/blog/2024/01/14/v0.2.6#4-%E5%B9%B3%E4%BB%84%E6%98%BE%E7%A4%BA" class="hash-link" aria-label="4. 平仄显示的直接链接" title="4. 平仄显示的直接链接">​</a></h3>
+<ul>
+<li>通过音符图标控制显示/隐藏</li>
+<li>使用圆点"○"表示平声</li>
+<li>使用斜点"、"表示仄声</li>
+<li>标记显示在字的右上角</li>
+<li>带有淡入动画效果</li>
+<li>颜色采用主题色，透明度0.8</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="5-朝代信息">5. 朝代信息<a href="https://your-docusaurus-site.example.com/blog/2024/01/14/v0.2.6#5-%E6%9C%9D%E4%BB%A3%E4%BF%A1%E6%81%AF" class="hash-link" aria-label="5. 朝代信息的直接链接" title="5. 朝代��信息的直接链接">​</a></h3>
+<ul>
+<li>与注释系统联动显示</li>
+<li>在作者名前以方括号标注</li>
+<li>支持简繁体切换</li>
+<li>优雅的淡入动画效果</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="6-分享功能">6. 分享功能<a href="https://your-docusaurus-site.example.com/blog/2024/01/14/v0.2.6#6-%E5%88%86%E4%BA%AB%E5%8A%9F%E8%83%BD" class="hash-link" aria-label="6. 分享功能的直接链接" title="6. 分享功能的直接链接">​</a></h3>
+<ul>
+<li>支持多个社交平台：<!-- -->
+<ul>
+<li>X（Twitter）</li>
+<li>Telegram</li>
+<li>微博</li>
+<li>Facebook</li>
+<li>LinkedIn</li>
+<li>Reddit</li>
+</ul>
+</li>
+<li>支持复制文本和链接</li>
+<li>提供二维码分享</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="技术实现">技术实现<a href="https://your-docusaurus-site.example.com/blog/2024/01/14/v0.2.6#%E6%8A%80%E6%9C%AF%E5%AE%9E%E7%8E%B0" class="hash-link" aria-label="技术实现的直接链接" title="技术实现的直接链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="响应式设计">响应式设计<a href="https://your-docusaurus-site.example.com/blog/2024/01/14/v0.2.6#%E5%93%8D%E5%BA%94%E5%BC%8F%E8%AE%BE%E8%AE%A1" class="hash-link" aria-label="响应式设计的直接链接" title="响应式设计的直接链接">​</a></h3>
+<div class="language-css codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-css codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token atrule rule" style="color:#00a4db">@media</span><span class="token atrule" style="color:#00a4db"> screen </span><span class="token atrule keyword" style="color:#00009f">and</span><span class="token atrule" style="color:#00a4db"> </span><span class="token atrule punctuation" style="color:#393A34">(</span><span class="token atrule property" style="color:#36acaa">max-width</span><span class="token atrule punctuation" style="color:#393A34">:</span><span class="token atrule" style="color:#00a4db"> </span><span class="token atrule number" style="color:#36acaa">768</span><span class="token atrule unit" style="color:#00a4db">px</span><span class="token atrule punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token selector class" style="color:#00009f">.characterWrapper</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">margin</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">0</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">0.1</span><span class="token unit">em</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">min-width</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1.2</span><span class="token unit">em</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">height</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1.8</span><span class="token unit">em</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token selector class" style="color:#00009f">.pinyinChar</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">font-size</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">0.65</span><span class="token unit">rem</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">top</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">0.15</span><span class="token unit">em</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="动画效果">动画效果<a href="https://your-docusaurus-site.example.com/blog/2024/01/14/v0.2.6#%E5%8A%A8%E7%94%BB%E6%95%88%E6%9E%9C" class="hash-link" aria-label="动画效果的直接链接" title="动画效果的直接链接">​</a></h3>
+<div class="language-css codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-css codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token atrule rule" style="color:#00a4db">@keyframes</span><span class="token atrule" style="color:#00a4db"> fadeIn</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token selector" style="color:#00009f">from</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">opacity</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">0</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">transform</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">translateY</span><span class="token punctuation" style="color:#393A34">(</span><span class="token number" style="color:#36acaa">-2</span><span class="token unit">px</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token selector" style="color:#00009f">to</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">opacity</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">transform</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">translateY</span><span class="token punctuation" style="color:#393A34">(</span><span class="token number" style="color:#36acaa">0</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="使用示例">使用示例<a href="https://your-docusaurus-site.example.com/blog/2024/01/14/v0.2.6#%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B" class="hash-link" aria-label="使用示例的直接链接" title="使用示例的直接链接">​</a></h2>
+<div class="language-jsx codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-jsx codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token tag punctuation" style="color:#393A34">&lt;</span><span class="token tag class-name" style="color:#00009f">PinyinPoem</span><span class="token tag" style="color:#00009f"> </span><br></span><span class="token-line" style="color:#393A34"><span class="token tag" style="color:#00009f">  </span><span class="token tag attr-name" style="color:#00a4db">title</span><span class="token tag attr-value punctuation attr-equals" style="color:#393A34">=</span><span class="token tag attr-value punctuation" style="color:#393A34">"</span><span class="token tag attr-value" style="color:#e3116c">诗歌标题</span><span class="token tag attr-value punctuation" style="color:#393A34">"</span><span class="token tag" style="color:#00009f"></span><br></span><span class="token-line" style="color:#393A34"><span class="token tag" style="color:#00009f">  </span><span class="token tag attr-name" style="color:#00a4db">author</span><span class="token tag attr-value punctuation attr-equals" style="color:#393A34">=</span><span class="token tag attr-value punctuation" style="color:#393A34">"</span><span class="token tag attr-value" style="color:#e3116c">作者</span><span class="token tag attr-value punctuation" style="color:#393A34">"</span><span class="token tag" style="color:#00009f"></span><br></span><span class="token-line" style="color:#393A34"><span class="token tag" style="color:#00009f">  </span><span class="token tag attr-name" style="color:#00a4db">dynasty</span><span class="token tag attr-value punctuation attr-equals" style="color:#393A34">=</span><span class="token tag attr-value punctuation" style="color:#393A34">"</span><span class="token tag attr-value" style="color:#e3116c">朝代</span><span class="token tag attr-value punctuation" style="color:#393A34">"</span><span class="token tag" style="color:#00009f"></span><br></span><span class="token-line" style="color:#393A34"><span class="token tag" style="color:#00009f">  </span><span class="token tag attr-name" style="color:#00a4db">content</span><span class="token tag script language-javascript script-punctuation punctuation" style="color:#393A34">=</span><span class="token tag script language-javascript punctuation" style="color:#393A34">{</span><span class="token tag script language-javascript punctuation" style="color:#393A34">[</span><span class="token tag script language-javascript string" style="color:#e3116c">"第一行"</span><span class="token tag script language-javascript punctuation" style="color:#393A34">,</span><span class="token tag script language-javascript" style="color:#00009f"> </span><span class="token tag script language-javascript string" style="color:#e3116c">"第二行"</span><span class="token tag script language-javascript punctuation" style="color:#393A34">]</span><span class="token tag script language-javascript punctuation" style="color:#393A34">}</span><span class="token tag" style="color:#00009f"></span><br></span><span class="token-line" style="color:#393A34"><span class="token tag" style="color:#00009f">  </span><span class="token tag attr-name" style="color:#00a4db">pinyinData</span><span class="token tag script language-javascript script-punctuation punctuation" style="color:#393A34">=</span><span class="token tag script language-javascript punctuation" style="color:#393A34">{</span><span class="token tag script language-javascript punctuation" style="color:#393A34">[</span><span class="token tag script language-javascript punctuation" style="color:#393A34">[</span><span class="token tag script language-javascript string" style="color:#e3116c">"pin yin"</span><span class="token tag script language-javascript punctuation" style="color:#393A34">]</span><span class="token tag script language-javascript punctuation" style="color:#393A34">,</span><span class="token tag script language-javascript" style="color:#00009f"> </span><span class="token tag script language-javascript punctuation" style="color:#393A34">[</span><span class="token tag script language-javascript string" style="color:#e3116c">"pin yin"</span><span class="token tag script language-javascript punctuation" style="color:#393A34">]</span><span class="token tag script language-javascript punctuation" style="color:#393A34">]</span><span class="token tag script language-javascript punctuation" style="color:#393A34">}</span><span class="token tag" style="color:#00009f"></span><br></span><span class="token-line" style="color:#393A34"><span class="token tag" style="color:#00009f">  </span><span class="token tag attr-name" style="color:#00a4db">toneData</span><span class="token tag script language-javascript script-punctuation punctuation" style="color:#393A34">=</span><span class="token tag script language-javascript punctuation" style="color:#393A34">{</span><span class="token tag script language-javascript punctuation" style="color:#393A34">[</span><span class="token tag script language-javascript punctuation" style="color:#393A34">[</span><span class="token tag script language-javascript string" style="color:#e3116c">"ping"</span><span class="token tag script language-javascript punctuation" style="color:#393A34">,</span><span class="token tag script language-javascript" style="color:#00009f"> </span><span class="token tag script language-javascript string" style="color:#e3116c">"ze"</span><span class="token tag script language-javascript punctuation" style="color:#393A34">]</span><span class="token tag script language-javascript punctuation" style="color:#393A34">,</span><span class="token tag script language-javascript" style="color:#00009f"> </span><span class="token tag script language-javascript punctuation" style="color:#393A34">[</span><span class="token tag script language-javascript string" style="color:#e3116c">"ze"</span><span class="token tag script language-javascript punctuation" style="color:#393A34">,</span><span class="token tag script language-javascript" style="color:#00009f"> </span><span class="token tag script language-javascript string" style="color:#e3116c">"ping"</span><span class="token tag script language-javascript punctuation" style="color:#393A34">]</span><span class="token tag script language-javascript punctuation" style="color:#393A34">]</span><span class="token tag script language-javascript punctuation" style="color:#393A34">}</span><span class="token tag" style="color:#00009f"></span><br></span><span class="token-line" style="color:#393A34"><span class="token tag" style="color:#00009f">  </span><span class="token tag attr-name" style="color:#00a4db">annotations</span><span class="token tag script language-javascript script-punctuation punctuation" style="color:#393A34">=</span><span class="token tag script language-javascript punctuation" style="color:#393A34">{</span><span class="token tag script language-javascript punctuation" style="color:#393A34">{</span><span class="token tag script language-javascript" style="color:#00009f"></span><br></span><span class="token-line" style="color:#393A34"><span class="token tag script language-javascript" style="color:#00009f">    </span><span class="token tag script language-javascript string-property property" style="color:#36acaa">"0-0"</span><span class="token tag script language-javascript operator" style="color:#393A34">:</span><span class="token tag script language-javascript" style="color:#00009f"> </span><span class="token tag script language-javascript string" style="color:#e3116c">"第一行第一个字的注释"</span><span class="token tag script language-javascript punctuation" style="color:#393A34">,</span><span class="token tag script language-javascript" style="color:#00009f"></span><br></span><span class="token-line" style="color:#393A34"><span class="token tag script language-javascript" style="color:#00009f">    </span><span class="token tag script language-javascript string-property property" style="color:#36acaa">"0-1"</span><span class="token tag script language-javascript operator" style="color:#393A34">:</span><span class="token tag script language-javascript" style="color:#00009f"> </span><span class="token tag script language-javascript string" style="color:#e3116c">"第一行第二个字的注释"</span><span class="token tag script language-javascript" style="color:#00009f"></span><br></span><span class="token-line" style="color:#393A34"><span class="token tag script language-javascript" style="color:#00009f">  </span><span class="token tag script language-javascript punctuation" style="color:#393A34">}</span><span class="token tag script language-javascript punctuation" style="color:#393A34">}</span><span class="token tag" style="color:#00009f"></span><br></span><span class="token-line" style="color:#393A34"><span class="token tag" style="color:#00009f"></span><span class="token tag punctuation" style="color:#393A34">/&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="下一步计划">下一步计划<a href="https://your-docusaurus-site.example.com/blog/2024/01/14/v0.2.6#%E4%B8%8B%E4%B8%80%E6%AD%A5%E8%AE%A1%E5%88%92" class="hash-link" aria-label="下一步计划的直接链接" title="下一步计划的直接链接">​</a></h2>
+<ol>
+<li>添加诗歌格律分析功能</li>
+<li>集成朗读音频</li>
+<li>添加意象分析</li>
+<li>扩展注释系统，支持多层次注释</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="反馈">反馈<a href="https://your-docusaurus-site.example.com/blog/2024/01/14/v0.2.6#%E5%8F%8D%E9%A6%88" class="hash-link" aria-label="反馈的直接链接" title="反馈的直接链接">​</a></h2>
+<p>如果您在使用过程中发现任何问题，或者有功能建议，欢迎：</p>
+<ol>
+<li>在 GitHub 上提交 issue</li>
+<li>在评论区留言</li>
+<li>通过社交媒体联系我们</li>
+</ol>
+<hr>
+<p>Johnny<br>
+<!-- -->2024年1月14日</p>]]></content>
+        <author>
+            <name>Johnny</name>
+            <uri>https://chat.chenyinke.com</uri>
+        </author>
+        <category label="更新记录" term="更新记录"/>
+        <category label="前端开发" term="前端开发"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[与我聊天]]></title>
+        <id>https://your-docusaurus-site.example.com/blog/chat-with-me</id>
+        <link href="https://your-docusaurus-site.example.com/blog/chat-with-me"/>
+        <updated>2024-01-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[你可能已经注意到了，在网站底部有一个聊天图标。点击它，你就可以进入到我搭建的 Mattermost 聊天平台。今天，我想和大家详细介绍一下这个功能。]]></summary>
+        <content type="html"><![CDATA[<p>你可能已经注意到了，在网站底部有一个聊天图标。点击它，你就可以进入到我搭建的 Mattermost 聊天平台。今天，我想和大家详细介绍一下这个功能。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="什么是-mattermost">什么是 Mattermost？<a href="https://your-docusaurus-site.example.com/blog/chat-with-me#%E4%BB%80%E4%B9%88%E6%98%AF-mattermost" class="hash-link" aria-label="什么是 Mattermost？的直接链接" title="什么是 Mattermost？的直接链接">​</a></h2>
+<p>Mattermost 是一个开源的团队协作平台，类似于 Slack 或 Microsoft Teams，但它完全开源，并且可以自托管。这意味着：</p>
+<ol>
+<li><strong>数据隐私</strong>：所有的聊天数据都存储在我自己的服务器上，而不是第三方的云服务</li>
+<li><strong>完全控制</strong>：我可以完全控制平台的功能和安全设置</li>
+<li><strong>开源透明</strong>：代码完全开源，任何人都可以审查其安全性</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="为什么选择-mattermost">为什么选择 Mattermost？<a href="https://your-docusaurus-site.example.com/blog/chat-with-me#%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9-mattermost" class="hash-link" aria-label="为什么选择 Mattermost？的直接链接" title="为什么选择 Mattermost？的直接链接">​</a></h2>
+<p>在众多即时通讯工具中，我选择 Mattermost 的原因有：</p>
+<ol>
+<li>
+<p><strong>隐私保护</strong></p>
+<ul>
+<li>端到端加密的通信</li>
+<li>自托管服务器，数据不会泄露给第三方</li>
+<li>完全控制数据的存储和处理方式</li>
+</ul>
+</li>
+<li>
+<p><strong>功能丰富</strong></p>
+<ul>
+<li>支持文本、图片、文件分享</li>
+<li>代码片段分享和语法高亮</li>
+<li>丰富的 Markdown 支持</li>
+<li>移动端支持</li>
+</ul>
+</li>
+<li>
+<p><strong>开放性</strong></p>
+<ul>
+<li>开源代码，安全透明</li>
+<li>支持自定义集成和扩展</li>
+<li>活跃的开发者社区</li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="隐私保护措施">隐私保护措施<a href="https://your-docusaurus-site.example.com/blog/chat-with-me#%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4%E6%8E%AA%E6%96%BD" class="hash-link" aria-label="隐私保护措施的直接链接" title="隐私保护措施的直接链接">​</a></h2>
+<p>我在部署 Mattermost 时采取了以下隐私保护措施：</p>
+<ol>
+<li>
+<p><strong>数据安全</strong></p>
+<ul>
+<li>使用 HTTPS 加密所有通信</li>
+<li>定期备份和安全审计</li>
+<li>严格的访问控制</li>
+</ul>
+</li>
+<li>
+<p><strong>用户隐私</strong></p>
+<ul>
+<li>不要求提供真实姓名</li>
+<li>不收集不必要的个人信息</li>
+<li>聊天记录定期清理</li>
+<li>不会将数据用于任何商业用途</li>
+</ul>
+</li>
+<li>
+<p><strong>透明度</strong></p>
+<ul>
+<li>清晰的隐私政策</li>
+<li>用户可以随时导出或删除自己的数据</li>
+<li>定期发布安全和隐私报告</li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="如何开始聊天">如何开始聊天？<a href="https://your-docusaurus-site.example.com/blog/chat-with-me#%E5%A6%82%E4%BD%95%E5%BC%80%E5%A7%8B%E8%81%8A%E5%A4%A9" class="hash-link" aria-label="如何开始聊天？的直接链接" title="如何开始聊天？的直接链接">​</a></h2>
+<ol>
+<li>点击网站底部的聊天图标</li>
+<li>进入 Mattermost 平台</li>
+<li>注册一个账号（只需要邮箱和用户名）</li>
+<li>开始聊天！</li>
+</ol>
+<p>你可以和我讨论：</p>
+<ul>
+<li>网站内容相关的问题</li>
+<li>诗词创作和欣赏</li>
+<li>技术交流</li>
+<li>其他任何感兴趣的话题</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="使用建议">使用建议<a href="https://your-docusaurus-site.example.com/blog/chat-with-me#%E4%BD%BF%E7%94%A8%E5%BB%BA%E8%AE%AE" class="hash-link" aria-label="使用建议的直接链接" title="使用建议的直接链接">​</a></h2>
+<ol>
+<li>
+<p><strong>保护你的账号</strong></p>
+<ul>
+<li>使用强密码</li>
+<li>开启两步验证（如果需要）</li>
+<li>不要分享你的登录信息</li>
+</ul>
+</li>
+<li>
+<p><strong>理性交流</strong></p>
+<ul>
+<li>保持友善和尊重</li>
+<li>避免分享敏感个人信息</li>
+<li>遵守社区规则</li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="未来计划">未来计划<a href="https://your-docusaurus-site.example.com/blog/chat-with-me#%E6%9C%AA%E6%9D%A5%E8%AE%A1%E5%88%92" class="hash-link" aria-label="未来计划的直接链接" title="未来计划的直接链接">​</a></h2>
+<p>我计划不断改进这个聊天平台，包括：</p>
+<ul>
+<li>添加更多有趣的集成功能</li>
+<li>优化用户体验</li>
+<li>增强隐私保护措施</li>
+<li>根据用户反馈进行改进</li>
+</ul>
+<p>欢迎大家通过底部的聊天图标找我交流！我很期待和你们的对话。如果你有任何建议或问题，也可以直接在聊天中告诉我。</p>
+<p>让我们一起建立一个友善、开放、注重隐私的交流社区！</p>]]></content>
+        <author>
+            <name>Johnny</name>
+            <uri>https://chat.chenyinke.com</uri>
+        </author>
+        <category label="聊天" term="聊天"/>
+        <category label="隐私" term="隐私"/>
+        <category label="Mattermost" term="Mattermost"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v0.3.0 发布：优化搜索体验]]></title>
+        <id>https://your-docusaurus-site.example.com/blog/v0.3.0</id>
+        <link href="https://your-docusaurus-site.example.com/blog/v0.3.0"/>
+        <updated>2024-01-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[我很高兴地宣布 v0.3.0 版本发布了！这个版本主要对搜索功能进行了优化，提供了更好的用户体验。]]></summary>
+        <content type="html"><![CDATA[<p>我很高兴地宣布 v0.3.0 版本发布了！这个版本主要对搜索功能进行了优化，提供了更好的用户体验。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="更新内容">更新内容<a href="https://your-docusaurus-site.example.com/blog/v0.3.0#%E6%9B%B4%E6%96%B0%E5%86%85%E5%AE%B9" class="hash-link" aria-label="更新内容的直接链接" title="更新内容的直接链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="搜索优化">搜索优化<a href="https://your-docusaurus-site.example.com/blog/v0.3.0#%E6%90%9C%E7%B4%A2%E4%BC%98%E5%8C%96" class="hash-link" aria-label="搜索优化的直接链接" title="搜索优化的直接链接">​</a></h3>
+<ul>
+<li>优化了首页搜索框的尺寸和样式</li>
+<li>调整了搜索弹窗的大小，使其更加紧凑</li>
+<li>统一了搜索框在不同设备上的显示效果</li>
+<li>改进了移动端的搜索体验</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="具体改进">具体改进<a href="https://your-docusaurus-site.example.com/blog/v0.3.0#%E5%85%B7%E4%BD%93%E6%94%B9%E8%BF%9B" class="hash-link" aria-label="具体改进的直接链接" title="具体改进的直接链接">​</a></h3>
+<ul>
+<li>搜索框高度：从 72px 减小到 56px，移动端为 48px</li>
+<li>搜索框宽度：从 800px 减小到 600px</li>
+<li>字体大小：调整为 15px，移动端为 14px</li>
+<li>优化了内边距和图标尺寸</li>
+<li>改进了移动端的全屏显示效果</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="技术细节">技术细节<a href="https://your-docusaurus-site.example.com/blog/v0.3.0#%E6%8A%80%E6%9C%AF%E7%BB%86%E8%8A%82" class="hash-link" aria-label="技术细节的直接链接" title="技术细节的直接链接">​</a></h2>
+<p>主要修改了以下文件：</p>
+<ul>
+<li><code>src/css/custom.css</code>：优化搜索相关样式</li>
+<li><code>src/pages/index.module.css</code>：调整首页搜索框样式</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="下一步计划">下一步计划<a href="https://your-docusaurus-site.example.com/blog/v0.3.0#%E4%B8%8B%E4%B8%80%E6%AD%A5%E8%AE%A1%E5%88%92" class="hash-link" aria-label="下一步计划的直接链接" title="下一步计划的直接链接">​</a></h2>
+<ul>
+<li>继续优化搜索结果的展示</li>
+<li>改进搜索性能</li>
+<li>添加更多自定义搜索选项</li>
+</ul>
+<p>感谢大家的支持！如果你有任何建议或反馈，欢迎在 GitHub 上提出 issue 或 PR。</p>]]></content>
+        <author>
+            <name>Johnny</name>
+            <uri>https://chat.chenyinke.com</uri>
+        </author>
+        <category label="版本发布" term="版本发布"/>
+    </entry>
+</feed>
