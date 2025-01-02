@@ -31,10 +31,10 @@
   --docusaurus-highlighted-code-line-bg: rgba(59, 130, 246, 0.1);
   
   /* 自定义搜索组件样式 */
-  --docsearch-searchbox-height: 72px;
+  --docsearch-searchbox-height: 56px;
   --docsearch-searchbox-background: var(--ifm-background-color);
-  --docsearch-spacing: 32px;
-  --docsearch-hit-height: 72px;
+  --docsearch-spacing: 24px;
+  --docsearch-hit-height: 56px;
 }
 
 /* 暗色主题 */
@@ -114,6 +114,94 @@
 /* Algolia Search Box */
 .DocSearch-Button {
   border-radius: 2px !important;
+}
+
+/* 搜索弹窗样式 */
+.DocSearch-Modal {
+  margin: 60px auto auto !important;
+  max-width: 600px !important;
+  border-radius: 12px !important;
+}
+
+.DocSearch-SearchBar {
+  padding: var(--docsearch-spacing) !important;
+}
+
+.DocSearch-Form {
+  height: var(--docsearch-searchbox-height) !important;
+  padding: 0 24px !important;
+  border-radius: 8px !important;
+  border: 1px solid var(--ifm-color-emphasis-300) !important;
+  background: var(--docsearch-searchbox-background) !important;
+}
+
+.DocSearch-Input {
+  font-size: 15px !important;
+  padding: 0 12px !important;
+}
+
+.DocSearch-Search-Icon {
+  width: 18px !important;
+  height: 18px !important;
+  color: var(--ifm-color-emphasis-600) !important;
+}
+
+.DocSearch-Hit-source {
+  padding: var(--docsearch-spacing) var(--docsearch-spacing) 8px !important;
+  font-size: 15px !important;
+  background: var(--docsearch-searchbox-background) !important;
+  color: var(--ifm-color-primary) !important;
+}
+
+.DocSearch-Hit[aria-selected=true] a {
+  background: var(--ifm-color-primary) !important;
+}
+
+.DocSearch-Footer {
+  box-shadow: none !important;
+  border-top: 1px solid var(--ifm-color-emphasis-200) !important;
+}
+
+@media screen and (max-width: 768px) {
+  .DocSearch-Modal {
+    margin: 0 !important;
+    max-width: 100% !important;
+    border-radius: 0 !important;
+    height: 100vh !important;
+  }
+
+  .DocSearch-Form {
+    height: 48px !important;
+    padding: 0 16px !important;
+  }
+
+  .DocSearch-Input {
+    font-size: 14px !important;
+    padding: 0 8px !important;
+  }
+
+  .DocSearch-Search-Icon {
+    width: 16px !important;
+    height: 16px !important;
+  }
+  
+  .DocSearch-Hit-source {
+    padding: 16px 16px 8px !important;
+    font-size: 14px !important;
+  }
+}
+
+/* 搜索页面样式 */
+.navbar__search,
+div[class*="searchBox_"] {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+.navbar__search-input,
+input[class*="searchBox_"] {
+  width: 100% !important;
+  min-width: 100% !important;
 }
 
 /* 页脚 */
@@ -335,189 +423,4 @@
 .poem-title-hidden h3 {
   margin: 0;
   padding: 0;
-}
-
-/* 自定义搜索弹窗样式 */
-.DocSearch-Modal {
-  margin: 60px auto auto;
-  max-width: 800px;
-  border-radius: 12px;
-}
-
-.DocSearch-SearchBar {
-  padding: 16px;
-}
-
-.DocSearch-Form {
-  border-radius: 8px;
-  border: 1px solid var(--ifm-color-emphasis-300);
-  background: var(--ifm-background-color);
-}
-
-.DocSearch-Input {
-  font-size: 16px;
-}
-
-.DocSearch-Hit-source {
-  background: var(--ifm-background-color);
-  color: var(--ifm-color-primary);
-}
-
-.DocSearch-Hit[aria-selected=true] a {
-  background: var(--ifm-color-primary);
-}
-
-.DocSearch-Footer {
-  border-top: 1px solid var(--ifm-color-emphasis-200);
-}
-
-@media screen and (max-width: 768px) {
-  .DocSearch-Modal {
-    margin: 40px 20px;
-  }
-  
-  .DocSearch-Input {
-    font-size: 14px;
-  }
-}
-
-/* 自定义搜索组件样式 */
-:root {
-  --docsearch-searchbox-height: 72px;
-  --docsearch-searchbox-background: var(--ifm-background-color);
-  --docsearch-spacing: 32px;
-  --docsearch-hit-height: 72px;
-}
-
-.navbar__search-input {
-  transition: all 0.3s ease !important;
-  height: var(--docsearch-searchbox-height) !important;
-  font-size: 24px !important;
-  padding: 0 var(--docsearch-spacing) !important;
-  border-radius: 36px !important;
-}
-
-.navbar__search-input:focus {
-  transform: scale(1.02);
-}
-
-/* 搜索弹窗样式 */
-.DocSearch-Modal {
-  margin: 80px auto auto !important;
-  max-width: 800px !important;
-  border-radius: 12px !important;
-}
-
-.DocSearch-SearchBar {
-  padding: var(--docsearch-spacing) !important;
-}
-
-.DocSearch-Form {
-  height: var(--docsearch-searchbox-height) !important;
-  border-radius: 28px !important;
-  border: 1px solid var(--ifm-color-emphasis-300) !important;
-  background: var(--docsearch-searchbox-background) !important;
-}
-
-.DocSearch-Input {
-  font-size: 20px !important;
-  padding: 0 var(--docsearch-spacing) !important;
-}
-
-.DocSearch-Hit-source {
-  padding: var(--docsearch-spacing) var(--docsearch-spacing) 8px !important;
-  font-size: 16px !important;
-  background: var(--docsearch-searchbox-background) !important;
-  color: var(--ifm-color-primary) !important;
-}
-
-.DocSearch-Hit[aria-selected=true] a {
-  background: var(--ifm-color-primary) !important;
-}
-
-.DocSearch-Footer {
-  box-shadow: none !important;
-  border-top: 1px solid var(--ifm-color-emphasis-200) !important;
-}
-
-@media screen and (max-width: 768px) {
-  .DocSearch-Modal {
-    margin: 40px 20px !important;
-  }
-  
-  .DocSearch-Input {
-    font-size: 16px !important;
-  }
-  
-  .DocSearch-Hit-source {
-    padding: 16px 16px 8px !important;
-    font-size: 14px !important;
-  }
-}
-
-/* 搜索页面样式 */
-.navbar__search,
-div[class*="searchBox_"] {
-  width: 100% !important;
-  max-width: none !important;
-}
-
-.navbar__search-input,
-input[class*="searchBox_"] {
-  width: 100% !important;
-  min-width: 100% !important;
-}
-
-/* 搜索弹窗样式 */
-.DocSearch-Modal {
-  margin: 80px auto auto !important;
-  max-width: 800px !important;
-  border-radius: 12px !important;
-}
-
-.DocSearch-SearchBar {
-  padding: var(--docsearch-spacing) !important;
-}
-
-.DocSearch-Form {
-  height: var(--docsearch-searchbox-height) !important;
-  border-radius: 28px !important;
-  border: 1px solid var(--ifm-color-emphasis-300) !important;
-  background: var(--docsearch-searchbox-background) !important;
-}
-
-.DocSearch-Input {
-  font-size: 20px !important;
-  padding: 0 var(--docsearch-spacing) !important;
-}
-
-.DocSearch-Hit-source {
-  padding: var(--docsearch-spacing) var(--docsearch-spacing) 8px !important;
-  font-size: 16px !important;
-  background: var(--docsearch-searchbox-background) !important;
-  color: var(--ifm-color-primary) !important;
-}
-
-.DocSearch-Hit[aria-selected=true] a {
-  background: var(--ifm-color-primary) !important;
-}
-
-.DocSearch-Footer {
-  box-shadow: none !important;
-  border-top: 1px solid var(--ifm-color-emphasis-200) !important;
-}
-
-@media screen and (max-width: 768px) {
-  .DocSearch-Modal {
-    margin: 40px 20px !important;
-  }
-  
-  .DocSearch-Input {
-    font-size: 16px !important;
-  }
-  
-  .DocSearch-Hit-source {
-    padding: 16px 16px 8px !important;
-    font-size: 14px !important;
-  }
 }

@@ -72,12 +72,14 @@
   justify-content: center;
   padding: 0 1rem;
   animation: fadeInUp 1s ease 0.3s both;
+  width: 100%;
 }
 
 .searchWrapper {
-  width: 800px;
+  width: 600px;
   max-width: 100%;
   position: relative;
+  margin: 0 auto;
 }
 
 .searchWrapper::before,
@@ -129,10 +131,10 @@
 
 .searchBarContainer :global(.DocSearch-Button) {
   width: 100% !important;
-  height: 60px !important;
-  padding: 0 32px !important;
-  border: 2px solid var(--ifm-color-emphasis-200) !important;
-  border-radius: 28px !important;
+  height: 56px !important;
+  padding: 0 24px !important;
+  border: 1px solid var(--ifm-color-emphasis-300) !important;
+  border-radius: 8px !important;
   background: var(--ifm-background-color) !important;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
@@ -141,22 +143,18 @@
 }
 
 .searchBarContainer :global(.DocSearch-Button-Container) {
-  margin: 0 !important;
+  margin: 0;
 }
 
 .searchBarContainer :global(.DocSearch-Search-Icon) {
-  width: 20px !important;
-  height: 20px !important;
-  color: var(--ifm-color-primary) !important;
-  opacity: 0.8;
-  transition: all 0.3s ease !important;
+  width: 18px;
+  height: 18px;
+  color: var(--ifm-color-emphasis-600);
 }
 
 .searchBarContainer :global(.DocSearch-Button-Placeholder) {
-  font-size: 20px !important;
-  padding: 0 32px !important;
-  color: var(--ifm-color-emphasis-600) !important;
-  font-weight: 400 !important;
+  font-size: 15px;
+  padding: 0 12px;
 }
 
 .searchBarContainer :global(.DocSearch-Button-Keys) {
@@ -199,7 +197,7 @@
 /* 移动端适配 */
 @media screen and (max-width: 768px) {
   .searchContainer {
-    padding: 4rem 1rem;
+    padding-top: 15vh;
   }
 
   .searchHeader h1 {
@@ -211,19 +209,27 @@
     padding: 0 1rem;
   }
 
+  .searchBox {
+    padding: 0;
+  }
+
+  .searchWrapper {
+    width: 100%;
+    padding: 0 20px;
+  }
+  
   .searchBarContainer :global(.DocSearch-Button) {
-    height: 60px !important;
-    padding: 0 24px !important;
-    border-radius: 30px !important;
+    height: 48px !important;
+    padding: 0 16px !important;
   }
-
-  .searchBarContainer :global(.DocSearch-Search-Icon) {
-    width: 22px !important;
-    height: 22px !important;
-  }
-
+  
   .searchBarContainer :global(.DocSearch-Button-Placeholder) {
-    font-size: 18px !important;
-    padding: 0 24px !important;
+    font-size: 14px;
+    padding: 0 8px;
+  }
+  
+  .searchBarContainer :global(.DocSearch-Search-Icon) {
+    width: 16px;
+    height: 16px;
   }
 } 
