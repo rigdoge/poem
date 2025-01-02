@@ -10,14 +10,14 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://poem.chenyinke.com',
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
-  organizationName: 'tattoomaster',
-  projectName: 'my-website',
+  // Remove or comment out these lines since we're not using GitHub Pages
+  // organizationName: 'tattoomaster',
+  // projectName: 'my-website',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
