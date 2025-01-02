@@ -5,12 +5,14 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '一年五班',
-  tagline: '传承中华文化，品味诗词之美',
+  title: '古诗文',
+  tagline: '传统诗词赏析',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://poetry.tschenfeng.com',
+  url: 'https://your-docusaurus-site.example.com',
+  // Set the /<baseUrl>/ pathname under which your site is served
+  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
@@ -31,12 +33,10 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/tattoomaster/my-website/tree/main/',
+          sidebarPath: './sidebars.js',
         },
         blog: {
           showReadingTime: true,
-          editUrl: 'https://github.com/tattoomaster/my-website/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -56,9 +56,9 @@ const config = {
       },
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: '一年五班',
+        title: '古诗词',
         logo: {
-          alt: '一年五班 Logo',
+          alt: '古诗词 Logo',
           src: 'img/logo.svg',
         },
         style: 'dark',
