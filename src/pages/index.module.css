@@ -1,48 +1,126 @@
 .searchContainer {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 4rem 1rem;
+  padding: 0 1rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  padding-top: 25vh;
+}
+
+/* 全屏背景 */
+.pageBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.pageBackground::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle at center, rgba(59, 130, 246, 0.08) 0%, rgba(59, 130, 246, 0) 50%);
+  animation: rotate 60s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .searchHeader {
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
+  animation: fadeInDown 1s ease;
 }
 
 .searchHeader h1 {
-  font-size: 3.5rem;
-  margin-bottom: 1.5rem;
+  font-size: 4rem;
+  margin-bottom: 0;
   color: var(--ifm-color-primary);
+  font-weight: 800;
+  letter-spacing: -1px;
+  background: linear-gradient(120deg, var(--ifm-color-primary), var(--ifm-color-primary-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .searchHeader p {
   font-size: 1.5rem;
   color: var(--ifm-color-emphasis-600);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
 }
 
 .searchBox {
   display: flex;
   justify-content: center;
-  margin-bottom: 4rem;
   padding: 0 1rem;
+  animation: fadeInUp 1s ease 0.3s both;
 }
 
 .searchWrapper {
   width: 1000px;
   max-width: 100%;
+  position: relative;
+}
+
+.searchWrapper::before,
+.searchWrapper::after {
+  content: '';
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.1) 0%, rgba(59, 130, 246, 0) 70%);
+  z-index: -1;
+}
+
+.searchWrapper::before {
+  top: -100px;
+  left: -100px;
+  animation: pulse 4s ease-in-out infinite;
+}
+
+.searchWrapper::after {
+  bottom: -100px;
+  right: -100px;
+  animation: pulse 4s ease-in-out infinite 2s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
 }
 
 .searchBarContainer {
   width: 100%;
-}
-
-.searchBarContainer > div {
-  width: 100%;
-}
-
-/* 覆盖 Docusaurus 默认搜索框样式 */
-.searchBarContainer {
-  width: 100%;
+  position: relative;
 }
 
 .searchBarContainer > div {
@@ -53,10 +131,13 @@
   width: 100% !important;
   height: 80px !important;
   padding: 0 40px !important;
-  border: 2px solid var(--ifm-color-emphasis-300) !important;
+  border: 2px solid var(--ifm-color-emphasis-200) !important;
   border-radius: 40px !important;
   background: var(--ifm-background-color) !important;
-  transition: all 0.3s ease !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
 }
 
 .searchBarContainer :global(.DocSearch-Button-Container) {
@@ -66,13 +147,16 @@
 .searchBarContainer :global(.DocSearch-Search-Icon) {
   width: 28px !important;
   height: 28px !important;
-  color: var(--ifm-color-emphasis-500) !important;
+  color: var(--ifm-color-primary) !important;
+  opacity: 0.8;
+  transition: all 0.3s ease !important;
 }
 
 .searchBarContainer :global(.DocSearch-Button-Placeholder) {
   font-size: 28px !important;
   padding: 0 40px !important;
-  color: var(--ifm-color-content-secondary) !important;
+  color: var(--ifm-color-emphasis-600) !important;
+  font-weight: 400 !important;
 }
 
 .searchBarContainer :global(.DocSearch-Button-Keys) {
@@ -80,15 +164,42 @@
 }
 
 .searchBarContainer :global(.DocSearch-Button):hover {
-  box-shadow: 0 6px 16px rgba(32, 33, 36, 0.28) !important;
+  box-shadow: 0 10px 20px rgba(59, 130, 246, 0.15) !important;
   border-color: var(--ifm-color-primary) !important;
-  transform: scale(1.02) !important;
+  transform: translateY(-2px) !important;
+}
+
+.searchBarContainer :global(.DocSearch-Button):hover .DocSearch-Search-Icon {
+  transform: scale(1.1) !important;
+  opacity: 1 !important;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* 移动端适配 */
 @media screen and (max-width: 768px) {
   .searchContainer {
-    padding: 2rem 1rem;
+    padding: 4rem 1rem;
   }
 
   .searchHeader h1 {
@@ -97,12 +208,13 @@
 
   .searchHeader p {
     font-size: 1.2rem;
+    padding: 0 1rem;
   }
 
   .searchBarContainer :global(.DocSearch-Button) {
-    height: 56px !important;
+    height: 60px !important;
     padding: 0 24px !important;
-    border-radius: 28px !important;
+    border-radius: 30px !important;
   }
 
   .searchBarContainer :global(.DocSearch-Search-Icon) {
@@ -113,71 +225,5 @@
   .searchBarContainer :global(.DocSearch-Button-Placeholder) {
     font-size: 18px !important;
     padding: 0 24px !important;
-  }
-} 
-
-/* 搜索结果样式 */
-.searchResults {
-  margin-top: 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  padding: 0 1rem;
-}
-
-.searchResultItem {
-  background: var(--ifm-background-surface-color);
-  border-radius: 1rem;
-  padding: 1.5rem;
-  text-decoration: none;
-  color: inherit;
-  transition: all 0.3s ease;
-  border: 1px solid var(--ifm-color-emphasis-200);
-}
-
-.searchResultItem:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  border-color: var(--ifm-color-primary);
-  text-decoration: none;
-}
-
-.searchResultItem h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-  color: var(--ifm-color-primary);
-}
-
-.searchResultItem p {
-  margin: 0;
-  font-size: 1rem;
-  color: var(--ifm-color-emphasis-700);
-  line-height: 1.6;
-}
-
-.noResults {
-  text-align: center;
-  margin-top: 4rem;
-  color: var(--ifm-color-emphasis-600);
-  font-size: 1.2rem;
-}
-
-/* 移动端适配 */
-@media screen and (max-width: 768px) {
-  .searchResults {
-    margin-top: 1.5rem;
-  }
-
-  .searchResultItem {
-    padding: 1rem;
-  }
-
-  .searchResultItem h2 {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .searchResultItem p {
-    font-size: 0.9rem;
   }
 } 

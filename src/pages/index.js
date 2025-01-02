@@ -5,11 +5,11 @@ import styles from './index.module.css';
 
 export default function Search() {
   return (
-    <Layout title="搜索诗词" description="搜索古诗词">
+    <Layout title="古诗文" description="传统诗词赏析">
+      <div className={styles.pageBackground} />
       <div className={styles.searchContainer}>
         <div className={styles.searchHeader}>
-          <h1>搜索诗词</h1>
-          <p>输入诗词名称、作者或内容进行搜索</p>
+          <h1>探索诗歌之美</h1>
         </div>
 
         <div className={styles.searchBox}>
